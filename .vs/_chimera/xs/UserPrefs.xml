@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{20B2EAB4-11E8-7101-E70F-CDE3C1AFBC06}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MentalStateManagement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SliderManagement.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneManagement.cs" Line="10" Column="27" />
       <File FileName="Assets/Scripts/QuitButton.cs" Line="8" Column="1" />
       <File FileName="Assets/Scripts/chimeraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/MentalStateManagement.cs" Line="4" Column="14" />
+      <File FileName="Assets/MentalStateManagement.cs" Line="235" Column="1" />
+      <File FileName="Assets/SliderManagement.cs" Line="4" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

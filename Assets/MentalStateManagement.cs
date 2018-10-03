@@ -10,46 +10,46 @@ public class MentalStateManagement : MonoBehaviour {
     //these variables have corresponding variables of the same name in the flowchart
     //because we will probably want to update, check, or reference them directly in the flowchart
     //i'm pretty sure it's fine that they're private because they are like local "copies" of the flowchart variables
-    private int mentalStateScale;
+    private float mentalStateScale;
     private bool midStateStatus;
     private bool lowStateStatus;
-    private int manaCostOffenseCurrent;
+    private float manaCostOffenseCurrent;
     private float offenseAccuracyCurrent;
-    private int offenseDamageCurrent;
-    private int manaCostDefenseCurrent;
-    private int manaCostHealCurrent;
-    private int healEffectCurrent;
+    private float offenseDamageCurrent;
+    private float manaCostDefenseCurrent;
+    private float manaCostHealCurrent;
+    private float healEffectCurrent;
     private float defenseEffectCurrent;
 
     [Header("Variables not in flowchart")]
     //following variables are not in fungus flowchart; can be changed in the inspector
 
     [Header("Low Mental State Settings")]
-    public int mentalStateLowThreshold;
-    public int manaCostOffenseLowState;
+    public float mentalStateLowThreshold;
+    public float manaCostOffenseLowState;
     public float offenseAccuracyLowState;
-    public int offenseDamageLowState;
-    public int manaCostDefenseLowState;
+    public float offenseDamageLowState;
+    public float manaCostDefenseLowState;
     public float defenseEffectLowState; //decrease chimera attack by this percentage
-    public int manaCostHealLowState;
-    public int healEffectLowState;
+    public float manaCostHealLowState;
+    public float healEffectLowState;
 
 
 
     [Header("Middle Mental State Settings")]
-    public int manaCostOffenseMidState;
+    public float manaCostOffenseMidState;
     public float offenseAccuracyMidState;
-    public int offenseDamageMidState;
-    public int manaCostDefenseMidState;
+    public float offenseDamageMidState;
+    public float manaCostDefenseMidState;
     public float defenseEffectMidState; //decrease chimera attack by this percentage
-    public int manaCostHealMidState;
-    public int healEffectMidState;
+    public float manaCostHealMidState;
+    public float healEffectMidState;
 
 
 
     public void CheckMentalState(){
         //gets current variable values from the flowchart
-        mentalStateScale = myFlowchart.GetIntegerVariable("mentalStateScale");
+        mentalStateScale = myFlowchart.GetFloatVariable("mentalStateScale");
 
         //checks the mental state and updates bools in script
         if (mentalStateScale < mentalStateLowThreshold)
@@ -87,7 +87,7 @@ public class MentalStateManagement : MonoBehaviour {
         }
 
         //updates flowchart variable to match script variable
-        myFlowchart.SetIntegerVariable("manaCostOffenseCurrent", manaCostOffenseCurrent);
+        myFlowchart.SetFloatVariable("manaCostOffenseCurrent", manaCostOffenseCurrent);
     }
 
 
@@ -131,7 +131,7 @@ public class MentalStateManagement : MonoBehaviour {
         }
 
         //updates flowchart variable to match script variable
-        myFlowchart.SetIntegerVariable("offenseDamageCurrent", offenseDamageCurrent);
+        myFlowchart.SetFloatVariable("offenseDamageCurrent", offenseDamageCurrent);
         }
 
 
@@ -154,7 +154,7 @@ public class MentalStateManagement : MonoBehaviour {
         }
 
         //updates flowchart variable to match script variable
-        myFlowchart.SetIntegerVariable("manaCostDefenseCurrent", manaCostDefenseCurrent);
+        myFlowchart.SetFloatVariable("manaCostDefenseCurrent", manaCostDefenseCurrent);
     }
 
 
@@ -205,7 +205,7 @@ public class MentalStateManagement : MonoBehaviour {
         }
 
         //updates flowchart variable to match script variable
-        myFlowchart.SetIntegerVariable("manaCostHealCurrent", manaCostHealCurrent);
+        myFlowchart.SetFloatVariable("manaCostHealCurrent", manaCostHealCurrent);
     }
 
 
@@ -229,7 +229,7 @@ public class MentalStateManagement : MonoBehaviour {
         }
 
         //updates flowchart variable to match script variable
-        myFlowchart.SetIntegerVariable("healEffectCurrent", healEffectCurrent);
+        myFlowchart.SetFloatVariable("healEffectCurrent", healEffectCurrent);
     }
 
 
