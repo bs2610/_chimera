@@ -10,6 +10,13 @@ public class SliderManagement : MonoBehaviour {
     public Slider chimeraHealthSlider;
     public Slider playerHealthSlider;
     public Slider manaSlider;
+    public Slider mentalStateSlider;
+    public GameObject mentalStateFill;
+    public GameObject mentalStateBackground;
+
+
+    public Color lowMentalStateColor;
+    public Color midMentalStateColor;
 
     private float chimeraHealthCurrent;
     private float chimeraHealthPrevious;
@@ -17,17 +24,8 @@ public class SliderManagement : MonoBehaviour {
     private float playerHealthPrevious;
     private float manaCurrent;
     private float manaPrevious;
-
-
- 
-	void Start () {
-		
-	}
-	
-
-	void Update () {
-		
-	}
+    private float mentalStateScale;
+    private float mentalStateScalePrevious;
 
 
     public void UpdateChimeraHealthBar(){
@@ -71,5 +69,31 @@ public class SliderManagement : MonoBehaviour {
 
         //move the slider
         manaSlider.value = Mathf.MoveTowards(manaPrevious, manaCurrent, 100f);
+    }
+
+
+
+    public void UpdateMentalStateBar()
+    {
+        //this function must be called AFTER the flowchart has stored the "previous" mental state value
+        //AND THEN updated mental state value 
+
+        //get values from flowchart
+        mentalStateScale = myFlowchart.GetFloatVariable("mentalStateScale");
+        mentalStateScalePrevious = myFlowchart.GetFloatVariable("mentalStateScalePrevious");
+
+        //move the slider
+        mentalStateSlider.value = Mathf.MoveTowards(mentalStateScalePrevious, mentalStateScale, 100f);
+
+        //conditionals for changing the color of both the background and the fill area dependent on value
+        //gets threshold value from other script
+        if(mentalStateScale < gameObject.GetComponent<MentalStateManagement>().mentalStateLowThreshold){
+            mentalStateFill.GetComponent<Image>().color = lowMentalStateColor;
+            mentalStateBackground.GetComponent<Image>().color = lowMentalStateColor;
+        }
+        else if(mentalStateScale > gameObject.GetComponent<MentalStateManagement>().mentalStateLowThreshold){
+            mentalStateFill.GetComponent<Image>().color = midMentalStateColor;
+            mentalStateBackground.GetComponent<Image>().color = midMentalStateColor;
+        }
     }
 }
