@@ -17,20 +17,20 @@ public class chimeraController : MonoBehaviour {
     void Update()
     {
 
-        if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 4))
+        if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 3))
         {
 
             battleFlowchart.ExecuteBlock("One");
             //just put them all in various blocks for now for the sake of expediency
 
         }
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 6))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 5))
         {
 
             battleFlowchart.ExecuteBlock("Two");
 
         }
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 7))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 6))
         {
 
             battleFlowchart.ExecuteBlock("Three");
@@ -43,4 +43,5 @@ public class chimeraController : MonoBehaviour {
         }
 
     }
+		
 }
