@@ -17,6 +17,7 @@ public class SliderManagement : MonoBehaviour {
 
     public Color lowMentalStateColor;
     public Color midMentalStateColor;
+    public Color hiMentalStateColor;
 
     private float chimeraHealthCurrent;
     private float chimeraHealthPrevious;
@@ -91,7 +92,13 @@ public class SliderManagement : MonoBehaviour {
             mentalStateFill.GetComponent<Image>().color = lowMentalStateColor;
             mentalStateBackground.GetComponent<Image>().color = lowMentalStateColor;
         }
-        else if(mentalStateScale > gameObject.GetComponent<MentalStateManagement>().mentalStateLowThreshold){
+        else if (mentalStateScale > gameObject.GetComponent<MentalStateManagement>().mentalStateHiThreshold)
+        {
+            mentalStateFill.GetComponent<Image>().color = hiMentalStateColor;
+            mentalStateBackground.GetComponent<Image>().color = hiMentalStateColor;
+        }
+        else 
+        {
             mentalStateFill.GetComponent<Image>().color = midMentalStateColor;
             mentalStateBackground.GetComponent<Image>().color = midMentalStateColor;
         }
