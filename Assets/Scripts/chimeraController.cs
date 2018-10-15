@@ -46,7 +46,7 @@ public class chimeraController : MonoBehaviour {
         else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true))
         {
             battleFlowchart.StopAllBlocks();
-            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 2)]);
+            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 3)]);
         }
 
     }

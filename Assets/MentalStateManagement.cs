@@ -13,6 +13,7 @@ public class MentalStateManagement : MonoBehaviour {
     private float mentalStateScale;
     private bool midStateStatus;
     private bool lowStateStatus;
+    private bool hiStateStatus;
     private float manaCostOffenseCurrent;
     private float offenseAccuracyCurrent;
     private float offenseDamageCurrent;
@@ -46,6 +47,16 @@ public class MentalStateManagement : MonoBehaviour {
     public float healEffectMidState;
 
 
+    [Header("High Mental State Settings")]
+    public float mentalStateHiThreshold;
+    public float manaCostOffenseHiState;
+    public float offenseAccuracyHiState;
+    public float offenseDamageHiState;
+    public float manaCostDefenseHiState;
+    public float defenseEffectHiState; //decrease chimera attack by this percentage
+    public float manaCostHealHiState;
+    public float healEffectHiState;
+
 
     public void CheckMentalState(){
         //gets current variable values from the flowchart
@@ -56,15 +67,23 @@ public class MentalStateManagement : MonoBehaviour {
         {
             lowStateStatus = true;
             midStateStatus = false;
+            hiStateStatus = false;
+        }
+        else if(mentalStateScale > mentalStateHiThreshold){
+            lowStateStatus = false;
+            midStateStatus = false;
+            hiStateStatus = true;
         }
         else{
             lowStateStatus = false;
             midStateStatus = true;
+            hiStateStatus = false;
         }
 
         //updates flowchart variables to match script variables
         myFlowchart.SetBooleanVariable("midStateStatus",midStateStatus);
         myFlowchart.SetBooleanVariable("lowStateStatus", lowStateStatus);
+        myFlowchart.SetBooleanVariable("hiStateStatus", hiStateStatus);
     }
 
 
@@ -76,6 +95,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current mana cost of offensive spell in script
         if (midStateStatus == true)
@@ -84,6 +104,9 @@ public class MentalStateManagement : MonoBehaviour {
         }
         else if (lowStateStatus == true){
             manaCostOffenseCurrent = manaCostOffenseLowState;
+        }
+        else if(hiStateStatus == true){
+            manaCostOffenseCurrent = manaCostOffenseHiState;
         }
 
         //updates flowchart variable to match script variable
@@ -97,18 +120,25 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current accuracy float in script
         if (midStateStatus == true)
         {
             offenseAccuracyCurrent = offenseAccuracyMidState;
         }
-        else if(lowStateStatus == true){
+        else if (lowStateStatus == true)
+        {
             offenseAccuracyCurrent = offenseAccuracyLowState;
         }
+        else if (hiStateStatus == true)
+        {
+            offenseAccuracyCurrent = offenseAccuracyHiState;
 
-        //updates flowchart variable to match script variable
-        myFlowchart.SetFloatVariable("offenseAccuracyCurrent", offenseAccuracyCurrent);
+        }
+
+            //updates flowchart variable to match script variable
+            myFlowchart.SetFloatVariable("offenseAccuracyCurrent", offenseAccuracyCurrent);
     }
 
 
@@ -119,6 +149,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current damage amount in script
         if (midStateStatus == true)
@@ -128,6 +159,9 @@ public class MentalStateManagement : MonoBehaviour {
         else if (lowStateStatus == true)
         {
             offenseDamageCurrent = offenseDamageLowState;
+        }
+        else if (hiStateStatus == true){
+            offenseDamageCurrent = offenseDamageHiState;
         }
 
         //updates flowchart variable to match script variable
@@ -142,6 +176,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current mana cost of defensive spell in script
         if (midStateStatus == true)
@@ -151,6 +186,10 @@ public class MentalStateManagement : MonoBehaviour {
         else if (lowStateStatus == true)
         {
             manaCostDefenseCurrent = manaCostDefenseLowState;
+        }
+        else if (hiStateStatus == true)
+        {
+            manaCostDefenseCurrent = manaCostDefenseHiState;
         }
 
         //updates flowchart variable to match script variable
@@ -167,6 +206,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current accuracy float in script
         if (midStateStatus == true)
@@ -176,6 +216,10 @@ public class MentalStateManagement : MonoBehaviour {
         else if (lowStateStatus == true)
         {
             defenseEffectCurrent = defenseEffectLowState;
+        }
+        else if (hiStateStatus == true)
+        {
+            defenseEffectCurrent = defenseEffectHiState;
         }
 
         //updates flowchart variable to match script variable
@@ -193,6 +237,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current mana cost of defensive spell in script
         if (midStateStatus == true)
@@ -202,6 +247,10 @@ public class MentalStateManagement : MonoBehaviour {
         else if (lowStateStatus == true)
         {
             manaCostHealCurrent = manaCostHealLowState;
+        }
+        else if (hiStateStatus == true)
+        {
+            manaCostHealCurrent = manaCostHealHiState;
         }
 
         //updates flowchart variable to match script variable
@@ -217,6 +266,7 @@ public class MentalStateManagement : MonoBehaviour {
         //checks flowchart for current mental state
         midStateStatus = myFlowchart.GetBooleanVariable("midStateStatus");
         lowStateStatus = myFlowchart.GetBooleanVariable("lowStateStatus");
+        hiStateStatus = myFlowchart.GetBooleanVariable("hiStateStatus");
 
         //updates current damage amount in script
         if (midStateStatus == true)
@@ -226,6 +276,10 @@ public class MentalStateManagement : MonoBehaviour {
         else if (lowStateStatus == true)
         {
             healEffectCurrent = healEffectLowState;
+        }
+        else if (hiStateStatus == true)
+        {
+            healEffectCurrent = healEffectHiState;
         }
 
         //updates flowchart variable to match script variable
