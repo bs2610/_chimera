@@ -142,6 +142,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\Reorderable List Field\Editor\ReorderableListStyles.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\Reorderable List Field\Editor\SerializedPropertyAdaptor.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Editor\SfxrGenerator.cs" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.89.0.txt" />
     <Reference Include="Assembly-UnityScript">
       <HintPath>/Users/sydvicious/_chimera/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
     </Reference>
@@ -429,6 +430,18 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.89.0">
+      <HintPath>/Users/sydvicious/_chimera/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.89.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.89.0">
+      <HintPath>/Users/sydvicious/_chimera/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.89.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>/Users/sydvicious/_chimera/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.89.0">
+      <HintPath>/Users/sydvicious/_chimera/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.89.0.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
