@@ -8,9 +8,13 @@ public class SliderManagement : MonoBehaviour {
 
     public Flowchart myFlowchart;
     public Slider chimeraHealthSlider;
+    public Text chimeraHealthText;
     public Slider playerHealthSlider;
+    public Text playerHealthText;
     public Slider manaSlider;
+    public Text manaText;
     public Slider mentalStateSlider;
+    public Text mentalStateText;
     public GameObject mentalStateFill;
     public GameObject mentalStateBackground;
 
@@ -39,6 +43,9 @@ public class SliderManagement : MonoBehaviour {
 
         //move the slider
         chimeraHealthSlider.value = Mathf.MoveTowards(chimeraHealthPrevious,chimeraHealthCurrent,100f);
+
+        //update the text
+        chimeraHealthText.text = "Chimera Health " + chimeraHealthCurrent + "/" + myFlowchart.GetFloatVariable("chimeraHealthMax");
     }
 
 
@@ -54,6 +61,9 @@ public class SliderManagement : MonoBehaviour {
 
         //move the slider
         playerHealthSlider.value = Mathf.MoveTowards(playerHealthPrevious, playerHealthCurrent, 100f);
+
+        //update the text
+        playerHealthText.text = "Health " + playerHealthCurrent + "/" + myFlowchart.GetFloatVariable("playerHealthMax");
     }
 
 
@@ -70,6 +80,9 @@ public class SliderManagement : MonoBehaviour {
 
         //move the slider
         manaSlider.value = Mathf.MoveTowards(manaPrevious, manaCurrent, 100f);
+
+        //update the text
+        manaText.text = "Mana " + manaCurrent + "/" + myFlowchart.GetFloatVariable("manaMax");
     }
 
 
@@ -88,19 +101,23 @@ public class SliderManagement : MonoBehaviour {
 
         //conditionals for changing the color of both the background and the fill area dependent on value
         //gets threshold value from other script
+        //ALSO NOW UPDATES THE TEXT OBJECT
         if(mentalStateScale < gameObject.GetComponent<MentalStateManagement>().mentalStateLowThreshold){
             mentalStateFill.GetComponent<Image>().color = lowMentalStateColor;
             mentalStateBackground.GetComponent<Image>().color = lowMentalStateColor;
+            mentalStateText.text = "State: "+ myFlowchart.GetStringVariable("lowStateName");
         }
         else if (mentalStateScale > gameObject.GetComponent<MentalStateManagement>().mentalStateHiThreshold)
         {
             mentalStateFill.GetComponent<Image>().color = hiMentalStateColor;
             mentalStateBackground.GetComponent<Image>().color = hiMentalStateColor;
+            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("hiStateName");
         }
         else 
         {
             mentalStateFill.GetComponent<Image>().color = midMentalStateColor;
             mentalStateBackground.GetComponent<Image>().color = midMentalStateColor;
+            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("midStateName");
         }
     }
 }

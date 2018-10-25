@@ -1,0 +1,42 @@
+Mental State Value: 50 - Time: 10-23-2018 06:24:44
+Player Health: 50 - Time: 10-23-2018 06:24:44
+Chimera Health: 100 - Time: 10-23-2018 06:24:44
+Mental State Value: 50 - Time: 10-23-2018 06:24:56
+Player Health: 47 - Time: 10-23-2018 06:24:56
+Chimera Health: 94 - Time: 10-23-2018 06:24:56
+Mental State Value: 60 - Time: 10-23-2018 06:25:06
+Player Health: 39 - Time: 10-23-2018 06:25:06
+Chimera Health: 94 - Time: 10-23-2018 06:25:06
+Mental State Value: 37 - Time: 10-23-2018 06:25:13
+Player Health: 33 - Time: 10-23-2018 06:25:13
+Chimera Health: 88 - Time: 10-23-2018 06:25:13
+Mental State Value: 37 - Time: 10-23-2018 06:25:20
+Player Health: 27 - Time: 10-23-2018 06:25:20
+Chimera Health: 88 - Time: 10-23-2018 06:25:20
+Mental State Value: 80 - Time: 10-23-2018 06:25:32
+Player Health: 32 - Time: 10-23-2018 06:25:32
+Chimera Health: 88 - Time: 10-23-2018 06:25:32
+Mental State Value: 85 - Time: 10-23-2018 06:25:45
+Player Health: 29 - Time: 10-23-2018 06:25:45
+Chimera Health: 88 - Time: 10-23-2018 06:25:45
+Mental State Value: 74 - Time: 10-23-2018 06:25:57
+Player Health: 26 - Time: 10-23-2018 06:25:57
+Chimera Health: 82 - Time: 10-23-2018 06:25:57
+Mental State Value: 56 - Time: 10-23-2018 06:26:01
+Player Health: 15 - Time: 10-23-2018 06:26:01
+Chimera Health: 76 - Time: 10-23-2018 06:26:01
+Mental State Value: 56 - Time: 10-23-2018 06:26:08
+Player Health: 22 - Time: 10-23-2018 06:26:08
+Chimera Health: 76 - Time: 10-23-2018 06:26:08
+Mental State Value: 56 - Time: 10-23-2018 06:26:14
+Player Health: 19 - Time: 10-23-2018 06:26:14
+Chimera Health: 70 - Time: 10-23-2018 06:26:14
+Mental State Value: 51 - Time: 10-23-2018 06:26:21
+Player Health: 13 - Time: 10-23-2018 06:26:21
+Chimera Health: 70 - Time: 10-23-2018 06:26:21
+Mental State Value: 41 - Time: 10-23-2018 06:26:29
+Player Health: 17 - Time: 10-23-2018 06:26:29
+Chimera Health: 70 - Time: 10-23-2018 06:26:29
+Mental State Value: 41 - Time: 10-23-2018 06:26:38
+Player Health: 11 - Time: 10-23-2018 06:26:38
+Chimera Health: 70 - Time: 10-23-2018 06:26:38
