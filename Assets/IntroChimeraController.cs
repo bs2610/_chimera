@@ -43,6 +43,11 @@ public class IntroChimeraController : MonoBehaviour {
             battleFlowchart.ExecuteBlock("Four");
 
         }
+       // else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 8))
+      //  {
+      //      battleFlowchart.StopAllBlocks();
+      //      battleFlowchart.ExecuteBlock("chimera kills you");
+      //  }
         else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true))
         {
             battleFlowchart.StopAllBlocks();
