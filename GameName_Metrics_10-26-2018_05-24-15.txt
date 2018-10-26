@@ -1,0 +1,21 @@
+Mental State Value: 50 - Time: 10-26-2018 05:22:36
+Player Health: 50 - Time: 10-26-2018 05:22:36
+Chimera Health: 100 - Time: 10-26-2018 05:22:36
+Mental State Value: 27 - Time: 10-26-2018 05:22:45
+Player Health: 44 - Time: 10-26-2018 05:22:45
+Chimera Health: 94 - Time: 10-26-2018 05:22:45
+Mental State Value: 17 - Time: 10-26-2018 05:22:59
+Player Health: 33 - Time: 10-26-2018 05:22:59
+Chimera Health: 94 - Time: 10-26-2018 05:22:59
+Mental State Value: 7 - Time: 10-26-2018 05:23:03
+Player Health: 30 - Time: 10-26-2018 05:23:03
+Chimera Health: 94 - Time: 10-26-2018 05:23:03
+Mental State Value: 0 - Time: 10-26-2018 05:23:11
+Player Health: 19 - Time: 10-26-2018 05:23:11
+Chimera Health: 88 - Time: 10-26-2018 05:23:11
+Mental State Value: 0 - Time: 10-26-2018 05:23:16
+Player Health: 8 - Time: 10-26-2018 05:23:16
+Chimera Health: 82 - Time: 10-26-2018 05:23:16
+Mental State Value: 80 - Time: 10-26-2018 05:23:35
+Player Health: 5 - Time: 10-26-2018 05:23:35
+Chimera Health: 70 - Time: 10-26-2018 05:23:35
