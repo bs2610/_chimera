@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes final/intention setting.unity
+- path: Assets/_Scenes final/introScene.unity
   isLoaded: 1
   isActive: 1

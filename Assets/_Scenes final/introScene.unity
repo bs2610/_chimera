@@ -2805,6 +2805,9 @@ GameObject:
   - component: {fileID: 1857897898}
   - component: {fileID: 1857897897}
   - component: {fileID: 1857897896}
+  - component: {fileID: 1857897900}
+  - component: {fileID: 1857897765}
+  - component: {fileID: 1857897501}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2848,7 +2851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71
     y: 99.07749
-    width: 169.71765
+    width: 191.74568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2898,7 +2901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -300.69733, y: -51.828087}
+  scrollPos: {x: -6.98983, y: 120.56529}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 397
@@ -2909,10 +2912,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1857897506}
-  selectedCommands:
-  - {fileID: 1857897504}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1857897431}
   - {fileID: 1857897430}
@@ -3122,7 +3123,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 269.1975
-    y: 53.808548
+    y: 50.616074
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3224,7 +3225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 643.52075
     y: 106.9041
-    width: 120
+    width: 130.45026
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3237,6 +3238,7 @@ MonoBehaviour:
   - {fileID: 1857897678}
   - {fileID: 1857897677}
   - {fileID: 1857897653}
+  - {fileID: 1857897900}
   - {fileID: 1857897676}
   - {fileID: 1857897443}
   - {fileID: 1857897669}
@@ -3255,6 +3257,8 @@ MonoBehaviour:
   - {fileID: 1857897681}
   - {fileID: 1857897680}
   - {fileID: 1857897563}
+  - {fileID: 1857897765}
+  - {fileID: 1857897501}
   - {fileID: 1857897578}
 --- !u!114 &1857897438
 MonoBehaviour:
@@ -3271,7 +3275,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 930.2254
     y: -34.396915
-    width: 136.1967
+    width: 150.88206
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3310,7 +3314,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 691.58203
     y: -63.51984
-    width: 121.83058
+    width: 134.28122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3841,7 +3845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.61703
     y: 256.98615
-    width: 156.14964
+    width: 170.0369
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4041,7 +4045,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1014.2008
     y: 264.08096
-    width: 120
+    width: 120.23435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4272,7 +4276,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 149.99457
     y: -5.9465866
-    width: 120
+    width: 122.78832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4354,7 +4358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.74962
     y: 167.54549
-    width: 123.42682
+    width: 136.8352
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4405,7 +4409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.90607
     y: 235.4168
-    width: 145.77411
+    width: 159.82098
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5018,7 +5022,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.981
     y: 330.2653
-    width: 120
+    width: 133.00423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5148,6 +5152,22 @@ MonoBehaviour:
   scope: 1
   key: manaMin
   value: 0
+--- !u!114 &1857897501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 619
+  indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: UpdateMentalStateBar
+  delay: 0
 --- !u!114 &1857897502
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5278,7 +5298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 736.73114
     y: 198.16924
-    width: 220.79716
+    width: 250.48714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5745,7 +5765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 998.0671
     y: 172.88954
-    width: 155.35153
+    width: 173.86786
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6339,7 +6359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 764.5264
     y: 320.2178
-    width: 140.98541
+    width: 158.54399
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8297,8 +8317,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost {$manaCostOffenseCurrent}
-    mana in this state.
+  storyText: You are currently {$midStateName}. This spell will cost no mana in this
+    state.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8326,7 +8346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.0326
     y: 28.263496
-    width: 171.31387
+    width: 190.4687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8694,8 +8714,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell costs {$manaCostOffenseCurrent}
-    mana in this state. You do not have enough mana for this spell.
+  storyText: You are currently {$midStateName}. This spell costs nothing mana in this
+    state. You do not have enough mana for this spell.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9374,7 +9394,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 650.3854
     y: 24.31932
-    width: 203.23859
+    width: 235.16328
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9437,7 +9457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 933.10394
     y: 86.81785
-    width: 146.57224
+    width: 164.92892
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9762,8 +9782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost {$manaCostHealCurrent}
-    mana in this state.
+  storyText: You are currently {$midStateName}. This spell will cost no mana in this
+    state.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10020,7 +10040,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.96466
     y: 99.2685
-    width: 154.5534
+    width: 171.31387
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10246,8 +10266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost {$manaCostDefenseCurrent}
-    mana in this state.
+  storyText: You are currently {$midStateName}. This spell will cost no mana in this
+    state.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10480,7 +10500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 463.69916
     y: -55.325172
-    width: 174.50635
+    width: 194.29967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14267,6 +14287,22 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1857897765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 618
+  indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: CheckMentalState
+  delay: 0
 --- !u!114 &1857897766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19515,6 +19551,69 @@ MonoBehaviour:
   floatData:
     floatRef: {fileID: 0}
     floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1857897900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 617
+  indentLevel: 0
+  variable: {fileID: 1857897590}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 10
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
