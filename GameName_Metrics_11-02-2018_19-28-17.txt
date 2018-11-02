@@ -1,0 +1,42 @@
+Mental State Value: 50 - Time: 11-02-2018 19:26:06
+Player Health: 50 - Time: 11-02-2018 19:26:06
+Chimera Health: 100 - Time: 11-02-2018 19:26:06
+Mental State Value: 25 - Time: 11-02-2018 19:26:16
+Player Health: 41 - Time: 11-02-2018 19:26:16
+Chimera Health: 90 - Time: 11-02-2018 19:26:16
+Mental State Value: 25 - Time: 11-02-2018 19:26:26
+Player Health: 36 - Time: 11-02-2018 19:26:26
+Chimera Health: 90 - Time: 11-02-2018 19:26:26
+Mental State Value: 70 - Time: 11-02-2018 19:26:41
+Player Health: 43 - Time: 11-02-2018 19:26:41
+Chimera Health: 90 - Time: 11-02-2018 19:26:41
+Mental State Value: 60 - Time: 11-02-2018 19:26:50
+Player Health: 40 - Time: 11-02-2018 19:26:50
+Chimera Health: 90 - Time: 11-02-2018 19:26:50
+Mental State Value: 57 - Time: 11-02-2018 19:27:04
+Player Health: 37 - Time: 11-02-2018 19:27:04
+Chimera Health: 82 - Time: 11-02-2018 19:27:04
+Mental State Value: 50 - Time: 11-02-2018 19:27:17
+Player Health: 37 - Time: 11-02-2018 19:27:17
+Chimera Health: 72 - Time: 11-02-2018 19:27:17
+Mental State Value: 50 - Time: 11-02-2018 19:27:24
+Player Health: 29 - Time: 11-02-2018 19:27:24
+Chimera Health: 62 - Time: 11-02-2018 19:27:24
+Mental State Value: 50 - Time: 11-02-2018 19:27:31
+Player Health: 21 - Time: 11-02-2018 19:27:31
+Chimera Health: 52 - Time: 11-02-2018 19:27:31
+Mental State Value: 60 - Time: 11-02-2018 19:27:40
+Player Health: 21 - Time: 11-02-2018 19:27:40
+Chimera Health: 42 - Time: 11-02-2018 19:27:40
+Mental State Value: 52 - Time: 11-02-2018 19:27:48
+Player Health: 18 - Time: 11-02-2018 19:27:48
+Chimera Health: 34 - Time: 11-02-2018 19:27:48
+Mental State Value: 52 - Time: 11-02-2018 19:27:56
+Player Health: 10 - Time: 11-02-2018 19:27:56
+Chimera Health: 24 - Time: 11-02-2018 19:27:56
+Mental State Value: 52 - Time: 11-02-2018 19:28:02
+Player Health: 7 - Time: 11-02-2018 19:28:02
+Chimera Health: 14 - Time: 11-02-2018 19:28:02
+Mental State Value: 37 - Time: 11-02-2018 19:28:12
+Player Health: 13 - Time: 11-02-2018 19:28:12
+Chimera Health: 14 - Time: 11-02-2018 19:28:12

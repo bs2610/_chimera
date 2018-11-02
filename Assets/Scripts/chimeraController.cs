@@ -43,10 +43,16 @@ public class chimeraController : MonoBehaviour {
             battleFlowchart.ExecuteBlock("Four");
 
         }
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetFloatVariable("chimeraHealthCurrent") <50))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetFloatVariable("chimeraHealthCurrent") < 50) && (battleFlowchart.GetBooleanVariable("halfHealthDialogueDone") == false))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("Chimera half health");
+
+        }
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetFloatVariable("chimeraHealthCurrent") < 25) && (battleFlowchart.GetBooleanVariable("quarterHealthDialogueDone") == false))
+        {
+            battleFlowchart.StopAllBlocks();
+            battleFlowchart.ExecuteBlock("Chimera quarter health");
 
         }
         else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true))

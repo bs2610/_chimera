@@ -615,17 +615,17 @@ MonoBehaviour:
   mentalStateLowThreshold: 38
   manaCostOffenseLowState: 10
   offenseAccuracyLowState: 0.75
-  offenseDamageLowState: 12
+  offenseDamageLowState: 15
   manaCostDefenseLowState: 3
   defenseEffectLowState: 0.25
-  manaCostHealLowState: 3
+  manaCostHealLowState: 5
   healEffectLowState: 10
-  manaCostOffenseMidState: 5
+  manaCostOffenseMidState: 3
   offenseAccuracyMidState: 0.9
-  offenseDamageMidState: 8
-  manaCostDefenseMidState: 5
+  offenseDamageMidState: 10
+  manaCostDefenseMidState: 3
   defenseEffectMidState: 0.6
-  manaCostHealMidState: 5
+  manaCostHealMidState: 3
   healEffectMidState: 15
   mentalStateHiThreshold: 62
   manaCostOffenseHiState: 1
@@ -2893,8 +2893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: -34.125828, y: 85.44812}
-  variablesScrollPos: {x: 0, y: 366.99658}
-  variablesExpanded: 1
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 0
   blockViewHeight: 397
   zoom: 0.6264741
   scrollViewRect:
@@ -2904,8 +2904,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1857897424}
-  selectedCommands: []
+  - {fileID: 1857897665}
+  selectedCommands:
+  - {fileID: 1857897658}
   variables:
   - {fileID: 1857897431}
   - {fileID: 1857897430}
