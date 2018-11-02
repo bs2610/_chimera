@@ -727,7 +727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Mental State
+  m_Text: Hope Level
 --- !u!222 &685521486
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2333,7 +2333,6 @@ GameObject:
   - component: {fileID: 1857897426}
   - component: {fileID: 1857897425}
   - component: {fileID: 1857897424}
-  - component: {fileID: 1857897427}
   - component: {fileID: 1857897431}
   - component: {fileID: 1857897430}
   - component: {fileID: 1857897433}
@@ -2471,7 +2470,6 @@ GameObject:
   - component: {fileID: 1857897605}
   - component: {fileID: 1857897597}
   - component: {fileID: 1857897586}
-  - component: {fileID: 1857897619}
   - component: {fileID: 1857897652}
   - component: {fileID: 1857897651}
   - component: {fileID: 1857897650}
@@ -2597,13 +2595,10 @@ GameObject:
   - component: {fileID: 1857897554}
   - component: {fileID: 1857897728}
   - component: {fileID: 1857897729}
-  - component: {fileID: 1857897706}
-  - component: {fileID: 1857897705}
   - component: {fileID: 1857897732}
   - component: {fileID: 1857897731}
   - component: {fileID: 1857897730}
   - component: {fileID: 1857897601}
-  - component: {fileID: 1857897737}
   - component: {fileID: 1857897736}
   - component: {fileID: 1857897735}
   - component: {fileID: 1857897734}
@@ -2628,16 +2623,6 @@ GameObject:
   - component: {fileID: 1857897756}
   - component: {fileID: 1857897755}
   - component: {fileID: 1857897757}
-  - component: {fileID: 1857897764}
-  - component: {fileID: 1857897763}
-  - component: {fileID: 1857897762}
-  - component: {fileID: 1857897761}
-  - component: {fileID: 1857897760}
-  - component: {fileID: 1857897759}
-  - component: {fileID: 1857897758}
-  - component: {fileID: 1857897768}
-  - component: {fileID: 1857897767}
-  - component: {fileID: 1857897766}
   - component: {fileID: 1857897811}
   - component: {fileID: 1857897827}
   - component: {fileID: 1857897826}
@@ -2652,7 +2637,6 @@ GameObject:
   - component: {fileID: 1857897832}
   - component: {fileID: 1857897831}
   - component: {fileID: 1857897838}
-  - component: {fileID: 1857897839}
   - component: {fileID: 1857897844}
   - component: {fileID: 1857897843}
   - component: {fileID: 1857897842}
@@ -2801,13 +2785,36 @@ GameObject:
   - component: {fileID: 1857897541}
   - component: {fileID: 1857897696}
   - component: {fileID: 1857897544}
+  - component: {fileID: 1857897900}
+  - component: {fileID: 1857897765}
+  - component: {fileID: 1857897501}
+  - component: {fileID: 1857897903}
+  - component: {fileID: 1857897902}
+  - component: {fileID: 1857897901}
   - component: {fileID: 1857897899}
   - component: {fileID: 1857897898}
   - component: {fileID: 1857897897}
   - component: {fileID: 1857897896}
-  - component: {fileID: 1857897900}
-  - component: {fileID: 1857897765}
-  - component: {fileID: 1857897501}
+  - component: {fileID: 1857897839}
+  - component: {fileID: 1857897768}
+  - component: {fileID: 1857897767}
+  - component: {fileID: 1857897766}
+  - component: {fileID: 1857897764}
+  - component: {fileID: 1857897763}
+  - component: {fileID: 1857897762}
+  - component: {fileID: 1857897761}
+  - component: {fileID: 1857897760}
+  - component: {fileID: 1857897759}
+  - component: {fileID: 1857897758}
+  - component: {fileID: 1857897737}
+  - component: {fileID: 1857897706}
+  - component: {fileID: 1857897705}
+  - component: {fileID: 1857897427}
+  - component: {fileID: 1857897619}
+  - component: {fileID: 1857897907}
+  - component: {fileID: 1857897906}
+  - component: {fileID: 1857897905}
+  - component: {fileID: 1857897904}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2829,7 +2836,7 @@ MonoBehaviour:
   itemId: 42
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1857897424}
+  targetBlock: {fileID: 1857897903}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -2849,37 +2856,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71
-    y: 99.07749
-    width: 191.74568
+    x: 86.96234
+    y: 49.594185
+    width: 122.6287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: player combat options
+  blockName: check shatter
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1857897705}
-  - {fileID: 1857897706}
-  - {fileID: 1857897839}
-  - {fileID: 1857897764}
-  - {fileID: 1857897763}
-  - {fileID: 1857897898}
-  - {fileID: 1857897899}
-  - {fileID: 1857897896}
-  - {fileID: 1857897768}
-  - {fileID: 1857897762}
-  - {fileID: 1857897761}
-  - {fileID: 1857897767}
-  - {fileID: 1857897760}
-  - {fileID: 1857897759}
-  - {fileID: 1857897766}
-  - {fileID: 1857897758}
-  - {fileID: 1857897897}
-  - {fileID: 1857897427}
-  - {fileID: 1857897737}
   - {fileID: 1857897729}
+  - {fileID: 1857897619}
   - {fileID: 1857897704}
   - {fileID: 1857897702}
   - {fileID: 1857897703}
@@ -2888,6 +2877,8 @@ MonoBehaviour:
   - {fileID: 1857897699}
   - {fileID: 1857897698}
   - {fileID: 1857897697}
+  - {fileID: 1857897705}
+  - {fileID: 1857897427}
 --- !u!114 &1857897425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2901,9 +2892,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -6.98983, y: 120.56529}
-  variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 0
+  scrollPos: {x: -34.125828, y: 85.44812}
+  variablesScrollPos: {x: 0, y: 366.99658}
+  variablesExpanded: 1
   blockViewHeight: 397
   zoom: 0.6264741
   scrollViewRect:
@@ -2912,7 +2903,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1857897424}
   selectedCommands: []
   variables:
   - {fileID: 1857897431}
@@ -2983,28 +2975,24 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1857897427
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 641
   indentLevel: 0
-  text: SPELLS
-  description: 
-  targetBlock: {fileID: 1857897433}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1857897903}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1857897428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3100,7 +3088,7 @@ MonoBehaviour:
   indentLevel: 0
   text: go back
   description: 
-  targetBlock: {fileID: 1857897424}
+  targetBlock: {fileID: 1857897903}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3225,7 +3213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 643.52075
     y: 106.9041
-    width: 130.45026
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3275,7 +3263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 930.2254
     y: -34.396915
-    width: 150.88206
+    width: 136.1967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3314,7 +3302,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 691.58203
     y: -63.51984
-    width: 134.28122
+    width: 121.83058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3324,7 +3312,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1857897565}
+  - {fileID: 1857897907}
   - {fileID: 1857897510}
+  - {fileID: 1857897906}
+  - {fileID: 1857897904}
+  - {fileID: 1857897905}
   - {fileID: 1857897497}
   - {fileID: 1857897742}
   - {fileID: 1857897602}
@@ -3845,7 +3837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.61703
     y: 256.98615
-    width: 170.0369
+    width: 156.14964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4045,7 +4037,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1014.2008
     y: 264.08096
-    width: 120.23435
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4276,7 +4268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 149.99457
     y: -5.9465866
-    width: 122.78832
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4358,7 +4350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.74962
     y: 167.54549
-    width: 136.8352
+    width: 123.42682
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4409,7 +4401,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.90607
     y: 235.4168
-    width: 159.82098
+    width: 145.77411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5022,7 +5014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.981
     y: 330.2653
-    width: 133.00423
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5181,7 +5173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 2695be29ed92e41318cec848af5befd6, type: 3}
+  musicClip: {fileID: 8300000, guid: bea96ec3b5518472f89772559342e1c5, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -5298,7 +5290,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 736.73114
     y: 198.16924
-    width: 250.48714
+    width: 220.79716
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5367,7 +5359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 78
-  indentLevel: 0
+  indentLevel: 1
   storyText: 'You cast {$defenseSpellName}. You feel a bit calmer. '
   description: 
   character: {fileID: 0}
@@ -5765,7 +5757,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 998.0671
     y: 172.88954
-    width: 173.86786
+    width: 155.35153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6359,7 +6351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 764.5264
     y: 320.2178
-    width: 158.54399
+    width: 140.98541
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8317,8 +8309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost no mana in this
-    state.
+  storyText: You are currently {$midStateName}. This spell will cost {$manaCostOffenseCurrent}
+    willpower in this state and will be fairly effective. It will probably hit.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8346,7 +8338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.0326
     y: 28.263496
-    width: 190.4687
+    width: 171.31387
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8357,7 +8349,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1857897607}
   - {fileID: 1857897617}
-  - {fileID: 1857897619}
   - {fileID: 1857897606}
   - {fileID: 1857897605}
   - {fileID: 1857897586}
@@ -8714,8 +8705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell costs nothing mana in this
-    state. You do not have enough mana for this spell.
+  storyText: This spell costs {$manaCostOffenseCurrent} willpower in your current
+    state. You do not have enough willpower for this spell.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8970,7 +8961,7 @@ MonoBehaviour:
   itemId: 194
   indentLevel: 1
   storyText: You are currently {$lowStateName}. This spell will cost {$manaCostOffenseCurrent}
-    mana in this state.
+    willpower in this state but will be quite effective, if it hits.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9078,20 +9069,30 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1857897619
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 221
-  indentLevel: 0
-  commenterName: SR
-  commentText: does mana decrease whether the spell hits or not? That's how i've currently
-    built it.
+  itemId: 642
+  indentLevel: 1
+  storyText: Your head is still throbbing from the chimera's Shatter attack.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1857897620
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9192,7 +9193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 198
   indentLevel: 0
-  text: Cast {$offenseSpellName} for {$manaCostOffenseCurrent} mana
+  text: Cast {$offenseSpellName} for {$manaCostOffenseCurrent} willpower
   description: 
   targetBlock: {fileID: 1857897631}
   hideIfVisited: 0
@@ -9394,7 +9395,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 650.3854
     y: 24.31932
-    width: 235.16328
+    width: 203.23859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9457,7 +9458,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 933.10394
     y: 86.81785
-    width: 164.92892
+    width: 146.57224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9639,7 +9640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 234
   indentLevel: 0
-  text: Cast {$healSpellName} for {$manaCostHealCurrent} mana
+  text: Cast {$healSpellName} for {$manaCostHealCurrent} willpower
   description: 
   targetBlock: {fileID: 1857897437}
   hideIfVisited: 0
@@ -9693,7 +9694,7 @@ MonoBehaviour:
   itemId: 232
   indentLevel: 1
   storyText: You are currently {$lowStateName}. This spell will cost {$manaCostHealCurrent}
-    mana in this state.
+    willpower in this state and the effect will be moderate.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9782,8 +9783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost no mana in this
-    state.
+  storyText: You are currently {$midStateName}. This spell will cost {$manaCostHealCurrent}
+    willpower in this state and it will be quite effective.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9892,8 +9893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 227
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell costs {$manaCostHealCurrent}
-    mana in this state. You do not have enough mana for this spell.
+  storyText: This spell costs {$manaCostHealCurrent} willpower in your current state.
+    You do not have enough willpower for this spell.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10040,7 +10041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.96466
     y: 99.2685
-    width: 171.31387
+    width: 154.5534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10139,7 +10140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 251
   indentLevel: 0
-  text: Cast {$defenseSpellName} for {$manaCostDefenseCurrent} mana
+  text: Cast {$defenseSpellName} for {$manaCostDefenseCurrent} willpower
   description: 
   targetBlock: {fileID: 1857897439}
   hideIfVisited: 0
@@ -10177,7 +10178,7 @@ MonoBehaviour:
   itemId: 249
   indentLevel: 1
   storyText: You are currently {$lowStateName}. This spell will cost {$manaCostDefenseCurrent}
-    mana in this state.
+    willpower in this state and will defend well against the next attack.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10266,8 +10267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell will cost no mana in this
-    state.
+  storyText: You are currently {$midStateName}. This spell will cost {$manaCostDefenseCurrent}
+    willpower in this state and will defend moderately against the next attack.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10376,8 +10377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 244
   indentLevel: 1
-  storyText: You are currently {$midStateName}. This spell costs {$manaCostDefenseCurrent}
-    mana in this state. You do not have enough mana for this spell.
+  storyText: This spell costs {$manaCostDefenseCurrent} willpower in your current
+    state. You do not have enough willpower for this spell.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10500,7 +10501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 463.69916
     y: -55.325172
-    width: 194.29967
+    width: 174.50635
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11979,36 +11980,41 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1857897705
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 345
+  itemId: 640
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: UpdateMentalStateBar
-  delay: 0
 --- !u!114 &1857897706
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 344
+  itemId: 639
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: UpdatePlayerHealthBar
-  delay: 0
+  text: MELEE
+  description: 
+  targetBlock: {fileID: 1857897728}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1857897707
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13092,7 +13098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 352
   indentLevel: 0
-  storyText: 'You use your sword to attack, even though it makes you nervous. '
+  storyText: You use your sword to attack, even though it frightens you.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13107,7 +13113,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1857897737
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857897422}
@@ -13116,11 +13122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 351
+  itemId: 638
   indentLevel: 0
-  text: MELEE
+  text: SPELLS
   description: 
-  targetBlock: {fileID: 1857897728}
+  targetBlock: {fileID: 1857897433}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -13599,7 +13605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: hiStateName
-  value: Certain
+  value: Careless
 --- !u!114 &1857897747
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13628,7 +13634,8 @@ MonoBehaviour:
   itemId: 367
   indentLevel: 1
   storyText: You are currently {$hiStateName}. This spell will cost {$manaCostDefenseCurrent}
-    mana in this state.
+    willpower in this state and will provide a little protection against the next
+    attack.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13718,7 +13725,7 @@ MonoBehaviour:
   itemId: 369
   indentLevel: 1
   storyText: You are currently {$hiStateName}. This spell will cost {$manaCostOffenseCurrent}
-    mana in this state.
+    willpower in this state. It will not be very effective and might miss.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13808,7 +13815,7 @@ MonoBehaviour:
   itemId: 371
   indentLevel: 1
   storyText: You are currently {$hiStateName}. This spell will cost {$manaCostHealCurrent}
-    mana in this state.
+    willpower in this state and the effect will be weak.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14018,8 +14025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 382
-  indentLevel: 1
+  itemId: 637
+  indentLevel: 0
 --- !u!114 &1857897759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14028,24 +14035,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 381
-  indentLevel: 2
-  storyText: You're fine! Don't think about it!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 636
+  indentLevel: 1
 --- !u!114 &1857897760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14054,61 +14048,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 380
-  indentLevel: 1
-  compareOperator: 0
-  variable: {fileID: 1857897747}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
+  itemId: 635
+  indentLevel: 2
+  targetTextObject: {fileID: 1619769348}
+  text:
     stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+    stringVal: 'State: {$hiStateName}'
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1857897761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14120,9 +14070,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 379
+  itemId: 634
   indentLevel: 2
-  storyText: Why are you even here?
+  storyText: You're fine! Don't think about it!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14146,10 +14096,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 378
+  itemId: 633
   indentLevel: 1
   compareOperator: 0
-  variable: {fileID: 1857897592}
+  variable: {fileID: 1857897747}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -14206,12 +14156,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 632
+  indentLevel: 2
+  targetTextObject: {fileID: 1619769348}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 'State: {$lowStateName}'
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1857897764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 377
-  indentLevel: 1
-  storyText: You've never seen anything so monstrous.
+  itemId: 631
+  indentLevel: 2
+  storyText: Why are you even here?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14224,7 +14193,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1857897764
+--- !u!114 &1857897765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14232,13 +14201,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 376
+  itemId: 618
   indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: CheckMentalState
+  delay: 0
+--- !u!114 &1857897766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 630
+  indentLevel: 1
   compareOperator: 0
-  variable: {fileID: 1857897568}
+  variable: {fileID: 1857897592}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -14287,41 +14272,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1857897765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857897422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 618
-  indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: CheckMentalState
-  delay: 0
---- !u!114 &1857897766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857897422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 386
-  indentLevel: 2
-  targetTextObject: {fileID: 1619769348}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 'State: {$hiStateName}'
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1857897767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14333,12 +14283,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 385
+  itemId: 629
   indentLevel: 2
   targetTextObject: {fileID: 1619769348}
   text:
     stringRef: {fileID: 0}
-    stringVal: 'State: {$lowStateName}'
+    stringVal: 'State: {$midStateName}'
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1857897768
@@ -14349,17 +14299,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 384
+  itemId: 628
   indentLevel: 2
-  targetTextObject: {fileID: 1619769348}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 'State: {$midStateName}'
+  storyText: You can do this.
   description: 
-  _textObjectObsolete: {fileID: 0}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1857897769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17182,14 +17139,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 460
-  indentLevel: 0
-  targetObject: {fileID: 1853027076}
-  methodName: TrackingMetrics
-  delay: 0
+  itemId: 627
+  indentLevel: 1
+  compareOperator: 0
+  variable: {fileID: 1857897593}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1857897840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19483,12 +19487,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1857897422}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 626
+  indentLevel: 0
+--- !u!114 &1857897897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 616
-  indentLevel: 2
-  storyText: You can do this.
+  itemId: 625
+  indentLevel: 1
+  storyText: You've never seen anything so monstrous.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -19501,33 +19518,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1857897897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857897422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 615
-  indentLevel: 0
 --- !u!114 &1857897898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857897422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 614
-  indentLevel: 0
---- !u!114 &1857897899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19538,10 +19529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 613
-  indentLevel: 1
+  itemId: 624
+  indentLevel: 0
   compareOperator: 0
-  variable: {fileID: 1857897593}
+  variable: {fileID: 1857897568}
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -19590,6 +19581,22 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1857897899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 623
+  indentLevel: 0
+  targetObject: {fileID: 1853027076}
+  methodName: TrackingMetrics
+  delay: 0
 --- !u!114 &1857897900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19614,6 +19621,196 @@ MonoBehaviour:
   floatData:
     floatRef: {fileID: 0}
     floatVal: 10
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1857897901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 622
+  indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: UpdatePlayerHealthBar
+  delay: 0
+--- !u!114 &1857897902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 621
+  indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: UpdateMentalStateBar
+  delay: 0
+--- !u!114 &1857897903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 70.24895
+    y: 108.65492
+    width: 169.71765
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 647
+  blockName: player combat options
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1857897902}
+  - {fileID: 1857897901}
+  - {fileID: 1857897899}
+  - {fileID: 1857897898}
+  - {fileID: 1857897897}
+  - {fileID: 1857897896}
+  - {fileID: 1857897839}
+  - {fileID: 1857897768}
+  - {fileID: 1857897767}
+  - {fileID: 1857897766}
+  - {fileID: 1857897764}
+  - {fileID: 1857897763}
+  - {fileID: 1857897762}
+  - {fileID: 1857897761}
+  - {fileID: 1857897760}
+  - {fileID: 1857897759}
+  - {fileID: 1857897758}
+  - {fileID: 1857897737}
+  - {fileID: 1857897706}
+--- !u!114 &1857897904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 646
+  indentLevel: 1
+  storyText: You cast {$defenseSpellName}. You feel more confident.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1857897905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 645
+  indentLevel: 0
+--- !u!114 &1857897906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 644
+  indentLevel: 0
+--- !u!114 &1857897907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857897422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 643
+  indentLevel: 0
+  compareOperator: 2
+  variable: {fileID: 1857897590}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 50
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
@@ -20397,7 +20594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Mana 50/50
+  m_Text: Willpower 50/50
 --- !u!222 &2131608292
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1,9 +1,11 @@
 OSXStandalone
 PlayerPath?
-/Users/sydvicious/Desktop/USC/CTIN 532/CTIN-532 Week 9 Build Rubin Smith/week 9 build Rubin Smith.app
+/Users/sydvicious/Desktop/USC/CTIN 532/CTIN-532 Alpha Build Rubin Smith/Chimera Alpha build Rubin Smith.app
 SceneListBegin?
-Assets/intention setting.unity
-Assets/finalScene.unity
+Assets/_Scenes final/chimera main menu.unity
+Assets/_Scenes final/intention setting.unity
+Assets/_Scenes final/finalScene.unity
+Assets/_Scenes final/introScene.unity
 SceneListEnd?
 f17ee4c660be6ff5f0eccfc938b37b78 Assembly-CSharp.dll:Fungus.Stop
 d87e1125ef43ca964377420172e4effa Assembly-CSharp.dll:.reverseStrings
@@ -15,6 +17,7 @@ c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Fungus.SaveManager
 3dcb3ec8804949b59050439527340e3d Assembly-CSharp.dll:Fungus.GetToggleState
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.spellNameScript
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 754551afe4f2531f58476bf14c510657 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -235,8 +238,9 @@ fa3186ee76a8b0cd5ef044645419c3d7 Assembly-CSharp.dll:Fungus.ReadTextFile
 c1bd4a015a0e02f429b14e1c10b207fd Assembly-CSharp.dll:Fungus.ClearMenu
 06af1700feeaa1088cb39a03d20cec74 Assembly-CSharp.dll:Fungus.Call
 a0e6dcf7a621c747404054e2d151ab00 Assembly-CSharp.dll:Fungus.FadeScreen
-de83934ef7e6daaa317993b71b095368 Assembly-CSharp.dll:.SliderManagement
+a644651ec13b3dcf0f78d8ec04f57fa5 Assembly-CSharp.dll:.SliderManagement
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.LeanTween
+00453649458658f8d8cc0117a3f71e73 Assembly-CSharp.dll:.IntroChimeraController
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Fungus.PortraitController
 8beb07424ff1752a1972f07e06390d36 Assembly-CSharp.dll:Fungus.MoveTo
 a017372136b37fa4766fbe7cbcbac3a7 Assembly-CSharp.dll:Fungus.ScaleTo
@@ -405,4 +409,3 @@ da37815c496f305848e9728d343c5631 Assembly-CSharp.dll:Fungus.DebugLog
 ac312c95f80814ed36c776c4865e4ddf Assembly-CSharp.dll:.UIManager
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Fungus.LuaStore
 e31304a4491d4504a3d03ba556a65a4b Assembly-CSharp.dll:Fungus.MoveLean
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.spellNameScript

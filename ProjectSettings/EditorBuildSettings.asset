@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/_Scenes final/chimera main menu.unity
     guid: 9a444dac868d64b5ab639e575dee0984
   - enabled: 0
-    path: Assets/_Scenes final/introBattle.unity
-    guid: afb9c3a57cd9342a8b798292d157001e
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/firstBattle.unity
     guid: 0eb55d11a634142dd86c93544b4da5fb
   - enabled: 1
