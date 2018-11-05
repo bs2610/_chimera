@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes final/chimera main menu.unity
     guid: 9a444dac868d64b5ab639e575dee0984
   - enabled: 0
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/firstBattle.unity
     guid: 0eb55d11a634142dd86c93544b4da5fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes final/intention setting.unity
     guid: 35a23839ddfa2470f8301ef95a617683
   - enabled: 1
@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/combat player SR.unity
     guid: 7721824a2691f435daa174214ff1b247
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes final/introScene.unity
     guid: b83e850a7183e4e6bb8ffd4b2ff4a1b0
   m_configObjects: {}
