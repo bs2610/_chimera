@@ -846,10 +846,15 @@
     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrCacheSurrogate.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrParams.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrSynth.cs" />
+    <Compile Include="Assets\MusicController.cs" />
+    <Compile Include="Assets\Scripts\ArrowScript.cs" />
     <Compile Include="Assets\Scripts\blockArrays.cs" />
     <Compile Include="Assets\Scripts\chimeraController.cs" />
+    <Compile Include="Assets\Scripts\IntroChimeraController.cs" />
     <Compile Include="Assets\Scripts\MentalStateManagement.cs" />
     <Compile Include="Assets\Scripts\MetricManagerScript.cs" />
+    <Compile Include="Assets\Scripts\NeedleScript.cs" />
+    <Compile Include="Assets\Scripts\ProgressMeters.cs" />
     <Compile Include="Assets\Scripts\QuitButton.cs" />
     <Compile Include="Assets\Scripts\reverseStrings.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
