@@ -9,22 +9,22 @@ public class SliderManagement : MonoBehaviour {
     public Flowchart myFlowchart;
     public Slider chimeraHealthSlider;
     public Text chimeraHealthText;
+    public Slider ramHealthSlider;
+    public Text ramHealthText;
+    public Slider dragonHealthSlider;
+    public Text dragonHealthText;
     public Slider playerHealthSlider;
     public Text playerHealthText;
     public Slider manaSlider;
     public Text manaText;
-    public Slider mentalStateSlider;
     public Text mentalStateText;
-    public GameObject mentalStateFill;
-    public GameObject mentalStateBackground;
-
-
-    public Color lowMentalStateColor;
-    public Color midMentalStateColor;
-    public Color hiMentalStateColor;
 
     private float chimeraHealthCurrent;
     private float chimeraHealthPrevious;
+    private float ramHealthPrevious;
+    private float ramHealthCurrent;
+    private float dragonHealthPrevious;
+    private float dragonHealthCurrent;
     private float playerHealthCurrent;
     private float playerHealthPrevious;
     private float manaCurrent;
@@ -32,6 +32,30 @@ public class SliderManagement : MonoBehaviour {
     private float mentalStateScale;
     private float mentalStateScalePrevious;
 
+
+
+    private void Update()
+    {
+        if (myFlowchart.GetBooleanVariable("lowStateStatus") ==true)
+        {
+            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("lowStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+        }
+        else if (myFlowchart.GetBooleanVariable("hiStateStatus") == true)
+        {
+            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("hiStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+        }
+        else if (myFlowchart.GetBooleanVariable("midStateStatus") == true)
+        {
+            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("midStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+        }
+        else if(myFlowchart.GetBooleanVariable("ultraHighStateStatus") == true){
+            mentalStateText.text = "State: Extremely Careless" + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+        }
+        else if (myFlowchart.GetBooleanVariable("ultraLowStateStatus") == true)
+        {
+            mentalStateText.text = "State: Extremely Disheartened" + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+        }
+    }
 
     public void UpdateChimeraHealthBar(){
         //this function must be called AFTER the flowchart has stored the chimera's "previous" health value 
@@ -45,10 +69,41 @@ public class SliderManagement : MonoBehaviour {
         chimeraHealthSlider.value = Mathf.MoveTowards(chimeraHealthPrevious,chimeraHealthCurrent,100f);
 
         //update the text
-        chimeraHealthText.text = "Chimera Health " + chimeraHealthCurrent + "/" + myFlowchart.GetFloatVariable("chimeraHealthMax");
+        chimeraHealthText.text = "Lion Health " + chimeraHealthCurrent + "/" + myFlowchart.GetFloatVariable("chimeraHealthMax");
+    }
+
+    public void UpdateRamHealthBar()
+    {
+        //this function must be called AFTER the flowchart has stored the ram's "previous" health value 
+        //AND THEN updated ram's health based on attack damage
+
+        //get values from flowchart
+        ramHealthCurrent = myFlowchart.GetFloatVariable("ramHealthCurrent");
+        ramHealthPrevious = myFlowchart.GetFloatVariable("ramHealthPrevious");
+
+        //move the slider
+        ramHealthSlider.value = Mathf.MoveTowards(ramHealthPrevious, ramHealthCurrent, 100f);
+
+        //update the text
+        ramHealthText.text = "Ram Health " + ramHealthCurrent + "/" + myFlowchart.GetFloatVariable("ramHealthMax");
     }
 
 
+    public void UpdateDragonHealthBar()
+    {
+        //this function must be called AFTER the flowchart has stored the ram's "previous" health value 
+        //AND THEN updated ram's health based on attack damage
+
+        //get values from flowchart
+        dragonHealthCurrent = myFlowchart.GetFloatVariable("dragonHealthCurrent");
+        dragonHealthPrevious = myFlowchart.GetFloatVariable("dragonHealthPrevious");
+
+        //move the slider
+        dragonHealthSlider.value = Mathf.MoveTowards(dragonHealthPrevious, dragonHealthCurrent, 100f);
+
+        //update the text
+        dragonHealthText.text = "Dragon Health " + dragonHealthCurrent + "/" + myFlowchart.GetFloatVariable("dragonHealthMax");
+    }
 
     public void UpdatePlayerHealthBar()
     {
@@ -86,38 +141,4 @@ public class SliderManagement : MonoBehaviour {
     }
 
 
-
-    public void UpdateMentalStateBar()
-    {
-        //this function must be called AFTER the flowchart has stored the "previous" mental state value
-        //AND THEN updated mental state value 
-
-        //get values from flowchart
-        mentalStateScale = myFlowchart.GetFloatVariable("mentalStateScale");
-        mentalStateScalePrevious = myFlowchart.GetFloatVariable("mentalStateScalePrevious");
-
-        //move the slider
-        mentalStateSlider.value = Mathf.MoveTowards(mentalStateScalePrevious, mentalStateScale, 100f);
-
-        //conditionals for changing the color of both the background and the fill area dependent on value
-        //gets threshold value from other script
-        //ALSO NOW UPDATES THE TEXT OBJECT
-        if(mentalStateScale < gameObject.GetComponent<MentalStateManagement>().mentalStateLowThreshold){
-            mentalStateFill.GetComponent<Image>().color = lowMentalStateColor;
-            mentalStateBackground.GetComponent<Image>().color = lowMentalStateColor;
-            mentalStateText.text = "State: "+ myFlowchart.GetStringVariable("lowStateName") + ". Value: "+myFlowchart.GetFloatVariable("mentalStateScale");
-        }
-        else if (mentalStateScale > gameObject.GetComponent<MentalStateManagement>().mentalStateHiThreshold)
-        {
-            mentalStateFill.GetComponent<Image>().color = hiMentalStateColor;
-            mentalStateBackground.GetComponent<Image>().color = hiMentalStateColor;
-            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("hiStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
-        }
-        else 
-        {
-            mentalStateFill.GetComponent<Image>().color = midMentalStateColor;
-            mentalStateBackground.GetComponent<Image>().color = midMentalStateColor;
-            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("midStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
-        }
-    }
 }
