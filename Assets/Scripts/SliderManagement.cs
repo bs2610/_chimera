@@ -69,7 +69,7 @@ public class SliderManagement : MonoBehaviour {
         chimeraHealthSlider.value = Mathf.MoveTowards(chimeraHealthPrevious,chimeraHealthCurrent,100f);
 
         //update the text
-        chimeraHealthText.text = "Lion Health " + chimeraHealthCurrent + "/" + myFlowchart.GetFloatVariable("chimeraHealthMax");
+        chimeraHealthText.text = chimeraHealthCurrent + "/" + myFlowchart.GetFloatVariable("chimeraHealthMax");
     }
 
     public void UpdateRamHealthBar()
@@ -85,14 +85,14 @@ public class SliderManagement : MonoBehaviour {
         ramHealthSlider.value = Mathf.MoveTowards(ramHealthPrevious, ramHealthCurrent, 100f);
 
         //update the text
-        ramHealthText.text = "Ram Health " + ramHealthCurrent + "/" + myFlowchart.GetFloatVariable("ramHealthMax");
+        ramHealthText.text = ramHealthCurrent + "/" + myFlowchart.GetFloatVariable("ramHealthMax");
     }
 
 
     public void UpdateDragonHealthBar()
     {
-        //this function must be called AFTER the flowchart has stored the ram's "previous" health value 
-        //AND THEN updated ram's health based on attack damage
+        //this function must be called AFTER the flowchart has stored the dragon's "previous" health value 
+        //AND THEN updated dragon's health based on attack damage
 
         //get values from flowchart
         dragonHealthCurrent = myFlowchart.GetFloatVariable("dragonHealthCurrent");
@@ -102,7 +102,7 @@ public class SliderManagement : MonoBehaviour {
         dragonHealthSlider.value = Mathf.MoveTowards(dragonHealthPrevious, dragonHealthCurrent, 100f);
 
         //update the text
-        dragonHealthText.text = "Dragon Health " + dragonHealthCurrent + "/" + myFlowchart.GetFloatVariable("dragonHealthMax");
+        dragonHealthText.text = dragonHealthCurrent + "/" + myFlowchart.GetFloatVariable("dragonHealthMax");
     }
 
     public void UpdatePlayerHealthBar()
@@ -118,7 +118,7 @@ public class SliderManagement : MonoBehaviour {
         playerHealthSlider.value = Mathf.MoveTowards(playerHealthPrevious, playerHealthCurrent, 100f);
 
         //update the text
-        playerHealthText.text = "Health " + playerHealthCurrent + "/" + myFlowchart.GetFloatVariable("playerHealthMax");
+        playerHealthText.text = playerHealthCurrent + "/" + myFlowchart.GetFloatVariable("playerHealthMax");
     }
 
 
@@ -137,7 +137,7 @@ public class SliderManagement : MonoBehaviour {
         manaSlider.value = Mathf.MoveTowards(manaPrevious, manaCurrent, 100f);
 
         //update the text
-        manaText.text = "Mana " + manaCurrent + "/" + myFlowchart.GetFloatVariable("manaMax");
+        manaText.text = manaCurrent + "/" + myFlowchart.GetFloatVariable("manaMax");
     }
 
 

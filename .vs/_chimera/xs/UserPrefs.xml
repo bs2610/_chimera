@@ -1,19 +1,17 @@
 ﻿<Properties StartupConfiguration="{20B2EAB4-11E8-7101-E70F-CDE3C1AFBC06}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StateTracker.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MentalStateManagement.cs">
     <Files>
-      <File FileName="Assets/Scripts/SceneManagement.cs" Line="10" Column="27" />
+      <File FileName="Assets/Scripts/SceneManagement.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SpellRename.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MetricManagerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TrackMetrics.cs" Line="22" Column="43" />
-      <File FileName="Assets/Scripts/chimeraController.cs" Line="55" Column="65" />
+      <File FileName="Assets/Scripts/TrackMetrics.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/chimeraController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SliderManagement.cs" Line="95" Column="34" />
-      <File FileName="Assets/Scripts/MentalStateManagement.cs" Line="27" Column="5" />
+      <File FileName="Assets/Scripts/MentalStateManagement.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/NeedleScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ProgressMeters.cs" Line="27" Column="19" />
+      <File FileName="Assets/Scripts/ProgressMeters.cs" Line="1" Column="1" />
       <File FileName="Assets/Fungus/Scripts/Commands/SetVariable.cs" Line="1" Column="1" />
-      <File FileName="Assets/MusicController.cs" Line="79" Column="13" />
-      <File FileName="Assets/StateTracker.cs" Line="92" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
