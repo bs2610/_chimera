@@ -614,11 +614,11 @@
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\ShowButtons.cs" />
     <Compile Include="Assets\Scripts\SliderManagement.cs" />
+    <Compile Include="Assets\Scripts\spellNameScript.cs" />
     <Compile Include="Assets\Scripts\SpellRename.cs" />
     <Compile Include="Assets\Scripts\StateTracker.cs" />
     <Compile Include="Assets\Scripts\TrackMetrics.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\spellNameScript.cs" />
     <None Include="Assets\Fungus\Thirdparty\ThirdPartyNotices.txt" />
     <None Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\JSON\readme.txt" />
     <None Include="Assets\Fungus\Docs\README.txt" />

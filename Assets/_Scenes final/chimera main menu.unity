@@ -1270,7 +1270,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1884571779}
   selectedCommands:
-  - {fileID: 1884571808}
+  - {fileID: 1884571784}
   variables: []
   description: 
   stepPause: 0
@@ -1460,7 +1460,7 @@ MonoBehaviour:
 
       Kris Yuan      Artist
 
-      Jose Kopp      Composer
+      Jose Kropp      Composer
 
       Juan Morales-Rocha      UI Designer
 
