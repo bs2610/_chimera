@@ -38,22 +38,22 @@ public class SliderManagement : MonoBehaviour {
     {
         if (myFlowchart.GetBooleanVariable("lowStateStatus") ==true)
         {
-            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("lowStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+            mentalStateText.text = myFlowchart.GetStringVariable("lowStateName");
         }
         else if (myFlowchart.GetBooleanVariable("hiStateStatus") == true)
         {
-            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("hiStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+            mentalStateText.text = myFlowchart.GetStringVariable("hiStateName");
         }
         else if (myFlowchart.GetBooleanVariable("midStateStatus") == true)
         {
-            mentalStateText.text = "State: " + myFlowchart.GetStringVariable("midStateName") + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+            mentalStateText.text = myFlowchart.GetStringVariable("midStateName");
         }
         else if(myFlowchart.GetBooleanVariable("ultraHighStateStatus") == true){
-            mentalStateText.text = "State: Extremely Careless" + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+            mentalStateText.text = "Extremely Careless";
         }
         else if (myFlowchart.GetBooleanVariable("ultraLowStateStatus") == true)
         {
-            mentalStateText.text = "State: Extremely Disheartened" + ". Value: " + myFlowchart.GetFloatVariable("mentalStateScale");
+            mentalStateText.text = "Extremely Disheartened";
         }
     }
 
