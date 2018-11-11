@@ -6,8 +6,15 @@ using Fungus;
 public class chimeraController : MonoBehaviour {
 
     public Flowchart battleFlowchart;
-    public string[] chimeraAttack = new string[] { "cShatter", "cPoison", "cFire"};
+    public string[] chimeraAttack = new string[] { "cShatter", "cPoison", "cFire", "cForce", "cHeal"};
+	public int dragonHealth;
+	public int lionHealth;
+	public int ramHealth;
+	public bool healingDone;
+	public int lowStatePercent;
 
+	//set a bool for whenever one of these have been used, but how how many rounds? 
+	//essentially I'm trying to say not to do this? Well, lets leave it regular for now. 
 	// Use this for initialization
 	void Start () {
 		
@@ -55,11 +62,42 @@ public class chimeraController : MonoBehaviour {
             battleFlowchart.ExecuteBlock("Chimera quarter health");
 
         }
+		else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && ((battleFlowchart.GetBooleanVariable("ultraLowStateStatus") == true)))
+		{
+			//later put in stipulations about what happens if one head dies-- that's the next biggest step. 
+			battleFlowchart.StopAllBlocks();
+			lowStatePercent = Random.Range (0, 2);
+			if (lowStatePercent == 2) {
+				battleFlowchart.ExecuteBlock ("player combat options");
+			} else {
+
+				battleFlowchart.ExecuteBlock (chimeraAttack [Random.Range (0, 4)]);
+			}
+		}
+
         else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true))
         {
+			//later put in stipulations about what happens if one head dies-- that's the next biggest step. 
             battleFlowchart.StopAllBlocks();
-            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 3)]);
+            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 4)]);
         }
 
     }
+
+	void chimeraHealChooser () {
+
+
+		dragonHealth = GetComponent<StateTracker> ().myFlowchart.GetIntegerVariable("dragonHealthCurrent");
+		lionHealth = GetComponent<StateTracker> ().myFlowchart.GetIntegerVariable("lionHealthCurrent");
+		ramHealth = GetComponent<StateTracker> ().myFlowchart.GetIntegerVariable("ramHealthCurrent");
+
+		if (dragonHealth < lionHealth && dragonHealth < ramHealth) {
+			dragonHealth = dragonHealth + (20);
+		} else if (lionHealth < dragonHealth && lionHealth < ramHealth){
+			lionHealth = dragonHealth + (20);
+		} else if (ramHealth < dragonHealth && ramHealth < lionHealth){
+			ramHealth = dragonHealth + (20);
+		}
+	
+	}
 }

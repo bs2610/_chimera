@@ -7,8 +7,8 @@ public class StateTracker : MonoBehaviour {
 
     private string previousState;
     private string currentState;
-    private int hiStateConsecutive = 0;
-    private int lowStateConsecutive = 0;
+    public int hiStateConsecutive = 0;
+    public int lowStateConsecutive = 0;
 
     [Header("# of consecutive turns needed in each state to change the damage type")]
     public int lowStateElementalThreshold;
@@ -61,7 +61,7 @@ public class StateTracker : MonoBehaviour {
                 myFlowchart.SetBooleanVariable("lowHopeElementalCharged", true);
             }
         }
-        else if (previousState == "lowHope" && currentState !="lowHope"){
+        else if (previousState == "lowHope" && currentState =="hiHope"){
             lowStateConsecutive = 0;
             myFlowchart.SetIntegerVariable("lowHopeTurnsConsecutive", lowStateConsecutive);
         }
@@ -73,15 +73,15 @@ public class StateTracker : MonoBehaviour {
                 myFlowchart.SetBooleanVariable("hiHopeElementalCharged", true);
             }
         }
-        else if (previousState == "hiHope" && currentState != "hiHope"){
+        else if (previousState == "hiHope" && currentState == "lowHope"){
             hiStateConsecutive = 0;
             myFlowchart.SetIntegerVariable("hiHopeTurnsConsecutive", hiStateConsecutive);
         }
         else if (currentState == "midHope"){
-            hiStateConsecutive = 0;
-            myFlowchart.SetIntegerVariable("hiHopeTurnsConsecutive", hiStateConsecutive);
-            lowStateConsecutive = 0;
-            myFlowchart.SetIntegerVariable("lowHopeTurnsConsecutive", lowStateConsecutive);
+//            hiStateConsecutive = 0;
+//            myFlowchart.SetIntegerVariable("hiHopeTurnsConsecutive", hiStateConsecutive);
+//            lowStateConsecutive = 0;
+//            myFlowchart.SetIntegerVariable("lowHopeTurnsConsecutive", lowStateConsecutive);
         }
 
         //every time the player becomes determined after being in LOW HOPE
