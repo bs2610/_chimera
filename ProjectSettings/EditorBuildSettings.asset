@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/firstBattle.unity
     guid: 0eb55d11a634142dd86c93544b4da5fb
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes final/intention setting.unity
     guid: 35a23839ddfa2470f8301ef95a617683
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes final/finalScene.unity
     guid: 4a45394d9f46a7f40becbbde23951a52
   - enabled: 0

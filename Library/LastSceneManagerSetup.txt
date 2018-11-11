@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Radial Health Bar.unity
+- path: Assets/_Scenes final/new intro battle.unity
   isLoaded: 1
   isActive: 1

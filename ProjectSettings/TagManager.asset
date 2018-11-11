@@ -47,3 +47,6 @@ TagManager:
   - name: Foreground
     uniqueID: 2354295549
     locked: 0
+  - name: Text Over UI
+    uniqueID: 3804632141
+    locked: 0
