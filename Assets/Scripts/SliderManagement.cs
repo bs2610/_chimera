@@ -91,8 +91,8 @@ public class SliderManagement : MonoBehaviour {
 
     public void UpdateDragonHealthBar()
     {
-        //this function must be called AFTER the flowchart has stored the dragon's "previous" health value 
-        //AND THEN updated dragon's health based on attack damage
+        //this function must be called AFTER the flowchart has stored the ram's "previous" health value 
+        //AND THEN updated ram's health based on attack damage
 
         //get values from flowchart
         dragonHealthCurrent = myFlowchart.GetFloatVariable("dragonHealthCurrent");

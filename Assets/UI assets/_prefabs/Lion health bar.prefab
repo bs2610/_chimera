@@ -186,7 +186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 50/50
+  m_Text: 75/75
 --- !u!114 &114162111611599502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -254,9 +254,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 50
+  m_MaxValue: 75
   m_WholeNumbers: 1
-  m_Value: 50
+  m_Value: 75
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -366,8 +366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.300003, y: 0.10000038}
-  m_SizeDelta: {x: 700, y: 88}
+  m_AnchoredPosition: {x: 4.3, y: 0.10000038}
+  m_SizeDelta: {x: 1050, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224187617972397664
 RectTransform:
@@ -384,7 +384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -189.2, y: 3.8}
+  m_AnchoredPosition: {x: -282.8, y: 3.8}
   m_SizeDelta: {x: 141, y: 138}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224461888317082068
@@ -427,7 +427,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -10, y: -15}
-  m_SizeDelta: {x: 200, y: 30}
+  m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224597373029375324
 RectTransform:
