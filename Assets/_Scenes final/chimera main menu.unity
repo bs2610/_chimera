@@ -1343,6 +1343,8 @@ GameObject:
   - component: {fileID: 1884571812}
   - component: {fileID: 1884571786}
   - component: {fileID: 1884571806}
+  - component: {fileID: 1884571813}
+  - component: {fileID: 1884571809}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1374,10 +1376,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1884571782}
-  selectedCommands:
-  - {fileID: 1884571791}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 168
+    x: 169
     y: 78
     width: 120
     height: 40
@@ -1524,7 +1524,9 @@ MonoBehaviour:
   - {fileID: 1884571792}
   - {fileID: 1884571811}
   - {fileID: 1884571810}
+  - {fileID: 1884571813}
   - {fileID: 1884571791}
+  - {fileID: 1884571809}
   - {fileID: 1884571783}
 --- !u!114 &1884571783
 MonoBehaviour:
@@ -1646,7 +1648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 40a6f1080f1b74025b3ba3049c34e94c, type: 3}
+  musicClip: {fileID: 8300000, guid: 1e894fe9b0bbd4d2b93ee080efc4d72e, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -2039,6 +2041,19 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
+--- !u!114 &1884571809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
 --- !u!114 &1884571810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2106,6 +2121,22 @@ MonoBehaviour:
   itemId: 40
   indentLevel: 0
   menuDialog: {fileID: 1899651294}
+--- !u!114 &1884571813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  volume: 0
+  fadeDuration: 2
+  waitUntilFinished: 0
 --- !u!114 &1899651294 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114508421819732350, guid: f33e03f15b36e4bf5a050a7f2be15406,

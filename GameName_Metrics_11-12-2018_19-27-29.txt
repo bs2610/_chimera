@@ -1,0 +1,3 @@
+Mental State Value: 70 - Time: 11-12-2018 19:27:26
+Player Health: 37 - Time: 11-12-2018 19:27:26
+Chimera Health: 40 - Time: 11-12-2018 19:27:26

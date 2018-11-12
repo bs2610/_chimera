@@ -1106,6 +1106,11 @@ GameObject:
   - component: {fileID: 945102463}
   - component: {fileID: 945102464}
   - component: {fileID: 945102462}
+  - component: {fileID: 945102315}
+  - component: {fileID: 945102316}
+  - component: {fileID: 945102321}
+  - component: {fileID: 945102418}
+  - component: {fileID: 945102407}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1128,7 +1133,7 @@ MonoBehaviour:
   version: 1
   scrollPos: {x: 67.30658, y: -217.98006}
   variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
+  variablesExpanded: 0
   blockViewHeight: 400
   zoom: 0.69241625
   scrollViewRect:
@@ -1137,7 +1142,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 945102366}
   selectedCommands: []
   variables:
   - {fileID: 945102312}
@@ -3464,6 +3470,38 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &945102315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945102227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 273
+  indentLevel: 0
+  volume: 1
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &945102316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945102227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 274
+  indentLevel: 0
+  volume: 0
+  fadeDuration: 2
+  waitUntilFinished: 1
 --- !u!114 &945102317
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3716,6 +3754,22 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &945102321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945102227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 275
+  indentLevel: 0
+  volume: 0
+  fadeDuration: 2
+  waitUntilFinished: 1
 --- !u!114 &945102322
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5182,6 +5236,8 @@ MonoBehaviour:
   - {fileID: 945102409}
   - {fileID: 945102408}
   - {fileID: 945102463}
+  - {fileID: 945102316}
+  - {fileID: 945102418}
   - {fileID: 945102462}
 --- !u!114 &945102377
 MonoBehaviour:
@@ -5269,6 +5325,8 @@ MonoBehaviour:
   - {fileID: 945102412}
   - {fileID: 945102411}
   - {fileID: 945102465}
+  - {fileID: 945102321}
+  - {fileID: 945102407}
   - {fileID: 945102464}
 --- !u!114 &945102380
 MonoBehaviour:
@@ -5978,6 +6036,19 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &945102407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945102227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 277
+  indentLevel: 0
 --- !u!114 &945102408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6138,7 +6209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 224
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 40a6f1080f1b74025b3ba3049c34e94c, type: 3}
+  musicClip: {fileID: 8300000, guid: 1e894fe9b0bbd4d2b93ee080efc4d72e, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1
@@ -6222,6 +6293,19 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &945102418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945102227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 276
+  indentLevel: 0
 --- !u!114 &945102419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,6 +6345,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 945102422}
   commandList:
+  - {fileID: 945102315}
   - {fileID: 945102419}
   - {fileID: 945102423}
   - {fileID: 945102426}
