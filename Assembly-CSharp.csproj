@@ -603,6 +603,7 @@
     <Compile Include="Assets\Scripts\ArrowScript.cs" />
     <Compile Include="Assets\Scripts\blockArrays.cs" />
     <Compile Include="Assets\Scripts\chimeraController.cs" />
+    <Compile Include="Assets\Scripts\flavorText.cs" />
     <Compile Include="Assets\Scripts\hiExtremeBehavior.cs" />
     <Compile Include="Assets\Scripts\HopeLevelInterlude.cs" />
     <Compile Include="Assets\Scripts\IntroChimeraController.cs" />
