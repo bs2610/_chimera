@@ -49,11 +49,11 @@ public class SliderManagement : MonoBehaviour {
             mentalStateText.text = myFlowchart.GetStringVariable("midStateName");
         }
         else if(myFlowchart.GetBooleanVariable("ultraHighStateStatus") == true){
-            mentalStateText.text = "Extremely Careless";
+            mentalStateText.text = "Very Careless";
         }
         else if (myFlowchart.GetBooleanVariable("ultraLowStateStatus") == true)
         {
-            mentalStateText.text = "Extremely Disheartened";
+            mentalStateText.text = "Very Disheartened";
         }
     }
 

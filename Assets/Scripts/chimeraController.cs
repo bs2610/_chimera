@@ -6,45 +6,46 @@ using Fungus;
 public class chimeraController : MonoBehaviour {
 
     public Flowchart battleFlowchart;
-    public string[] chimeraAttack = new string[] { "cShatter", "cPoison", "cFire", "cForce", "cHeal"};
+    public string[] chimeraAttack = new string[5] { "cShatter", "cPoison", "cFire", "cHeal", "cForce"};
 	public int dragonHealth;
 	public int lionHealth;
 	public int ramHealth;
 	public bool healingDone;
-	public int lowStatePercent;
+	public int lowStateTurns;
 
 	//set a bool for whenever one of these have been used, but how how many rounds? 
 	//essentially I'm trying to say not to do this? Well, lets leave it regular for now. 
 	// Use this for initialization
 	void Start () {
-		
+
+		lowStateTurns = 0;
 	}
 
     // Update is called once per frame
     void Update()
     {
 
-        if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 1))
+        if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 3))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("One");
             //just put them all in various blocks for now for the sake of expediency
 
         }
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 3))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 8))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("Two");
 
         }
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 4))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 13))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("Three");
 
         }
 
-        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 5))
+        else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 17))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("Four");
@@ -65,13 +66,19 @@ public class chimeraController : MonoBehaviour {
 		else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && ((battleFlowchart.GetBooleanVariable("ultraLowStateStatus") == true)))
 		{
 			//later put in stipulations about what happens if one head dies-- that's the next biggest step. 
-			battleFlowchart.StopAllBlocks();
-			lowStatePercent = Random.Range (0, 2);
-			if (lowStatePercent == 2) {
-				battleFlowchart.ExecuteBlock ("player combat options");
-			} else {
+			//battleFlowchart.StopAllBlocks();
+			//lowStateTurns++;
 
-				battleFlowchart.ExecuteBlock (chimeraAttack [Random.Range (0, 4)]);
+			if ((battleFlowchart.GetIntegerVariable("ultraLowStateConsecutive") >= 4)) {
+				battleFlowchart.StopAllBlocks();
+				//battleFlowchart.GetIntegerVariable("ultraLowStateConsecutive") == 0;
+				battleFlowchart.SetBooleanVariable("playerIsAttacking", false);
+				battleFlowchart.ExecuteBlock ("player combat options");
+
+			
+			} else if ((battleFlowchart.GetIntegerVariable("ultraLowStateConsecutive") < 4)) {
+//				battleFlowchart.StopAllBlocks();
+				battleFlowchart.ExecuteBlock (chimeraAttack [Random.Range (0, 3)]);
 			}
 		}
 
@@ -79,7 +86,7 @@ public class chimeraController : MonoBehaviour {
         {
 			//later put in stipulations about what happens if one head dies-- that's the next biggest step. 
             battleFlowchart.StopAllBlocks();
-            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 4)]);
+            battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 5)]);
         }
 
     }
