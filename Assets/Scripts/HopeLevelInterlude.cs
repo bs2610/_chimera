@@ -8,11 +8,11 @@ public class HopeLevelInterlude : MonoBehaviour {
 
     public Flowchart myFlowchart;
     private float mentalStateScale;
-    private bool midStateStatus;
-    private bool lowStateStatus;
-    private bool hiStateStatus;
-    private bool ultraHiStateStatus;
-    private bool ultraLowStateStatus;
+  //  private bool midStateStatus;
+  //  private bool lowStateStatus;
+  //  private bool hiStateStatus;
+ //   private bool ultraHiStateStatus;
+ //   private bool ultraLowStateStatus;
 
     public float ultraLowStateThreshold;
     public float ultraHighStateThreshold;
@@ -39,57 +39,57 @@ public class HopeLevelInterlude : MonoBehaviour {
         //checks the hope state and updates bools in script
         if (mentalStateScale < mentalStateLowThreshold && mentalStateScale > ultraLowStateThreshold)
         {
-            lowStateStatus = true;
-            midStateStatus = false;
-            hiStateStatus = false;
-            ultraHiStateStatus = false;
-            ultraLowStateStatus = false;
+           // lowStateStatus = true;
+           // midStateStatus = false;
+           // hiStateStatus = false;
+          //  ultraHiStateStatus = false;
+          //  ultraLowStateStatus = false;
             mentalStateText.text = "Disheartened";
 
         }
         else if (mentalStateScale > mentalStateHiThreshold && mentalStateScale < ultraHighStateThreshold)
         {
-            lowStateStatus = false;
-            midStateStatus = false;
-            hiStateStatus = true;
-            ultraHiStateStatus = false;
-            ultraLowStateStatus = false;
+          //  lowStateStatus = false;
+         //   midStateStatus = false;
+          //  hiStateStatus = true;
+         //   ultraHiStateStatus = false;
+         //   ultraLowStateStatus = false;
             mentalStateText.text = "Careless";
         }
         else if (mentalStateScale > ultraHighStateThreshold)
         {
-            lowStateStatus = false;
-            midStateStatus = false;
-            hiStateStatus = false;
-            ultraHiStateStatus = true;
-            ultraLowStateStatus = false;
+         //   lowStateStatus = false;
+         //   midStateStatus = false;
+        //    hiStateStatus = false;
+        //    ultraHiStateStatus = true;
+        //    ultraLowStateStatus = false;
             mentalStateText.text = "Very Careless";
         }
         else if (mentalStateScale < ultraLowStateThreshold)
         {
-            lowStateStatus = false;
-            midStateStatus = false;
-            hiStateStatus = false;
-            ultraHiStateStatus = false;
-            ultraLowStateStatus = true;
+          //  lowStateStatus = false;
+          //  midStateStatus = false;
+         //   hiStateStatus = false;
+         //   ultraHiStateStatus = false;
+         //   ultraLowStateStatus = true;
             mentalStateText.text = "Very Disheartened";
         }
         else
         {
-            lowStateStatus = false;
-            midStateStatus = true;
-            hiStateStatus = false;
-            ultraHiStateStatus = false;
-            ultraLowStateStatus = false;
+          //  lowStateStatus = false;
+          //  midStateStatus = true;
+         //   hiStateStatus = false;
+         //   ultraHiStateStatus = false;
+         //   ultraLowStateStatus = false;
             mentalStateText.text = "Determined";
         }
 
         //updates flowchart variables to match script variables
-        myFlowchart.SetBooleanVariable("midStateStatus", midStateStatus);
-        myFlowchart.SetBooleanVariable("lowStateStatus", lowStateStatus);
-        myFlowchart.SetBooleanVariable("hiStateStatus", hiStateStatus);
-        myFlowchart.SetBooleanVariable("ultraLowStateStatus", ultraLowStateStatus);
-        myFlowchart.SetBooleanVariable("ultraHighStateStatus", ultraHiStateStatus);
+       // myFlowchart.SetBooleanVariable("midStateStatus", midStateStatus);
+       // myFlowchart.SetBooleanVariable("lowStateStatus", lowStateStatus);
+       // myFlowchart.SetBooleanVariable("hiStateStatus", hiStateStatus);
+       // myFlowchart.SetBooleanVariable("ultraLowStateStatus", ultraLowStateStatus);
+       // myFlowchart.SetBooleanVariable("ultraHighStateStatus", ultraHiStateStatus);
     }
 
 

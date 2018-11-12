@@ -8,6 +8,8 @@ public class IntroChimeraController : MonoBehaviour {
     public Flowchart battleFlowchart;
     public string[] chimeraAttack = new string[] { "cShatter", "cPoison", "cFire"};
 
+
+
     // Use this for initialization
     void Start () {
         
@@ -17,10 +19,14 @@ public class IntroChimeraController : MonoBehaviour {
     void Update()
     {
 
+
+
         if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 3))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("One");
+           //battleFlowchart.GetBooleanVariable("playerIsAttacking") = true);
+
             //just put them all in various blocks for now for the sake of expediency
 
         }
@@ -43,16 +49,14 @@ public class IntroChimeraController : MonoBehaviour {
             battleFlowchart.ExecuteBlock("Four");
 
         }
-       // else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true) && (battleFlowchart.GetIntegerVariable("playerSpellNumber") == 8))
-      //  {
-      //      battleFlowchart.StopAllBlocks();
-      //      battleFlowchart.ExecuteBlock("chimera kills you");
-      //  }
+ 
         else if ((battleFlowchart.GetBooleanVariable("playerIsAttacking") == true))
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock(chimeraAttack[Random.Range(0, 3)]);
         }
+
+
 
     }
 }
