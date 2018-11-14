@@ -2657,7 +2657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 677.4317
     y: 497.73886
-    width: 179.06046
+    width: 181.2507
     height: 40
   tint: {r: 0.80392164, g: 0.19607845, b: 0.15294118, a: 1}
   useCustomTint: 1
@@ -5185,7 +5185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -50.887756
     y: 1.0785327
-    width: 123.50463
+    width: 125.0004
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8467,6 +8467,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1618712174}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+--- !u!114 &563659820 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114907951989586956, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1618712174}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &563659821 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114959384847060452, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
@@ -10746,7 +10752,7 @@ Prefab:
         type: 2}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 1618712189}
+      objectReference: {fileID: 563659820}
     - target: {fileID: 114600843626181492, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[13]
@@ -14112,6 +14118,11 @@ Prefab:
         type: 2}
       propertyPath: nodeRect.y
       value: 246.63411
+      objectReference: {fileID: 0}
+    - target: {fileID: 114681103324174154, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: floatData.floatVal
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114060040211030858, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}

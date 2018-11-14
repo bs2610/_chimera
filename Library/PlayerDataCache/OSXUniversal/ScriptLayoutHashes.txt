@@ -1,8 +1,11 @@
 OSXStandalone
 PlayerPath?
-/Users/sydvicious/Desktop/USC/CTIN 532/new interlude only mac/new interlude mac.app
+/Users/sydvicious/Desktop/USC/CTIN 532/CTIN-532 Beta Build Rubin Smith/Chimera beta build.app
 SceneListBegin?
+Assets/_Scenes final/chimera main menu.unity
 Assets/_Scenes final/intention setting.unity
+Assets/_Scenes final/finalScene.unity
+Assets/_Scenes final/new intro battle.unity
 SceneListEnd?
 f17ee4c660be6ff5f0eccfc938b37b78 Assembly-CSharp.dll:Fungus.Stop
 d87e1125ef43ca964377420172e4effa Assembly-CSharp.dll:.reverseStrings
@@ -31,7 +34,9 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 20fb978a8ee52d0246dfa8d97a4b2a6d Assembly-CSharp.dll:Fungus.CharacterControllerCollide
 475ff0074463b700c5ccf2acbab82bc5 Assembly-CSharp.dll:Fungus.Collision2D
 2bbec898fa7c4041ce6e86df59e4100c Assembly-CSharp.dll:Fungus.Vector3Fields
+119c47295c040a6e87e4419b95e2ef56 Assembly-CSharp.dll:.StateTracker
 d2309944c00d91eebb90ec3605212a10 Assembly-CSharp.dll:Fungus.PunchScale
+35e19a42a63c99483cd2d56a112afa36 Assembly-CSharp.dll:.HopeLevelInterlude
 9f799b532dfe7b991427dd690ec8fd5b Assembly-CSharp.dll:Fungus.LoadScene
 f17ee4c660be6ff5f0eccfc938b37b78 Assembly-CSharp.dll:Fungus.Else
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
@@ -398,7 +403,7 @@ aae5ae44220091e5740806fc1f61c359 Assembly-CSharp.dll:.ShowButtons
 475ff0074463b700c5ccf2acbab82bc5 Assembly-CSharp.dll:Fungus.Collision
 7e2b6462f1067d70055aa9525e97c899 Assembly-CSharp.dll:Fungus.TransformProperty
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-00453649458658f8d8cc0117a3f71e73 Assembly-CSharp.dll:.chimeraController
+5d55e0a4f77306c8a69dadb27cf75c02 Assembly-CSharp.dll:.chimeraController
 1a2a2b683d203deb024b9dfe93bd3636 Assembly-CSharp.dll:Fungus.Writer
 1b50269709628d0382e729ed21dd7e1a Assembly-CSharp.dll:Fungus.ControlAudio
 66533d3e3cb3dae84a62ace4869e3482 Assembly-CSharp.dll:Fungus.AnimatorState
@@ -410,4 +415,9 @@ da37815c496f305848e9728d343c5631 Assembly-CSharp.dll:Fungus.DebugLog
 ac312c95f80814ed36c776c4865e4ddf Assembly-CSharp.dll:.UIManager
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Fungus.LuaStore
 e31304a4491d4504a3d03ba556a65a4b Assembly-CSharp.dll:Fungus.MoveLean
-c8775a22d1f9ba30d479abf87bf44802 Assembly-CSharp.dll:.StateTracker
+1055f47079d43af4701b3119063e7f34 Assembly-CSharp.dll:.hiExtremeBehavior
+fa29bc2eef0311999dca361b6a44044a Assembly-CSharp.dll:.PowerManager
+58f397c7c0ebfe9044704118db684dd6 Assembly-CSharp.dll:.lowExtremeBehavior
+2d2fcd869449c55a47a6e7b77337ab46 Assembly-CSharp.dll:.IntroSceneManagement
+9313057a156c5bf815f06b63dbcc2002 Assembly-CSharp.dll:.TutorialManager
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.flavorText
