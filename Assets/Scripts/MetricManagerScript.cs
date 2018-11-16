@@ -112,4 +112,25 @@ public class MetricManagerScript : MonoBehaviour
         time = time.Replace("/", "-");
         createText += logTitle + ": " + floatToLog + " - Time: " + time + "\r\n";
     }
+
+    public void LogRamHealthAtTurnStart(string logTitle, float floatToLog)
+    {
+        string time = System.DateTime.UtcNow.ToString(); string dateTime = System.DateTime.Now.ToString();
+        time = time.Replace("/", "-");
+        createText += logTitle + ": " + floatToLog + " - Time: " + time + "\r\n";
+    }
+
+    public void LogDragonHealthAtTurnStart(string logTitle, float floatToLog)
+    {
+        string time = System.DateTime.UtcNow.ToString(); string dateTime = System.DateTime.Now.ToString();
+        time = time.Replace("/", "-");
+        createText += logTitle + ": " + floatToLog + " - Time: " + time + "\r\n";
+    }
+
+    public void LogTotalEnemyHealthAtTurnStart(string logTitle, float floatToLog)
+    {
+        string time = System.DateTime.UtcNow.ToString(); string dateTime = System.DateTime.Now.ToString();
+        time = time.Replace("/", "-");
+        createText += logTitle + ": " + floatToLog + " - Time: " + time + "\r\n";
+    }
 }

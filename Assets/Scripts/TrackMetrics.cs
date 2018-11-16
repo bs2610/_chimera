@@ -24,6 +24,9 @@ public class TrackMetrics: MonoBehaviour {
     public void TrackingMetrics(){
         MetricManagerScript.instance.LogMentalStateAtTurnStart("Mental State Value",myFlowchart.GetFloatVariable("mentalStateScale"));
         MetricManagerScript.instance.LogPlayerHealthAtTurnStart("Player Health", myFlowchart.GetFloatVariable("playerHealthCurrent"));
-        MetricManagerScript.instance.LogChimeraHealthAtTurnStart("Chimera Health",myFlowchart.GetFloatVariable("chimeraHealthCurrent"));
+        MetricManagerScript.instance.LogChimeraHealthAtTurnStart("Lion Health",myFlowchart.GetFloatVariable("chimeraHealthCurrent"));
+        MetricManagerScript.instance.LogRamHealthAtTurnStart("Ram Health", myFlowchart.GetFloatVariable("ramHealthCurrent"));
+        MetricManagerScript.instance.LogDragonHealthAtTurnStart("Dragon Health", myFlowchart.GetFloatVariable("dragonHealthCurrent"));
+        MetricManagerScript.instance.LogTotalEnemyHealthAtTurnStart("Total Chimera Health", myFlowchart.GetFloatVariable("totalChimeraHealth"));
     }
 }
