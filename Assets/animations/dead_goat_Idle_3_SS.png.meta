@@ -1,7 +1,97 @@
 fileFormatVersion: 2
 guid: 56436d2e6305742b6af66dc5bc9067c2
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dead_goat_Idle_3_SS_0
+    21300002: dead_goat_Idle_3_SS_1
+    21300004: dead_goat_Idle_3_SS_2
+    21300006: dead_goat_Idle_3_SS_3
+    21300008: dead_goat_Idle_3_SS_4
+    21300010: dead_goat_Idle_3_SS_5
+    21300012: dead_goat_Idle_3_SS_6
+    21300014: dead_goat_Idle_3_SS_7
+    21300016: dead_goat_Idle_3_SS_8
+    21300018: dead_goat_Idle_3_SS_9
+    21300020: dead_goat_Idle_3_SS_10
+    21300022: dead_goat_Idle_3_SS_11
+    21300024: dead_goat_Idle_3_SS_12
+    21300026: dead_goat_Idle_3_SS_13
+    21300028: dead_goat_Idle_3_SS_14
+    21300030: dead_goat_Idle_3_SS_15
+    21300032: dead_goat_Idle_3_SS_16
+    21300034: dead_goat_Idle_3_SS_17
+    21300036: dead_goat_Idle_3_SS_18
+    21300038: dead_goat_Idle_3_SS_19
+    21300040: dead_goat_Idle_3_SS_20
+    21300042: dead_goat_Idle_3_SS_21
+    21300044: dead_goat_Idle_3_SS_22
+    21300046: dead_goat_Idle_3_SS_23
+    21300048: dead_goat_Idle_3_SS_24
+    21300050: dead_goat_Idle_3_SS_25
+    21300052: dead_goat_Idle_3_SS_26
+    21300054: dead_goat_Idle_3_SS_27
+    21300056: dead_goat_Idle_3_SS_28
+    21300058: dead_goat_Idle_3_SS_29
+    21300060: dead_goat_Idle_3_SS_30
+    21300062: dead_goat_Idle_3_SS_31
+    21300064: dead_goat_Idle_3_SS_32
+    21300066: dead_goat_Idle_3_SS_33
+    21300068: dead_goat_Idle_3_SS_34
+    21300070: dead_goat_Idle_3_SS_35
+    21300072: dead_goat_Idle_3_SS_36
+    21300074: dead_goat_Idle_3_SS_37
+    21300076: dead_goat_Idle_3_SS_38
+    21300078: dead_goat_Idle_3_SS_39
+    21300080: dead_goat_Idle_3_SS_40
+    21300082: dead_goat_Idle_3_SS_41
+    21300084: dead_goat_Idle_3_SS_42
+    21300086: dead_goat_Idle_3_SS_43
+    21300088: dead_goat_Idle_3_SS_44
+    21300090: dead_goat_Idle_3_SS_45
+    21300092: dead_goat_Idle_3_SS_46
+    21300094: dead_goat_Idle_3_SS_47
+    21300096: dead_goat_Idle_3_SS_48
+    21300098: dead_goat_Idle_3_SS_49
+    21300100: dead_goat_Idle_3_SS_50
+    21300102: dead_goat_Idle_3_SS_51
+    21300104: dead_goat_Idle_3_SS_52
+    21300106: dead_goat_Idle_3_SS_53
+    21300108: dead_goat_Idle_3_SS_54
+    21300110: dead_goat_Idle_3_SS_55
+    21300112: dead_goat_Idle_3_SS_56
+    21300114: dead_goat_Idle_3_SS_57
+    21300116: dead_goat_Idle_3_SS_58
+    21300118: dead_goat_Idle_3_SS_59
+    21300120: dead_goat_Idle_3_SS_60
+    21300122: dead_goat_Idle_3_SS_61
+    21300124: dead_goat_Idle_3_SS_62
+    21300126: dead_goat_Idle_3_SS_63
+    21300128: dead_goat_Idle_3_SS_64
+    21300130: dead_goat_Idle_3_SS_65
+    21300132: dead_goat_Idle_3_SS_66
+    21300134: dead_goat_Idle_3_SS_67
+    21300136: dead_goat_Idle_3_SS_68
+    21300138: dead_goat_Idle_3_SS_69
+    21300140: dead_goat_Idle_3_SS_70
+    21300142: dead_goat_Idle_3_SS_71
+    21300144: dead_goat_Idle_3_SS_72
+    21300146: dead_goat_Idle_3_SS_73
+    21300148: dead_goat_Idle_3_SS_74
+    21300150: dead_goat_Idle_3_SS_75
+    21300152: dead_goat_Idle_3_SS_76
+    21300154: dead_goat_Idle_3_SS_77
+    21300156: dead_goat_Idle_3_SS_78
+    21300158: dead_goat_Idle_3_SS_79
+    21300160: dead_goat_Idle_3_SS_80
+    21300162: dead_goat_Idle_3_SS_81
+    21300164: dead_goat_Idle_3_SS_82
+    21300166: dead_goat_Idle_3_SS_83
+    21300168: dead_goat_Idle_3_SS_84
+    21300170: dead_goat_Idle_3_SS_85
+    21300172: dead_goat_Idle_3_SS_86
+    21300174: dead_goat_Idle_3_SS_87
+    21300176: dead_goat_Idle_3_SS_88
+    21300178: dead_goat_Idle_3_SS_89
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +130,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +150,51 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -71,7 +205,1807 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a7e96fb69934600817d404c61a29ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_1
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0264f2fb7980e4f9b887468c41ba7bf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_2
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8264cdf46f484db876f5b23f07f3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_3
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173eb0dafd7ce4a7cb224077de1a102a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_4
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3b7534d5a14804927661ab6691849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_5
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bcca06dd4284228a3298fa63db8664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_6
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed99204e42ec464bbb3be3eb542d9b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_7
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770d4bde45e5b47f1b5f13ce08262837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67befde3702224106b4870a1fb8055e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed805c3ccb8487e939ee50771ac404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_10
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465f533685f184225a886a27a0505c86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_11
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c89472581fc43f493213e412efe654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_12
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444645c14320c41809e4afec07e3505d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_13
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6673e22dec16435e8e9c0eab3db2b1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faa43d2831f44b4ab5abb1d933abe56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_15
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d381dc82db74b019f4c6db1383c857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab5f2af186c147cda21481ef5030fd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5446e88f5d443729cd4e686a279f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_18
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4badd747e9705482b8ba2325ee2d2eab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_19
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2843dc809ef410599d1bc05260b1a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_20
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e3e20bbded34defb9e62f4e42646b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_21
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcbc1aa5c5ab4b1abb7519a10439ad1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_22
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625099e26c7e84266830107d3f6d55be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_23
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788579d29ec6d421fbf727dc5758656b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfc5e662fc8f4be2ad1e220194109db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_25
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac43c46b825a404da4276a3992595b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_26
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5853f09981f449aa4de770aa1048a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_27
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b380d439b0b146ab8c0b9097e93cf05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_28
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a420d78d1fb4e8b8cc866da198aeed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_29
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176c7a8cb9cf34024b8099714ddd7704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_30
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad769d7211f64444899b048c49a11013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_31
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a014d1d156f4ad1ad2a4dafc7bbbf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381cab62ab3da4b97a0615472d1192bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_33
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07a0bb9457a46b19593482afb1c2be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_34
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76423a6a71ff3473bb9544a2ec7bd557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_35
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0b44029db8e40c8abede6d843ac33c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_36
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb2829c542cc42f4a3a6cc71b634ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_37
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71f00c2e6e840288918e85da3e0954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_38
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a9bf1f47f294635a3c40b8cfee8966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_39
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5879405e41198442abd79a4860c77ddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca7eadbb16d4011b0887d1f1823be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_41
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39abaada7b824853bc97a9ac90993b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_42
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a068fdc8bda7e442c9af728f05463319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_43
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696030f29d6c944f2b5b60a5ab7be69f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_44
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc8a286e658145b18e8d06b17fc93a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_45
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcfea1ce6c0f4f08929065a980042f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_46
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6768b7df690be4585bec78d608182a5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_47
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a1e4b8c68cd4d51b4324852b955e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061be57a4602d4bac9d41aef1c80bd44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_49
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f563bbab4474b6887092f55e65deb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_50
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e954360085a41c29fb1dfdb8ba0a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_51
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4344a58121c054f9ba407d03be19d977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_52
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefedd7947ac4f7ba869a63732a2c59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_53
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38609fe8c804488f93727a96f0558ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_54
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83704a1e472a64ccdad312e20c5f4bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_55
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb9bc4dc56aa4b34b5b7f3e61058e9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9607f99235c2748eea144530582028c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_57
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7bae2780e2d455590184add1feadb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_58
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3338b15a382924594881ee771c3bc66b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_59
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21978427928be4ec1a70065247c13fe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_60
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3652e4e738fa34c608f78e866199b81c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_61
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848ba4d03890a4341ae1fa715168e027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_62
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58085466d9c68425e9a009b7a993a50e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_63
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116e1f725191346128c5da63a0830e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e51d672d41264dee8e8b75ea113c0b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_65
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e59ae7f0d6e418983df8be1ea4e176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_66
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df6133b5e244230b24a9298927e220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_67
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddac7a3dfcb3477b89fd7bd45cecb7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_68
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ccaada55b34877af1fcca6ed8d41a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_69
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a5b88d18e5c476e8b91cb473b9f2fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_70
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083191221fdae48e385e9c39976ba0fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_71
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c6d648ee7f34f6bbe18ef1526d5917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479754debb997464cad6e5382c94de88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_73
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a707517f2c476b86ba0a7f5600147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_74
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498e832e72df4be59492d7a4a0a5b43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_75
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c581715aa5e480a90ef49170686e91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_76
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7c1827e5ad14f19972b134e4fb918f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_77
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acfa606fd8714236a58371e257fb723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_78
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f71c5961130a4417ae9332738308c79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_79
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc477108f268d4efc891368857196295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73565b6f3329b4614ac8aaa978c169d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_81
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b056c9ba9d4f49d49607548997f72d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_82
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c39d1230f131473ab1e978314781e06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_83
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e366d9e95167421495598563a959fa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_84
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59af2fd1e1c964f18ab84a8888fc3fed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_85
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00642ef301764a04b71608e4b64846b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_86
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44e0135c171a451ab86650a68728802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_87
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c0e7123652b4395acdce32e50d31e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6d8acd95374b25b080ea4bb0dc655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_goat_Idle_3_SS_89
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110f7010952a14f269d6d1b881cb710c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

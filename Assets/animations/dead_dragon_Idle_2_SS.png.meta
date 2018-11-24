@@ -1,7 +1,97 @@
 fileFormatVersion: 2
 guid: 2af55cfedf8424e11aa492cfd3ebd125
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dead_dragon_Idle_2_SS_0
+    21300002: dead_dragon_Idle_2_SS_1
+    21300004: dead_dragon_Idle_2_SS_2
+    21300006: dead_dragon_Idle_2_SS_3
+    21300008: dead_dragon_Idle_2_SS_4
+    21300010: dead_dragon_Idle_2_SS_5
+    21300012: dead_dragon_Idle_2_SS_6
+    21300014: dead_dragon_Idle_2_SS_7
+    21300016: dead_dragon_Idle_2_SS_8
+    21300018: dead_dragon_Idle_2_SS_9
+    21300020: dead_dragon_Idle_2_SS_10
+    21300022: dead_dragon_Idle_2_SS_11
+    21300024: dead_dragon_Idle_2_SS_12
+    21300026: dead_dragon_Idle_2_SS_13
+    21300028: dead_dragon_Idle_2_SS_14
+    21300030: dead_dragon_Idle_2_SS_15
+    21300032: dead_dragon_Idle_2_SS_16
+    21300034: dead_dragon_Idle_2_SS_17
+    21300036: dead_dragon_Idle_2_SS_18
+    21300038: dead_dragon_Idle_2_SS_19
+    21300040: dead_dragon_Idle_2_SS_20
+    21300042: dead_dragon_Idle_2_SS_21
+    21300044: dead_dragon_Idle_2_SS_22
+    21300046: dead_dragon_Idle_2_SS_23
+    21300048: dead_dragon_Idle_2_SS_24
+    21300050: dead_dragon_Idle_2_SS_25
+    21300052: dead_dragon_Idle_2_SS_26
+    21300054: dead_dragon_Idle_2_SS_27
+    21300056: dead_dragon_Idle_2_SS_28
+    21300058: dead_dragon_Idle_2_SS_29
+    21300060: dead_dragon_Idle_2_SS_30
+    21300062: dead_dragon_Idle_2_SS_31
+    21300064: dead_dragon_Idle_2_SS_32
+    21300066: dead_dragon_Idle_2_SS_33
+    21300068: dead_dragon_Idle_2_SS_34
+    21300070: dead_dragon_Idle_2_SS_35
+    21300072: dead_dragon_Idle_2_SS_36
+    21300074: dead_dragon_Idle_2_SS_37
+    21300076: dead_dragon_Idle_2_SS_38
+    21300078: dead_dragon_Idle_2_SS_39
+    21300080: dead_dragon_Idle_2_SS_40
+    21300082: dead_dragon_Idle_2_SS_41
+    21300084: dead_dragon_Idle_2_SS_42
+    21300086: dead_dragon_Idle_2_SS_43
+    21300088: dead_dragon_Idle_2_SS_44
+    21300090: dead_dragon_Idle_2_SS_45
+    21300092: dead_dragon_Idle_2_SS_46
+    21300094: dead_dragon_Idle_2_SS_47
+    21300096: dead_dragon_Idle_2_SS_48
+    21300098: dead_dragon_Idle_2_SS_49
+    21300100: dead_dragon_Idle_2_SS_50
+    21300102: dead_dragon_Idle_2_SS_51
+    21300104: dead_dragon_Idle_2_SS_52
+    21300106: dead_dragon_Idle_2_SS_53
+    21300108: dead_dragon_Idle_2_SS_54
+    21300110: dead_dragon_Idle_2_SS_55
+    21300112: dead_dragon_Idle_2_SS_56
+    21300114: dead_dragon_Idle_2_SS_57
+    21300116: dead_dragon_Idle_2_SS_58
+    21300118: dead_dragon_Idle_2_SS_59
+    21300120: dead_dragon_Idle_2_SS_60
+    21300122: dead_dragon_Idle_2_SS_61
+    21300124: dead_dragon_Idle_2_SS_62
+    21300126: dead_dragon_Idle_2_SS_63
+    21300128: dead_dragon_Idle_2_SS_64
+    21300130: dead_dragon_Idle_2_SS_65
+    21300132: dead_dragon_Idle_2_SS_66
+    21300134: dead_dragon_Idle_2_SS_67
+    21300136: dead_dragon_Idle_2_SS_68
+    21300138: dead_dragon_Idle_2_SS_69
+    21300140: dead_dragon_Idle_2_SS_70
+    21300142: dead_dragon_Idle_2_SS_71
+    21300144: dead_dragon_Idle_2_SS_72
+    21300146: dead_dragon_Idle_2_SS_73
+    21300148: dead_dragon_Idle_2_SS_74
+    21300150: dead_dragon_Idle_2_SS_75
+    21300152: dead_dragon_Idle_2_SS_76
+    21300154: dead_dragon_Idle_2_SS_77
+    21300156: dead_dragon_Idle_2_SS_78
+    21300158: dead_dragon_Idle_2_SS_79
+    21300160: dead_dragon_Idle_2_SS_80
+    21300162: dead_dragon_Idle_2_SS_81
+    21300164: dead_dragon_Idle_2_SS_82
+    21300166: dead_dragon_Idle_2_SS_83
+    21300168: dead_dragon_Idle_2_SS_84
+    21300170: dead_dragon_Idle_2_SS_85
+    21300172: dead_dragon_Idle_2_SS_86
+    21300174: dead_dragon_Idle_2_SS_87
+    21300176: dead_dragon_Idle_2_SS_88
+    21300178: dead_dragon_Idle_2_SS_89
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +130,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +150,51 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -71,7 +205,1807 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2e7baa4fab54a1b9688d8beb58d0db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_1
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d553bad0664f8082f08197e81f186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_2
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b99b74ce218345eba26cfb958d7a3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_3
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3e33ca50cc44c62a12f51b2a2d404e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_4
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc7d41c5aa84e8ca02972c653e804f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_5
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be4290b2e6fe424f9d53ccb121b7e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_6
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374730e53ae13401f8d49ae12a4dd3c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_7
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baefd4c94f1464142b9d2667575d61d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc76825838cd4fa2b8657a687d6810e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4173d1ff9b614fc3b250bee00e74608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_10
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f085311e9f34a4baebceb40dd742dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_11
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f27f94768c247eebd07c43b40352fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_12
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211ed9eb20f7d4bfe83369437164e501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_13
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720385ea2db2a46aea393c21c080d580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf11c2844abc4ba1bba049c6e6575f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_15
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae3a46bb273a48668796aeaffb31a7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5767673671917498eb3d571b60efd924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb556985232364a8fa15b182fd6e10e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_18
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c539429bb30f46079a55617965dbb81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_19
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e52103f423394d4e92ccbc8b812fdea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_20
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5a697b32ab04507b8c8fcb4f2d6dbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_21
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674efb2edf2274bbf950215243ddb74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_22
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1cf8011e9524e0da17d57c2f409b27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_23
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d97535aa51da498987c95895e8116bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445372ac0cad94e2f8a355ee0fecbd90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_25
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74925156e501d4fc6b22abd263a30df3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_26
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44002eb375d540dc9351e0f3dd96fc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_27
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2ba1714191c46d5b7a9f1cf5e2f6ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_28
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8d4156ce9084c61834b08d85587d6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_29
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ba3dafcb3ef4a2e87ab899c6d06df7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_30
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c24089c49cb14266bd8235ab2cbc825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_31
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f381e5ff1fb4606b13d39188d91e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fb85a98df4142c499de1475f6680b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_33
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea283263449944218367bb2c58e4f1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_34
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be034a47dcdc4ca8a98c95c5aa00f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_35
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a78b83c7c646a883e37152ec29bff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_36
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cbd20f7be664506b553e1c95cd9c40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_37
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbecb768fc5041a39a64934da323a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_38
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ba27b2b24f4184971f766e3c9f98d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_39
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1fd0f0a3c949f986ca585505af1b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f6bd8450cb4affa5bb6fa3fefc474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_41
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42908770dc8e942dbafc87e0d0c4b4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_42
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c32cd20350244a286004b27f59b213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_43
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ebefe3428c843bca423a573fb267d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_44
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46be0d9fae4d48179a51928a2effe45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_45
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac003ac6670244e88e041658dba92c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_46
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd8b4566bf6748f78ab6e0db95e8730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_47
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c097169b4e6c48acae4581d65b83140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae152a609914b8c8640da86405c39f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_49
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbb74f60c25e455c973de9f0fd0ebe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_50
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db075503ada842e49818b82921f3edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_51
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fa424e88e97428aae89c7a91bb52dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_52
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d45698e4dd41378543fe622124619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_53
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d099ef480242f4656b5d4754725b75cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_54
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b3720cf4b7549a09780ce00c1c0b19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_55
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16d5ae189cc448a09600fff1d0a369a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841e92f644ca7422cb712207aac54fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_57
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf9426376510481cb44cf08dfe81a88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_58
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b65060f0ecf43e38c821c2c9e64f88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_59
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd6a5ac34f8e459dac6598b09311b2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_60
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00273bb8113a4fc784c008d5de658c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_61
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c9180f9f58a4a6c9ac6cc38692bed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_62
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b53db5bde834bafa2ae83098ea8452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_63
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ea0c2967c9430b87cd93508bf5bd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b8d778aa8440c182f38a818d7fc07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_65
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c197da28802545f1af871b391211968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_66
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aacc77dfdd57493c9051400ebdcf006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_67
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c63badf4f714f1994cd5285fab4c83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_68
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014f08f75b7f45ef88e6bb7ed851dd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_69
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db001b276ac654e939b99d1b5fc3daaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_70
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b477fa545e249cf8aa048564cad98a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_71
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c69b1dfe231465a8a2ae172b8b1634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bbd9be3c60d48daa7b554796f01e31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_73
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5449ac6e5e4ad6a08a1501bbf4866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_74
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea743a84dd4b742e18b0dcee6ffa739c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_75
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f63b2cd08e4e93875d1ca0ab06574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_76
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410297c02465d4c4a82f74cb97c4a275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_77
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57d1e69fa4c413aafc8b121f4b3966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_78
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c16f79a1d4e6462a95dcf232f76df0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_79
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc11bb46b2a428ba6d715b24ea0ae8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1a6fd0d17744b081a1982c2f88127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_81
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16495f4bd307f4281a504db202644120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_82
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b274ca6f51d54499adce6af59337e11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_83
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec45b94f1c29a4a35bcee4090af9b076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_84
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa63585b63e5d4a7cb2e2a156895ad2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_85
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e3e39fbd0d045339c61532bdafb9a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_86
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d3208af6d7c49bbb2cb6cede9fbca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_87
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddb42598a8c94850b051487606a662c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e20362848f954a92abd1a202bf493b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_dragon_Idle_2_SS_89
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fe584a298d44c338913d3df086cd6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

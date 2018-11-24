@@ -137,7 +137,7 @@ public class SliderManagement : MonoBehaviour {
         manaSlider.value = Mathf.MoveTowards(manaPrevious, manaCurrent, 100f);
 
         //update the text
-        manaText.text = manaCurrent + "/" + myFlowchart.GetFloatVariable("manaMax");
+        manaText.text = "Willpower "+ manaCurrent + "/" + myFlowchart.GetFloatVariable("manaMax");
     }
 
 
