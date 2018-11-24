@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/sydvicious/Desktop/USC/CTIN 532/CTIN-532 Beta Build Rubin Smith/Chimera beta build.app
+/Users/sydvicious/Desktop/USC/CTIN 532/Formal playtest 2 MAC/Chimera formal playtest 2 build.app
 SceneListBegin?
 Assets/_Scenes final/chimera main menu.unity
 Assets/_Scenes final/intention setting.unity

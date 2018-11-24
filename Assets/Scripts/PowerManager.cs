@@ -19,7 +19,7 @@ public class PowerManager : MonoBehaviour {
 	}
 
 	//intensifies low power for goat
-	void lowPowerIntensity () {
+	public void lowPowerIntensity () {
 	
 		if ((GetComponent<StateTracker> ().lowStateConsecutive) == 1) {
 			goatDamage = Random.Range (10, 15);
@@ -38,7 +38,7 @@ public class PowerManager : MonoBehaviour {
 
 
 	//weakens low power for dragon
-	void lowPowerWeakened () {
+	public void lowPowerWeakened () {
 
 		if ((GetComponent<StateTracker> ().lowStateConsecutive) == 1) {
 			//GetComponent<StateTracker>().myFlowchart.
@@ -56,7 +56,7 @@ public class PowerManager : MonoBehaviour {
 
 
 	//intensifies high power for dragon
-	void hiPowerIntensity () {
+	public void hiPowerIntensity () {
 
 		if ((GetComponent<StateTracker> ().hiStateConsecutive) == 1) {
 			dragonDamage = Random.Range (10, 15);
@@ -74,7 +74,7 @@ public class PowerManager : MonoBehaviour {
 	}
 
 	//weakens high power for goat
-	void hiPowerWeakened () {
+	public void hiPowerWeakened () {
 
 		if ((GetComponent<StateTracker> ().hiStateConsecutive) == 1) {
 			//GetComponent<StateTracker>().myFlowchart.

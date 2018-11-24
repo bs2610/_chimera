@@ -25,7 +25,6 @@ public class IntroChimeraController : MonoBehaviour {
         {
             battleFlowchart.StopAllBlocks();
             battleFlowchart.ExecuteBlock("One");
-           //battleFlowchart.GetBooleanVariable("playerIsAttacking") = true);
 
             //just put them all in various blocks for now for the sake of expediency
 
