@@ -1376,8 +1376,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1884571782}
+  selectedCommands:
+  - {fileID: 1884571783}
   variables: []
   description: 
   stepPause: 0
@@ -1543,7 +1545,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: new intro battle
+    stringVal: new tutorial
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1884571784
