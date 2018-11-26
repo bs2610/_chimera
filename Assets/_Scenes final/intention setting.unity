@@ -781,6 +781,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 621531223}
+  playerHealthBar: {fileID: 0}
+  willpowerBar: {fileID: 0}
+  hopeMeter: {fileID: 0}
 --- !u!1001 &621531221
 Prefab:
   m_ObjectHideFlags: 0
@@ -1542,8 +1545,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 945102364}
-  selectedCommands: []
+  - {fileID: 945102379}
+  selectedCommands:
+  - {fileID: 945102464}
   variables:
   - {fileID: 945102312}
   - {fileID: 945102425}
@@ -8523,7 +8527,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: finalScene
+    stringVal: finalScene SR
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &945102463
@@ -8556,7 +8560,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: finalScene
+    stringVal: finalScene SR
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &945102465
