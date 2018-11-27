@@ -32,6 +32,8 @@ public class SliderManagement : MonoBehaviour {
     private float mentalStateScale;
     private float mentalStateScalePrevious;
 
+    private float totalChimeraHealth;
+
 
 
     private void Update()
@@ -55,6 +57,10 @@ public class SliderManagement : MonoBehaviour {
         {
             mentalStateText.text = "Very Disheartened";
         }
+
+
+        totalChimeraHealth = myFlowchart.GetFloatVariable("chimeraHealthCurrent") + myFlowchart.GetFloatVariable("ramHealthCurrent") + myFlowchart.GetFloatVariable("dragonHealthCurrent");
+        myFlowchart.SetFloatVariable("totalChimeraHealth", totalChimeraHealth);
     }
 
     public void UpdateChimeraHealthBar(){
