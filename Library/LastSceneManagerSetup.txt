@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes Unused/firstBattle.unity
+- path: Assets/_Scenes final/finalScene SR.unity
   isLoaded: 1
   isActive: 1

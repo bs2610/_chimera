@@ -1,0 +1,18 @@
+Mental State Value: 32 - Time: 11-26-2018 05:55:54
+Player Health: 21 - Time: 11-26-2018 05:55:54
+Lion Health: 44 - Time: 11-26-2018 05:55:54
+Ram Health: 38 - Time: 11-26-2018 05:55:54
+Dragon Health: 44 - Time: 11-26-2018 05:55:54
+Total Chimera Health: 0 - Time: 11-26-2018 05:55:54
+Mental State Value: 24 - Time: 11-26-2018 05:56:01
+Player Health: 18 - Time: 11-26-2018 05:56:01
+Lion Health: 44 - Time: 11-26-2018 05:56:01
+Ram Health: 38 - Time: 11-26-2018 05:56:01
+Dragon Health: 36 - Time: 11-26-2018 05:56:01
+Total Chimera Health: 0 - Time: 11-26-2018 05:56:01
+Mental State Value: 1 - Time: 11-26-2018 05:56:13
+Player Health: 12 - Time: 11-26-2018 05:56:13
+Lion Health: 36 - Time: 11-26-2018 05:56:13
+Ram Health: 38 - Time: 11-26-2018 05:56:13
+Dragon Health: 36 - Time: 11-26-2018 05:56:13
+Total Chimera Health: 0 - Time: 11-26-2018 05:56:13
