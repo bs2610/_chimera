@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/_Scenes final/intention setting.unity
     guid: 35a23839ddfa2470f8301ef95a617683
   - enabled: 1
-    path: Assets/_Scenes final/finalScene.unity
+    path: Assets/_Scenes final/finalScene SR.unity
     guid: 4a45394d9f46a7f40becbbde23951a52
   - enabled: 0
     path: Assets/Scenes Unused/combat player SR.unity
@@ -29,7 +29,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes Unused/introScene.unity
     guid: b83e850a7183e4e6bb8ffd4b2ff4a1b0
-  - enabled: 1
-    path: Assets/_Scenes final/new intro battle.unity
+  - enabled: 0
+    path: Assets/Scenes Unused/new intro battle.unity
     guid: 107823af5cd054c6db1b27af242eaff0
+  - enabled: 1
+    path: Assets/_Scenes final/new tutorial.unity
+    guid: df9bd557e9f4444a5b5feb8035189596
   m_configObjects: {}

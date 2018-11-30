@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: c0aa7b443b3c546c5b4ea68d95062a5c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: atked_Lion_Dragon&Goat_dead_0
+    21300002: atked_Lion_Dragon&Goat_dead_1
+    21300004: atked_Lion_Dragon&Goat_dead_2
+    21300006: atked_Lion_Dragon&Goat_dead_3
+    21300008: atked_Lion_Dragon&Goat_dead_4
+    21300010: atked_Lion_Dragon&Goat_dead_5
+    21300012: atked_Lion_Dragon&Goat_dead_6
+    21300014: atked_Lion_Dragon&Goat_dead_7
+    21300016: atked_Lion_Dragon&Goat_dead_8
+    21300018: atked_Lion_Dragon&Goat_dead_9
+    21300020: atked_Lion_Dragon&Goat_dead_10
+    21300022: atked_Lion_Dragon&Goat_dead_11
+    21300024: atked_Lion_Dragon&Goat_dead_12
+    21300026: atked_Lion_Dragon&Goat_dead_13
+    21300028: atked_Lion_Dragon&Goat_dead_14
+    21300030: atked_Lion_Dragon&Goat_dead_15
+    21300032: atked_Lion_Dragon&Goat_dead_16
+    21300034: atked_Lion_Dragon&Goat_dead_17
+    21300036: atked_Lion_Dragon&Goat_dead_18
+    21300038: atked_Lion_Dragon&Goat_dead_19
+    21300040: atked_Lion_Dragon&Goat_dead_20
+    21300042: atked_Lion_Dragon&Goat_dead_21
+    21300044: atked_Lion_Dragon&Goat_dead_22
+    21300046: atked_Lion_Dragon&Goat_dead_23
+    21300048: atked_Lion_Dragon&Goat_dead_24
+    21300050: atked_Lion_Dragon&Goat_dead_25
+    21300052: atked_Lion_Dragon&Goat_dead_26
+    21300054: atked_Lion_Dragon&Goat_dead_27
+    21300056: atked_Lion_Dragon&Goat_dead_28
+    21300058: atked_Lion_Dragon&Goat_dead_29
+    21300060: atked_Lion_Dragon&Goat_dead_30
+    21300062: atked_Lion_Dragon&Goat_dead_31
+    21300064: atked_Lion_Dragon&Goat_dead_32
+    21300066: atked_Lion_Dragon&Goat_dead_33
+    21300068: atked_Lion_Dragon&Goat_dead_34
+    21300070: atked_Lion_Dragon&Goat_dead_35
+    21300072: atked_Lion_Dragon&Goat_dead_36
+    21300074: atked_Lion_Dragon&Goat_dead_37
+    21300076: atked_Lion_Dragon&Goat_dead_38
+    21300078: atked_Lion_Dragon&Goat_dead_39
+    21300080: atked_Lion_Dragon&Goat_dead_40
+    21300082: atked_Lion_Dragon&Goat_dead_41
+    21300084: atked_Lion_Dragon&Goat_dead_42
+    21300086: atked_Lion_Dragon&Goat_dead_43
+    21300088: atked_Lion_Dragon&Goat_dead_44
+    21300090: atked_Lion_Dragon&Goat_dead_45
+    21300092: atked_Lion_Dragon&Goat_dead_46
+    21300094: atked_Lion_Dragon&Goat_dead_47
+    21300096: atked_Lion_Dragon&Goat_dead_48
+    21300098: atked_Lion_Dragon&Goat_dead_49
+    21300100: atked_Lion_Dragon&Goat_dead_50
+    21300102: atked_Lion_Dragon&Goat_dead_51
+    21300104: atked_Lion_Dragon&Goat_dead_52
+    21300106: atked_Lion_Dragon&Goat_dead_53
+    21300108: atked_Lion_Dragon&Goat_dead_54
+    21300110: atked_Lion_Dragon&Goat_dead_55
+    21300112: atked_Lion_Dragon&Goat_dead_56
+    21300114: atked_Lion_Dragon&Goat_dead_57
+    21300116: atked_Lion_Dragon&Goat_dead_58
+    21300118: atked_Lion_Dragon&Goat_dead_59
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e18817ba89604f7dab0892830d8c43a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_1
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12a465c6324d49e08ccdbdd790aa301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_2
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ab5293b4d24436fa900b12ed4954cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_3
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c0dacc0f747429c8ae84ae44a09f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_4
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b13d1070127488b8f1c9595edd1204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_5
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f82fab2555994f938f0a95b49cdf075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_6
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e740c333f8c5546939e04169bc42b8ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_7
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 6501.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615bdf7f7fb9400188fe2f7a7a05a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94dce372c7874bd29437699a1d3b47d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_9
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6efe265298c422fa265c090b6bfb77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_10
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451f1515c7ccb4d8884138f73917b8c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_11
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd2f8904a6d447c98fa5a177fc5b99d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_12
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721b64651d2354444bcbafcd16fce63f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_13
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616758af8c644d36b039b930b463210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_14
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48db707cc09114d24a6154b635b214f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_15
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 5573.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5c0d5d2a4c4bccb0d4ee0416b018a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1579d48cb3846648009d16f57923bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_17
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484f21d068721480ca608a51d99a7a4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_18
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d27a76e020704ef5b87d293eb0c6821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_19
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cab47e32c4ad42699b5c23d3eca16b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_20
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f74f64fcce64da197282c90cefd3f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_21
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0a485cacd0b49409a6a284891ca5e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_22
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cf925db7b094f418dac6595b7642c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_23
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 4645.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dae0f0325984a72809bfe7481f1320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09231f064d8343ad91ca25ef77c2409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_25
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6862032bf59c645678b3d1473354d6fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_26
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd5145e59de046c1b694331e5d9aa72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_27
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a77bf28d17944f982301254487814a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_28
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f00718487364488b17864e32108068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_29
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef624499c883419ebc421ecc4eb5db2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_30
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d038794176684af1b675e4ca9a561eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_31
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 3717.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee59930a2ff34d93afe6a038741d4bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d47d0e18be4fea8522ddd584e092d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_33
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6408a0a14a4c4352baebdd0eeb46454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_34
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0219b0a022940f199a6ff9a5241ff2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_35
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8948f106fba4fac9375551c06eb66e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_36
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32f9b1499e434bd49dccec99e58022c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_37
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799370bcedded415daeede57008f82e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_38
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f5af8ff30647ae99015b6bab8ce16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_39
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 2789.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea3d6976a72d4126a31234cf951b3a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cb771baed87404ea081c12e0913b20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_41
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16226826d4dd64713885f386c297c106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_42
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f52aa556733046e880a0cf1d7fb749c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_43
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259652dcad8a14457863dbe9c351e300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_44
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd3401b67dec4177a8f82b39e508511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_45
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba0a1f4347564b9b9cfc00494d2d7a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_46
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7297c7c29f64f139053da66675e830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_47
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 1861.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0f1347d23842caad488826adf6fc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2402a69b4d3747bf92df29160ebf3c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_49
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f50db6fb5d84aa89b2258b6ba5780f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_50
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6e87bdfec54849a952fd822c7016c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_51
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2973a785d04d10b9de9ae952eca21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_52
+      rect:
+        serializedVersion: 2
+        x: 6604
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f3efb7feb4b4f7cbff42621db04515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_53
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ab20f841952405f858bc7f7844d80f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_54
+      rect:
+        serializedVersion: 2
+        x: 9906
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b7ee926b4ea4cc6931a1c89f41f745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_55
+      rect:
+        serializedVersion: 2
+        x: 11557
+        y: 933.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1552ea591cc41939ceba6e282e1bb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bf62555e2704ca6b388f3f6b644ca4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_57
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 5.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6987a6b127c840b9b61c476f1ae69ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_58
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 5.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad7564e6f0004db283b2fd1ef84b1be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atked_Lion_Dragon&Goat_dead_59
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 5.25
+        width: 1651.25
+        height: 928.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9120efed8c6d45c2abb2bdf66d73e9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 222b5782010d54740a3092938999f66b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
