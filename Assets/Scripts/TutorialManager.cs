@@ -10,6 +10,7 @@ public class TutorialManager : MonoBehaviour {
     public GameObject playerHealthBar;
     public GameObject willpowerBar;
     public GameObject hopeMeter;
+    public Text tbcMessage;
 
     // Use this for initialization
 	void Start () {
@@ -40,5 +41,25 @@ public class TutorialManager : MonoBehaviour {
 
     public void ShowHopeMeter(){
         hopeMeter.gameObject.SetActive(true);
+    }
+
+    public void HideHopeMeter()
+    {
+        hopeMeter.gameObject.SetActive(false);
+    }
+
+    public void HideWillpowerBar()
+    {
+        willpowerBar.gameObject.SetActive(false);
+    }
+
+    public void HidePCHealth()
+    {
+        playerHealthBar.gameObject.SetActive(false);
+    }
+
+    public void ShowTBCText()
+    {
+        tbcMessage.gameObject.SetActive(true);
     }
 }
