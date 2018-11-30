@@ -1314,12 +1314,9 @@ GameObject:
   - component: {fileID: 1884571781}
   - component: {fileID: 1884571778}
   - component: {fileID: 1884571782}
-  - component: {fileID: 1884571783}
   - component: {fileID: 1884571779}
   - component: {fileID: 1884571789}
-  - component: {fileID: 1884571791}
   - component: {fileID: 1884571793}
-  - component: {fileID: 1884571792}
   - component: {fileID: 1884571795}
   - component: {fileID: 1884571794}
   - component: {fileID: 1884571787}
@@ -1338,13 +1335,25 @@ GameObject:
   - component: {fileID: 1884571803}
   - component: {fileID: 1884571807}
   - component: {fileID: 1884571808}
-  - component: {fileID: 1884571811}
-  - component: {fileID: 1884571810}
   - component: {fileID: 1884571812}
   - component: {fileID: 1884571786}
   - component: {fileID: 1884571806}
-  - component: {fileID: 1884571813}
+  - component: {fileID: 1884571791}
+  - component: {fileID: 1884571820}
+  - component: {fileID: 1884571819}
+  - component: {fileID: 1884571818}
+  - component: {fileID: 1884571783}
+  - component: {fileID: 1884571817}
+  - component: {fileID: 1884571816}
+  - component: {fileID: 1884571815}
+  - component: {fileID: 1884571792}
+  - component: {fileID: 1884571821}
   - component: {fileID: 1884571809}
+  - component: {fileID: 1884571814}
+  - component: {fileID: 1884571813}
+  - component: {fileID: 1884571811}
+  - component: {fileID: 1884571810}
+  - component: {fileID: 1884571822}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1365,7 +1374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1, y: 0}
+  scrollPos: {x: -4, y: 1}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1377,9 +1386,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1884571782}
-  selectedCommands:
-  - {fileID: 1884571783}
+  - {fileID: 1884571809}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1523,13 +1531,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1884571806}
   - {fileID: 1884571793}
-  - {fileID: 1884571792}
-  - {fileID: 1884571811}
-  - {fileID: 1884571810}
-  - {fileID: 1884571813}
-  - {fileID: 1884571791}
-  - {fileID: 1884571809}
-  - {fileID: 1884571783}
+  - {fileID: 1884571821}
 --- !u!114 &1884571783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1538,16 +1540,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 52
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: new tutorial
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  storyText: 'Can you believe that this sort of thing has become normal for you? JL
+    hardly gets the call out to transform before you''re diving towards the bathroom
+    for a little privacy. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1884571784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1699,16 +1711,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  nodeRect:
+    serializedVersion: 2
+    x: 458.99994
+    y: 48
+    width: 158.5
+    height: 40
+  tint: {r: 0.12927197, g: 0.7830189, b: 0.286403, a: 1}
+  useCustomTint: 1
+  itemId: 1563
+  blockName: Tutorial intro (Copy)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1884571820}
+  - {fileID: 1884571819}
+  - {fileID: 1884571818}
+  - {fileID: 1884571783}
+  - {fileID: 1884571822}
+  - {fileID: 1884571817}
+  - {fileID: 1884571816}
+  - {fileID: 1884571815}
+  - {fileID: 1884571792}
 --- !u!114 &1884571792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,24 +1744,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 56
   indentLevel: 0
-  storyText: JL had called the retreat. They fled and the rest of your friends followed.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1884571809}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1884571793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2051,11 +2072,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 44
-  indentLevel: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 658
+    y: 53
+    width: 145
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 1576
+  blockName: start game (Copy)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1884571814}
+  - {fileID: 1884571813}
+  - {fileID: 1884571811}
+  - {fileID: 1884571810}
 --- !u!114 &1884571810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2064,25 +2100,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 1575
   indentLevel: 0
-  storyText: But you've never left a fight unfinished. You know that if you just keep
-    trying...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: new tutorial
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1884571811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,24 +2118,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 38
+  itemId: 1574
   indentLevel: 0
-  storyText: The monster was too strong. The city was already lost. They saved themselves.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1884571812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2131,14 +2145,219 @@ MonoBehaviour:
   m_GameObject: {fileID: 1884571776}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1573
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1884571814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 43
+  itemId: 1572
   indentLevel: 0
   volume: 0
   fadeDuration: 2
   waitUntilFinished: 0
+--- !u!114 &1884571815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  storyText: You run to the center of town and meet the monster that's been waiting
+    for you...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1884571816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: 'And then the three of you are running. Out of the theatre and into the
+    city, through the blocks and blocks of people cheering for you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1884571817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  storyText: 'And then the three of you are rendezvousing, and everyone who sees you''s
+    whispering to each other about those mysterious local heroes and how they''re
+    gonna save the city, and how now everything''s gonna be okay. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1884571818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: 'The black smoke congealing around the windows only gave you glimpses
+    of the ambulances floating below you, like nuns in certain horror movies wearing
+    skates so they could glide. They''re at least that ominous... that foretelling
+    of the bad shit to come.   '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1884571819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  storyText: 'You saw the explosions from the movie theatre, or no, actually it was
+    the remnants of them. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1884571820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  menuDialog: {fileID: 1899651294}
+--- !u!114 &1884571821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1564
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1884571791}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1884571822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884571776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1577
+  indentLevel: 0
+  commenterName: 
+  commentText: add hope meter
 --- !u!114 &1899651294 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114508421819732350, guid: f33e03f15b36e4bf5a050a7f2be15406,

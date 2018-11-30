@@ -1,0 +1,2022 @@
+fileFormatVersion: 2
+guid: 9fd099ba0af494bf285913d3d82e7022
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: only_lion_iddle_0
+    21300002: only_lion_iddle_1
+    21300004: only_lion_iddle_2
+    21300006: only_lion_iddle_3
+    21300008: only_lion_iddle_4
+    21300010: only_lion_iddle_5
+    21300012: only_lion_iddle_6
+    21300014: only_lion_iddle_7
+    21300016: only_lion_iddle_8
+    21300018: only_lion_iddle_9
+    21300020: only_lion_iddle_10
+    21300022: only_lion_iddle_11
+    21300024: only_lion_iddle_12
+    21300026: only_lion_iddle_13
+    21300028: only_lion_iddle_14
+    21300030: only_lion_iddle_15
+    21300032: only_lion_iddle_16
+    21300034: only_lion_iddle_17
+    21300036: only_lion_iddle_18
+    21300038: only_lion_iddle_19
+    21300040: only_lion_iddle_20
+    21300042: only_lion_iddle_21
+    21300044: only_lion_iddle_22
+    21300046: only_lion_iddle_23
+    21300048: only_lion_iddle_24
+    21300050: only_lion_iddle_25
+    21300052: only_lion_iddle_26
+    21300054: only_lion_iddle_27
+    21300056: only_lion_iddle_28
+    21300058: only_lion_iddle_29
+    21300060: only_lion_iddle_30
+    21300062: only_lion_iddle_31
+    21300064: only_lion_iddle_32
+    21300066: only_lion_iddle_33
+    21300068: only_lion_iddle_34
+    21300070: only_lion_iddle_35
+    21300072: only_lion_iddle_36
+    21300074: only_lion_iddle_37
+    21300076: only_lion_iddle_38
+    21300078: only_lion_iddle_39
+    21300080: only_lion_iddle_40
+    21300082: only_lion_iddle_41
+    21300084: only_lion_iddle_42
+    21300086: only_lion_iddle_43
+    21300088: only_lion_iddle_44
+    21300090: only_lion_iddle_45
+    21300092: only_lion_iddle_46
+    21300094: only_lion_iddle_47
+    21300096: only_lion_iddle_48
+    21300098: only_lion_iddle_49
+    21300100: only_lion_iddle_50
+    21300102: only_lion_iddle_51
+    21300104: only_lion_iddle_52
+    21300106: only_lion_iddle_53
+    21300108: only_lion_iddle_54
+    21300110: only_lion_iddle_55
+    21300112: only_lion_iddle_56
+    21300114: only_lion_iddle_57
+    21300116: only_lion_iddle_58
+    21300118: only_lion_iddle_59
+    21300120: only_lion_iddle_60
+    21300122: only_lion_iddle_61
+    21300124: only_lion_iddle_62
+    21300126: only_lion_iddle_63
+    21300128: only_lion_iddle_64
+    21300130: only_lion_iddle_65
+    21300132: only_lion_iddle_66
+    21300134: only_lion_iddle_67
+    21300136: only_lion_iddle_68
+    21300138: only_lion_iddle_69
+    21300140: only_lion_iddle_70
+    21300142: only_lion_iddle_71
+    21300144: only_lion_iddle_72
+    21300146: only_lion_iddle_73
+    21300148: only_lion_iddle_74
+    21300150: only_lion_iddle_75
+    21300152: only_lion_iddle_76
+    21300154: only_lion_iddle_77
+    21300156: only_lion_iddle_78
+    21300158: only_lion_iddle_79
+    21300160: only_lion_iddle_80
+    21300162: only_lion_iddle_81
+    21300164: only_lion_iddle_82
+    21300166: only_lion_iddle_83
+    21300168: only_lion_iddle_84
+    21300170: only_lion_iddle_85
+    21300172: only_lion_iddle_86
+    21300174: only_lion_iddle_87
+    21300176: only_lion_iddle_88
+    21300178: only_lion_iddle_89
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: only_lion_iddle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486042008f1f456495dbfb0a16d2d28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_1
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12de847febfa490d87660b12c5e4c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_2
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546f416b9f19f4b318b1c3435fd8bda4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_3
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c228a198f044fadbb591e09b7c459b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_4
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401b7a5f1de114d0bbd91fe175fad4d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_5
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47933e344304baab0c4013dc7ee0a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_6
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0cb2ea831b04d8abff55c236664245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_7
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 8316
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982aee7efb5d44b5e9beb2bb2780748f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2ea5f7a25ba463584bbefa62a5d591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823cc755d6f3452bb4924c49c9b177b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_10
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb9fab8efd174f66aa8cfcbb039c2e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_11
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c2e747c57914f5b9b565b2de9691c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_12
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafb148bcc74a42f8814c038dd63bcc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_13
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90b7430836234c32ae25e88efdd3503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159b2a4c86cfd4f5286063b090aea9ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_15
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 7560
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf5a5a8d2b74f94a7e60fd925a36d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148f112f3b2149c4829c1742faaed85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf1f6fa810454539b4cda086722a99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_18
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d743494aafc44adda071b847568ebd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_19
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e65c299a91040e9bc4aa6bfae7f87c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_20
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235e7d510acb5462eaff0c8405fa6e99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_21
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc330c3d6c164183968e667dac75567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_22
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b201b8e9e1a4f5dbacf1aa61269b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_23
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6804
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794d468d018d948399a3274fba974040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c3553344d8f44c6b1c9e909087bbb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_25
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b2d3daa10a4ff49ec567505e836e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_26
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc790f0287d5a45b5b37256b48510256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_27
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755ae3c1f46ad4b35a80a659ddfde82c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_28
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e5fa29d08174721a9166ff2680f838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_29
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6345c3f8a9b9640f2b8b6b89b4ca5fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_30
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ea174726fb4cb484b3d3325c95e7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_31
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 6048
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3b61bba563a4b2a89f900a5993a1ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e04379192244188e7bd3a4581778c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_33
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061060499cd654ba8af8d969d7506036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_34
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53867847b9bd45b8a2ec6ce0ead1632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_35
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7770ee5ec49a24655a9a55b0a7087691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_36
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb272e31be2214a02a8df9ccfe557fdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_37
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5a2549f2d3c48fbb906a5c58375660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_38
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6e51431fe184849ae6c73465ea5ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_39
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 5292
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf04a30608f324bd4a1bced5299b1561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faf357185a17406a83253e0aeb80fb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_41
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c46ab4c6c18144e8945899954294900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_42
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403bc79b30444f96aa0787bb356d2c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_43
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eee7ce69de747d88e8db188d431310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_44
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e788bdab31f0444b0b4e051cfcef5033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_45
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f5eb0d76a77457c975cba1c01a9218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_46
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3646c223730164cc6b963d0fc5543cb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_47
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 4536
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9817b3651ee4e6ea044073f74fcd23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c534d77ef46c14efbaa2aebc28daac98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_49
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a8dad69376748b79de99620d563a45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_50
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991ab6291d83d4abfba5a1098b9070cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_51
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6881cd14cbfe47eaac8a6d5ed27abaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_52
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04813fe148b74554b8a64564972fe7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_53
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6649f539376e4d4ca9e5107b85e3ff1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_54
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a64cd922d9d4eaf9bab777747e735b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_55
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3780
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316b6692a286b4fff975d822b88cba08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ef16de6769b47f4ae7ff4aa40c5a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_57
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c4025805f74c48a4f22bfcd6bffa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_58
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4c230b190aa42d99a95a5b25a70307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_59
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e454113036abf4ef18f31bef7f40b3b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_60
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ba9617a98a47b1b778e2e36bf0381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_61
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0d80a8aa4e1464b8abe9b9157a6465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_62
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8159be045f9cf457f9dad464c0f27ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_63
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 3024
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc20e1e71333b471aac159c27e734a6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547d26f9c57f94ad18f41316d77eb6b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_65
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef36253535d624d8090a96cded46cb1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_66
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e9cf1d1cd1482693cd8e1265f8bb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_67
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04474551c67394f619b64e4203218052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_68
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fde0bbda11545358f3eefc850566f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_69
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b1a3d2e73c2429d87a42c3b9b572b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_70
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77973de86501a445588d20a1864c5e71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_71
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 2268
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c5e4dae6374dfebe6bc725c3d8abc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67536cca86b0a451b9fa273ff8f0c8a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_73
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e1a0274b36f43adba9fffdd8482ab3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_74
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41221f5c385f4147ab5fa2bb3dc5ad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_75
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8f560b93b74462ca0fe0cc488c210f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_76
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ebe3c25bf7a4a009b82bc033690d9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_77
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0b265f119724f8d92e25288bb1004b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_78
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68c894eaa33547008ce1b19ca358234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_79
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 1512
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3e286b0129a46ceb693d3c9e7b4919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422c553f154204681869ae7664053c70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_81
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b50ab803629448c9eb64804d50b066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_82
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665368a9bf04a4d0ca0097feff1a57ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_83
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c20d60a831c145b886c85bcf7b45c40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_84
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eba0a30a99b4ff0b1ef2b0807ebf94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_85
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45ff5adf25584ed6a17fa2c3edb1e74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_86
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7fe2e01ab4742bcaaadab34a0e32a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_87
+      rect:
+        serializedVersion: 2
+        x: 9408
+        y: 756
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af430841937dd42b1bba1f42b819d0ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db4aea2c4a48458e84bc148871db5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: only_lion_iddle_89
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 1344
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed584845636414605a57e32d513758e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 58bf98576d05741178827902205bab0c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
