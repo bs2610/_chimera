@@ -329,9 +329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: JL
-  nameColor: {r: 0.5681553, g: 0.12927197, b: 0.7830189, a: 1}
+  nameColor: {r: 0.41176474, g: 0.14901961, b: 0.13333334, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1009,7 +1010,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1548906169613616, guid: 24be16cf90cfd4a61b1220eed58cfef3, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24be16cf90cfd4a61b1220eed58cfef3, type: 2}
@@ -4668,7 +4669,7 @@ MonoBehaviour:
     integerVal: 0
   floatData:
     floatRef: {fileID: 0}
-    floatVal: 10
+    floatVal: 8
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
@@ -4848,7 +4849,7 @@ MonoBehaviour:
     integerVal: 0
   floatData:
     floatRef: {fileID: 0}
-    floatVal: 90
+    floatVal: 70
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5819,22 +5820,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -50.887756
-    y: 1.0785327
-    width: 122.77963
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 1315
-  blockName: flavor decider
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  itemId: 2946
+  indentLevel: 0
+  commenterName: 
+  commentText: Shatter now lasts a bit longer or takes multiple rounds to do
 --- !u!114 &563659278
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11506,7 +11498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1540
   indentLevel: 0
-  storyText: 'You''re okay, cuz you''re still breathing. '
+  storyText: 'You''re okay. Like, you''re still breathing. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11573,11 +11565,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -797.6754
-    y: 100.5643
+    x: -1183.3047
+    y: -152.84892
     width: 120
     height: 40
-  tint: {r: 0.627451, g: 0.8941177, b: 0.5137255, a: 1}
+  tint: {r: 1, g: 0, b: 0.83267355, a: 1}
   useCustomTint: 1
   itemId: 7
   blockName: Show health
@@ -11699,11 +11691,10 @@ MonoBehaviour:
   itemId: 1532
   indentLevel: 0
   storyText: '"It was one hit; they really don''t need you to baby them, Carmen, that''s
-    why they won''t learn! If they don''t know how to check themselves by now they''re
-    a lost cause anyway so-- FUCK!"'
+    why they won''t learn!"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11729,7 +11720,7 @@ MonoBehaviour:
   storyText: '"But you don''t-"'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11755,7 +11746,7 @@ MonoBehaviour:
   storyText: '"They''re fine."'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11781,7 +11772,7 @@ MonoBehaviour:
   storyText: '"See if they''re okay! That was a nasty hit!"'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11848,7 +11839,7 @@ MonoBehaviour:
   storyText: '"What the hell was that?"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11887,7 +11878,7 @@ MonoBehaviour:
   itemId: 1524
   indentLevel: 0
   storyText: 'Your communicator crackles to life, and you close your eyes like its
-    a muscle memory, cuz it kinda is now. Bet JL''s pissed.  '
+    a muscle memory, cuz it kinda is now as often as you get yelled at. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11967,11 +11958,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -828.44574
-    y: 40.741882
+    x: -1222.4187
+    y: -225.8929
     width: 189.2306
     height: 40
-  tint: {r: 0.68629616, g: 0.9811321, b: 0.55998576, a: 1}
+  tint: {r: 0.990566, g: 0, b: 0.8752351, a: 1}
   useCustomTint: 1
   itemId: 1
   blockName: Health and General Attack
@@ -11987,6 +11978,7 @@ MonoBehaviour:
   - {fileID: 563659602}
   - {fileID: 563659601}
   - {fileID: 563659600}
+  - {fileID: 563660741}
   - {fileID: 563659599}
   - {fileID: 563659598}
   - {fileID: 563659597}
@@ -11995,6 +11987,7 @@ MonoBehaviour:
   - {fileID: 563659594}
   - {fileID: 563659593}
   - {fileID: 563659592}
+  - {fileID: 563661017}
   - {fileID: 563659591}
   - {fileID: 563659590}
   - {fileID: 563659589}
@@ -12229,8 +12222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1091.6698
-    y: -42.51328
+    x: -1175.4066
+    y: -298.13004
     width: 120
     height: 40
   tint: {r: 0.12927197, g: 0.7830189, b: 0.286403, a: 1}
@@ -12338,10 +12331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2786
+  itemId: 3042
   indentLevel: 0
-  storyText: 'You begin to whirl around, wanting to ask what the FUCK she thinks she''s
-    doing-- but she''s already making her move. '
+  storyText: 'You take a deep breath. Yeah. Maybe she''s right. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12398,11 +12390,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1548
   indentLevel: 0
-  storyText: '"Hope you you had a good nap, but now you''ve gotta and pull your weight.
-    You wanted in, now you''re in. Come on and help us kill this thing."'
+  storyText: '"Come on. Remember when you wanted in, talked all that smack about what
+    an asset you''d team?"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12425,8 +12417,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1547
   indentLevel: 0
-  storyText: JL meanwhile is... JL. When the two of you make eye contact you wish
-    you hadn't.
+  storyText: JL suddenly interrupts. When the two of you make eye contact you really
+    wish you hadn't.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12458,11 +12450,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1546
   indentLevel: 0
-  storyText: '"Oh, you didn''t heal yet? You gotta take care of yourself kid, take
-    every opportunity you can!"'
+  storyText: '"You''re okay--"'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12599,11 +12590,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -810.19684
-    y: 163.10591
+    x: -1189.2144
+    y: -88.10367
     width: 126.99874
     height: 40
-  tint: {r: 0.64705884, g: 0.92549026, b: 0.5294118, a: 1}
+  tint: {r: 1, g: 0.0141509175, b: 0.9461907, a: 1}
   useCustomTint: 1
   itemId: 34
   blockName: Attack Or Heal
@@ -12615,6 +12606,7 @@ MonoBehaviour:
   - {fileID: 563659630}
   - {fileID: 563659628}
   - {fileID: 563659627}
+  - {fileID: 563660806}
   - {fileID: 563659626}
   - {fileID: 563659621}
   - {fileID: 563659618}
@@ -12651,7 +12643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1559
   indentLevel: 1
-  storyText: 'Carmen seems a little concerned, but JL''s right, you gotta do better. '
+  storyText: 'Carmen seems a little concerned, but JL''s right... You have to do better. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12677,11 +12669,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -713.6327
-    y: 283.3603
+    x: -2062.6685
+    y: 270.95978
     width: 129.1083
     height: 40
-  tint: {r: 0.627451, g: 0.8078432, b: 0.50980395, a: 1}
+  tint: {r: 0.9811321, g: 0, b: 0.82821053, a: 1}
   useCustomTint: 1
   itemId: 35
   blockName: Go Over Attack
@@ -12716,6 +12708,8 @@ MonoBehaviour:
   - {fileID: 563660095}
   - {fileID: 563660022}
   - {fileID: 563660220}
+  - {fileID: 563660472}
+  - {fileID: 563660210}
   - {fileID: 563660217}
   - {fileID: 563660216}
   - {fileID: 563660215}
@@ -12818,9 +12812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1556
   indentLevel: 1
-  storyText: 'You can somehow hear JL sighing from here, but maybe your brain is just
-    reproducing the sound perfectly like this kind of learned reaction thing. Cuz
-    really, you don''t even know if they''re looking at you still. '
+  storyText: 'You can hear JL sighing from here. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12846,11 +12838,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -893.0857
-    y: 288.18906
+    x: -2063.1467
+    y: 222.7678
     width: 136.49173
     height: 40
-  tint: {r: 0.6313726, g: 0.90196085, b: 0.5176471, a: 1}
+  tint: {r: 1, g: 0, b: 0.96229744, a: 1}
   useCustomTint: 1
   itemId: 27
   blockName: Go Over Healing
@@ -12866,6 +12858,8 @@ MonoBehaviour:
   - {fileID: 563659667}
   - {fileID: 563659891}
   - {fileID: 563659648}
+  - {fileID: 563660943}
+  - {fileID: 563660188}
   - {fileID: 563659890}
   - {fileID: 563659800}
   - {fileID: 563660458}
@@ -13040,8 +13034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -804.0041
-    y: 222.6476
+    x: -2028.9541
+    y: -4.7926483
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -13145,8 +13139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1140.4163
-    y: 350.80603
+    x: -2062.5132
+    y: 123.16206
     width: 138.60129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -13471,7 +13465,7 @@ MonoBehaviour:
   storyText: Get your shit together!
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13586,7 +13580,7 @@ MonoBehaviour:
   storyText: Now just try not to miss.
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14529,6 +14523,11 @@ MonoBehaviour:
   - {fileID: 563660097}
   - {fileID: 563659734}
   - {fileID: 563659733}
+  - {fileID: 563660817}
+  - {fileID: 563660816}
+  - {fileID: 563660044}
+  - {fileID: 563660814}
+  - {fileID: 563660815}
   - {fileID: 563659729}
   - {fileID: 563659786}
   - {fileID: 563659680}
@@ -15962,11 +15961,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1084.3245
-    y: 218.10799
+    x: -2280.2195
+    y: 533.27924
     width: 138.60129
     height: 40
-  tint: {r: 0.6627451, g: 0.85098046, b: 0.53333336, a: 1}
+  tint: {r: 0.7640558, g: 0.53333336, b: 0.8509804, a: 1}
   useCustomTint: 1
   itemId: 1873
   blockName: Go Over Defense
@@ -16073,7 +16072,7 @@ MonoBehaviour:
   storyText: That screaming... it's so awful!
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16126,14 +16125,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -970.6381
-    y: 345.70676
-    width: 138.60129
+    x: -2308.8523
+    y: 403.708
+    width: 190.28539
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.9867679, g: 0.7688679, b: 1, a: 1}
+  useCustomTint: 1
   itemId: 1777
-  blockName: Tutorial Round 2
+  blockName: Tutorial Round 2 (defense)
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -16142,6 +16141,7 @@ MonoBehaviour:
   - {fileID: 563659854}
   - {fileID: 563659846}
   - {fileID: 563659930}
+  - {fileID: 563659277}
   - {fileID: 563659929}
   - {fileID: 563659810}
   - {fileID: 563659928}
@@ -16585,12 +16585,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -805.1308
-    y: 429.86133
+    x: -2047.6554
+    y: 505.80545
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.83899045, g: 0.6630473, b: 0.9433962, a: 1}
+  useCustomTint: 1
   itemId: 1877
   blockName: spells2 TUT.
   description: 
@@ -16608,17 +16608,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1868
+  itemId: 3041
   indentLevel: 0
-  targetTextObject: {fileID: 582791036}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: Now your team has a turn to act. JL takes it this time.
+  storyText: '...'
   description: 
-  _textObjectObsolete: {fileID: 0}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563659833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17058,7 +17065,7 @@ MonoBehaviour:
     distracted worrying about you!"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17110,7 +17117,7 @@ MonoBehaviour:
   storyText: '"What are you thinking, Carmen?! You should have healed yourself!"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17136,7 +17143,7 @@ MonoBehaviour:
   storyText: '"Hey, you''re not looking so great."'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18345,7 +18352,7 @@ MonoBehaviour:
   storyText: You've got a perfect shot-- don't you dare freeze up!
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18628,7 +18635,7 @@ MonoBehaviour:
   storyText: '"It''s preparing for something again. We need defenses NOW."'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18770,12 +18777,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -626.8623
-    y: 342.36774
+    x: -1920.0189
+    y: 464.72195
     width: 138.60129
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.78297305, g: 0.6581524, b: 0.9622642, a: 1}
+  useCustomTint: 1
   itemId: 1876
   blockName: Tutorial Round 4
   description: You are forced to cast DEFENSE
@@ -19090,20 +19097,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -794.4772
-    y: 342.35428
+    x: -1647.5898
+    y: 175.17961
     width: 138.60129
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.30081883, g: 0.40685403, b: 0.9811321, a: 1}
+  useCustomTint: 1
   itemId: 1875
   blockName: Tutorial Round 3
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 563660187}
+  - {fileID: 563660062}
+  - {fileID: 563660014}
+  - {fileID: 563660013}
+  - {fileID: 563659839}
   - {fileID: 563659916}
   - {fileID: 563659915}
-  - {fileID: 563659839}
   - {fileID: 563659838}
   - {fileID: 563659898}
   - {fileID: 563659899}
@@ -19111,16 +19122,7 @@ MonoBehaviour:
   - {fileID: 563659836}
   - {fileID: 563659833}
   - {fileID: 563659914}
-  - {fileID: 563659832}
-  - {fileID: 563660017}
-  - {fileID: 563660016}
-  - {fileID: 563660015}
-  - {fileID: 563660014}
-  - {fileID: 563660013}
   - {fileID: 563660012}
-  - {fileID: 563660011}
-  - {fileID: 563659954}
-  - {fileID: 563659940}
   - {fileID: 563659804}
 --- !u!114 &563659918
 MonoBehaviour:
@@ -19685,17 +19687,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1964
+  itemId: 3040
   indentLevel: 0
-  targetTextObject: {fileID: 582791036}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: Now your team has a turn to act. You take it this time.
+  storyText: '"I don''t know... Just try to calm down, if you can. You''re going to
+    do great no matter what, I know you are."'
   description: 
-  _textObjectObsolete: {fileID: 0}
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563659941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19723,14 +19733,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1989
+  itemId: 3039
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: ShowHopeMeter
-  delay: 0
+  storyText: '"I know you''re working so hard, but..."'
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563659943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19866,7 +19886,7 @@ MonoBehaviour:
     carried away.
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19915,12 +19935,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -461.22827
-    y: 349.94205
+    x: -1794.466
+    y: 539.43225
     width: 160.75162
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.8599218, g: 0.75226945, b: 0.990566, a: 1}
+  useCustomTint: 1
   itemId: 6
   blockName: Tutorial Round 5 pt1
   description: STATE CHANGE
@@ -19942,12 +19962,8 @@ MonoBehaviour:
   - {fileID: 563659948}
   - {fileID: 563660004}
   - {fileID: 563659946}
-  - {fileID: 563659942}
-  - {fileID: 563660040}
   - {fileID: 563659945}
-  - {fileID: 563660008}
   - {fileID: 563659947}
-  - {fileID: 563660044}
   - {fileID: 563659944}
 --- !u!114 &563659950
 MonoBehaviour:
@@ -20020,18 +20036,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -370.76428
-    y: 415.3385
+    x: -1100.6699
+    y: 406.9002
     width: 160.75162
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.6179246, g: 0.9019329, b: 1, a: 1}
+  useCustomTint: 1
   itemId: 52
   blockName: Tutorial Round 5 pt2
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 563659952}
+  - {fileID: 563660040}
+  - {fileID: 563660017}
+  - {fileID: 563660016}
   - {fileID: 563660046}
   - {fileID: 563660039}
   - {fileID: 563659951}
@@ -20048,11 +20067,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1963
+  itemId: 3038
   indentLevel: 0
-  storyText: '"You need to take this turn for me."'
+  storyText: 'But... when she looks at you she doesn''t seem at all as enthused. She
+    looks concerned. '
   description: 
-  character: {fileID: 167821697}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21227,7 +21247,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21273,19 +21293,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1986
+  itemId: 3037
   indentLevel: 0
-  targetTextObject: {fileID: 582791036}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: "Keep an eye on your HOPE LEVEL. It is affected by choices you make
-      and also things outside of your control. \n\nCasting DEFENSIVE and HEALING spells
-      has increased your HOPE LEVEL to the point that you are now CARELESS. "
+  storyText: You turn to Carmen just to confirm that this is all real.
   description: 
-  _textObjectObsolete: {fileID: 0}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21327,12 +21352,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1962
+  itemId: 3036
   indentLevel: 0
-  storyText: '"Is everyone keeping track of their WILLPOWER? We''ve already spent
-    some casting spells."'
+  storyText: 'You feel yourself begin to grin. That was almost a compliment, in a
+    way. As close as you''ll ever be to getting one. '
   description: 
-  character: {fileID: 167821697}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21359,7 +21384,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 582791036}
   text:
     stringRef: {fileID: 0}
-    stringVal: Each spell you've cast so far has cost 3 WILLPOWER.
+    stringVal: Casting spells costs you WILLPOWER.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &563660013
@@ -21405,12 +21430,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1958
+  itemId: 3035
   indentLevel: 0
-  storyText: '"Shit. My WILLPOWER is shot. Can''t cast without it..."'
+  storyText: '"That''s right! No holding back!"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21431,9 +21456,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1957
+  itemId: 3034
   indentLevel: 0
-  storyText: It FAILS.
+  storyText: 'And now you''re gonna revel in that. Time to have a little fun. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -21457,9 +21482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1956
+  itemId: 3033
   indentLevel: 0
-  storyText: JL attempts to use their attack spell against the LION.
+  storyText: You're doing well for once. Fuck, you're doing really, really well!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -22254,14 +22279,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1990
+  itemId: 3032
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: ShowTutorialPanel
-  delay: 0
+  storyText: 'You go up for your next attack, and theres this moment where everything
+    just seems so clear. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22323,12 +22359,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -804.1168
-    y: 499.47668
+    x: -1101.5632
+    y: 349.69818
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.5411765, g: 0.7803922, b: 0.9058824, a: 1}
+  useCustomTint: 1
   itemId: 2158
   blockName: spells3 TUT.
   description: 
@@ -22346,25 +22382,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2010
-  indentLevel: 0
-  storyText: Are you two paying attention? I'm still working on getting some WILLPOWER
-    back. Somebody do something.
-  description: 
-  character: {fileID: 167821697}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 3087
+  indentLevel: 1
+  targetObject: {fileID: 650789537}
+  methodName: UpdateDragonHealthBar
+  delay: 0
 --- !u!114 &563660045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22906,12 +22931,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -566.7375
-    y: 443.77652
+    x: -1572.9946
+    y: 829.8253
     width: 138.60129
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.52020496, g: 1, b: 0.504717, a: 1}
+  useCustomTint: 1
   itemId: 2025
   blockName: Tutorial Round 6
   description: 
@@ -23031,12 +23056,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2207
+  itemId: 3031
   indentLevel: 0
-  storyText: '...Okay, maybe you needed that.'
+  storyText: '"Fighting like this can be really draining, and I don''t want you to
+    get hurt!"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23557,11 +23583,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1073.6958
-    y: 505.75922
+    x: -2210.0737
+    y: 675.8748
     width: 199.77838
     height: 40
-  tint: {r: 0.61960787, g: 0.74509805, b: 0.5019608, a: 1}
+  tint: {r: 0.80800927, g: 0.5974546, b: 0.9245283, a: 1}
   useCustomTint: 1
   itemId: 2159
   blockName: player defense confirm TUT.
@@ -23878,8 +23904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1057.8196
-    y: 434.76508
+    x: -2079.1904
+    y: 176.99767
     width: 179.73761
     height: 40
   tint: {r: 0.5803922, g: 0.7411765, b: 0.47058827, a: 1}
@@ -24853,7 +24879,7 @@ MonoBehaviour:
   storyText: '"This is bullshit."'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24955,7 +24981,7 @@ MonoBehaviour:
   storyText: '"Aargh! Did that magic shield even do anything?"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26059,11 +26085,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -426.1661
-    y: 481.41513
+    x: -1090.6755
+    y: 251.37964
     width: 160.75162
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.5764507, g: 0.8279884, b: 0.9622642, a: 1}
   useCustomTint: 1
   itemId: 2161
   blockName: Tutorial Round 7 pt1
@@ -26915,13 +26941,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2183
+  itemId: 3030
   indentLevel: 0
-  storyText: You're about to cast when Carmen suddenly grabs your shoulder. Her nails
-    dig in and it actually kinda hurts.
+  storyText: '"Ah, you''re doing so well! But make sure you keep an eye on your WILLPOWER,
+    okay?"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26942,13 +26968,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2182
-  indentLevel: 0
-  storyText: '"Stop it! You''re going to hurt yourself, so just please-- let me take
-    it this time?"'
+  itemId: 3029
+  indentLevel: 1
+  storyText: 'Cuz really, you don''t even know if they''re looking at you still. '
   description: 
-  character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26986,11 +27011,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -227.8274
-    y: 483.85812
+    x: -871.5242
+    y: 211.6503
     width: 160.75162
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.43805626, g: 0.78985405, b: 0.8679245, a: 1}
   useCustomTint: 1
   itemId: 2236
   blockName: Tutorial Round 7 pt2
@@ -26999,15 +27024,19 @@ MonoBehaviour:
   commandList:
   - {fileID: 563660189}
   - {fileID: 563660064}
-  - {fileID: 563660187}
-  - {fileID: 563660188}
+  - {fileID: 563660015}
+  - {fileID: 563660011}
+  - {fileID: 563660008}
+  - {fileID: 563659954}
+  - {fileID: 563659942}
+  - {fileID: 563659940}
+  - {fileID: 563660805}
+  - {fileID: 563659832}
   - {fileID: 563659624}
-  - {fileID: 563660210}
-  - {fileID: 563660472}
-  - {fileID: 563660062}
   - {fileID: 563660063}
   - {fileID: 563660060}
   - {fileID: 563660193}
+  - {fileID: 563660804}
   - {fileID: 563660183}
 --- !u!114 &563660191
 MonoBehaviour:
@@ -27042,12 +27071,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -784.1168
-    y: 570.3235
+    x: -1950.7004
+    y: 658.9249
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.8544123, g: 0.61877, b: 0.9716981, a: 1}
+  useCustomTint: 1
   itemId: 2237
   blockName: spells4 TUT.
   description: 
@@ -27071,11 +27100,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2230
   indentLevel: 0
-  storyText: '"You have to learn to handle your emotions better. It makes your powers
-    fluctuate and sometimes that can be useful, but only if you can find some calm."'
+  storyText: '"You have to learn to handle your emotions better."'
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27119,7 +27147,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1040184357}
-  portrait: {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27483,11 +27511,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -547.0913
-    y: 553.70465
+    x: -1076.5895
+    y: 298.44855
     width: 138.60129
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.51370597, g: 0.9099651, b: 0.9811321, a: 1}
   useCustomTint: 1
   itemId: 2238
   blockName: Tutorial Round 8
@@ -27519,10 +27547,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2211
-  indentLevel: 0
-  storyText: Carmen uses her Defensive Spell on your team, and it gives you a second
-    to breathe...
+  itemId: 3044
+  indentLevel: 1
+  storyText: 'You let yourself go, but you''re calm now. You do best when you come
+    back to yourself. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -28733,12 +28761,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -734.58307
-    y: 646.2675
+    x: -1148.0559
+    y: 502.8175
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.6273585, g: 0.8985122, b: 1, a: 1}
+  useCustomTint: 1
   itemId: 2332
   blockName: spells5 TUT.
   description: 
@@ -28826,7 +28854,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28976,8 +29004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 19.43634
-    y: 553.11816
+    x: -265.35358
+    y: 411.77783
     width: 194.50449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -28990,11 +29018,13 @@ MonoBehaviour:
   - {fileID: 563660512}
   - {fileID: 563660260}
   - {fileID: 563660259}
+  - {fileID: 563661041}
   - {fileID: 563660511}
   - {fileID: 563660510}
   - {fileID: 563660509}
   - {fileID: 563660508}
   - {fileID: 563660485}
+  - {fileID: 563661040}
   - {fileID: 563660484}
   - {fileID: 563660483}
   - {fileID: 563660480}
@@ -29260,8 +29290,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -402.85776
-    y: 564.8583
+    x: -759.3727
+    y: 524.7767
     width: 138.60129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -29365,11 +29395,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 58.459747
-    y: 622.6167
+    x: 258.77344
+    y: 735.2823
     width: 142.8204
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.6981132, g: 0.20745817, b: 0.20745817, a: 1}
   useCustomTint: 1
   itemId: 2379
   blockName: Dragon dies TUT.
@@ -29380,6 +29410,9 @@ MonoBehaviour:
   - {fileID: 563660277}
   - {fileID: 563660276}
   - {fileID: 563660275}
+  - {fileID: 563660818}
+  - {fileID: 563660820}
+  - {fileID: 563660819}
   - {fileID: 563660346}
   - {fileID: 563660347}
   - {fileID: 563660345}
@@ -30363,7 +30396,7 @@ MonoBehaviour:
   storyText: '"Come on, let''s finish the lizard!"'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30732,8 +30765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -244.73474
-    y: 579.7925
+    x: -855.47925
+    y: 576.4317
     width: 145.98474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -30785,7 +30818,7 @@ MonoBehaviour:
   storyText: Goddamn...! Carmen!
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31201,13 +31234,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2713
+  itemId: 3074
   indentLevel: 0
-  commenterName: 
-  commentText: free choice turn options (spells and melee)
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 563660767}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &563660331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31377,11 +31415,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -477.64172
-    y: 645.89087
+    x: -1533.9043
+    y: 710.84155
     width: 145.98474
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.08962262, g: 1, b: 0.13699266, a: 1}
   useCustomTint: 1
   itemId: 2459
   blockName: Tutorial Round 11
@@ -31546,7 +31584,7 @@ MonoBehaviour:
   storyText: '"See? That''s what we need more of, keep it up."'
   description: 
   character: {fileID: 167821697}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32211,14 +32249,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2525
+  itemId: 3052
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: HideTutorialPanel
-  delay: 0
+  storyText: You know you should say something, but... you don't. You walk back to
+    where you were before.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32452,25 +32501,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 268.29944
-    y: 783.65955
-    width: 120
-    height: 40
-  tint: {r: 0.735849, g: 0.19784619, b: 0.19784619, a: 1}
-  useCustomTint: 1
-  itemId: 2519
-  blockName: Team Leaves
+  itemId: 3051
+  indentLevel: 0
+  storyText: You know you should say something, but... you don't. You walk back to
+    where you were before.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 563660361}
-  - {fileID: 563660709}
-  - {fileID: 563660708}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32967,8 +33016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1146.2144
-    y: 748.5731
+    x: -1158.8716
+    y: 805.5312
     width: 152.3134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -33489,8 +33538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1132.2792
-    y: 680.1966
+    x: -1212.4423
+    y: 882.7139
     width: 135.43695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -34112,8 +34161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1126.9293
-    y: 621.5678
+    x: -880.1116
+    y: 883.15265
     width: 133.32741
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -34401,8 +34450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -928.1599
-    y: 633.7864
+    x: -1023.08997
+    y: 916.4669
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -34518,8 +34567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -734.0078
-    y: 708.8961
+    x: -740.3365
+    y: 827.0313
     width: 124.88919
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -35650,14 +35699,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2599
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 9e86188a8024c4e15ba40b99cfeaf86a, type: 3}
-  volume: 1
-  waitUntilFinished: 1
+  itemId: 3043
+  indentLevel: 1
+  storyText: A strange bright light begins to spill from your finger tips, but you've
+    seen this before.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35956,13 +36016,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2613
+  itemId: 3073
   indentLevel: 0
-  commenterName: SR
-  commentText: add stuff for poison bite effect
+  targetObject: {fileID: 650789537}
+  methodName: UpdatePlayerHealthBar
+  delay: 0
 --- !u!114 &563660483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36105,7 +36166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2607
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 17e0cc4d53eda4c75a8f8654160de821, type: 3}
+  soundClip: {fileID: 8300000, guid: 43dc9f39c9a8c4bc3949a551be08a8b1, type: 3}
   volume: 1
   waitUntilFinished: 1
 --- !u!114 &563660489
@@ -36121,7 +36182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2606
   indentLevel: 0
-  storyText: Chimera uses Poison Bite against YOU.
+  storyText: Chimera uses Fire Breath against YOU.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -36241,11 +36302,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -278.17023
-    y: 672.2266
+    x: -773.9157
+    y: 627.9259
     width: 145.98474
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.5283019, g: 0.28657886, b: 0.28657886, a: 1}
   useCustomTint: 1
   itemId: 2776
   blockName: Tutorial Round 12
@@ -36257,12 +36318,14 @@ MonoBehaviour:
   - {fileID: 563660490}
   - {fileID: 563660489}
   - {fileID: 563660488}
+  - {fileID: 563660602}
+  - {fileID: 563660599}
+  - {fileID: 563660543}
   - {fileID: 563660482}
   - {fileID: 563660541}
   - {fileID: 563660481}
   - {fileID: 563660542}
   - {fileID: 563660330}
-  - {fileID: 563660543}
 --- !u!114 &563660494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37915,8 +37978,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -226.03622
-    y: 745.9458
+    x: -730.2199
+    y: 678.43994
     width: 145.98474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -37974,18 +38037,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2650
+  itemId: 3072
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 563660548}
-  startLabel:
+  variable: {fileID: 563659679}
+  setOperator: 3
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 6
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 8
+  stringData:
     stringRef: {fileID: 0}
     stringVal: 
-  startIndex: 0
-  callMode: 0
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &563660544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38084,8 +38190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -575.66425
-    y: 764.179
+    x: -584.1025
+    y: 791.6033
     width: 124.88919
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -38674,12 +38780,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -753.53705
-    y: 797.05286
+    x: -1810.424
+    y: 607.19293
     width: 120
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
+  tint: {r: 0.8093101, g: 0.6792453, b: 0.9056604, a: 1}
+  useCustomTint: 1
   itemId: 2780
   blockName: spells7 TUT.
   description: 
@@ -39593,111 +39699,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2758
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 563660548}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
---- !u!114 &563660595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2757
-  indentLevel: 0
-  commenterName: 
-  commentText: 'Carmen gets up here? Introduce charge-up for Willpower replenishment?
-    (they are probably very low) - Carmen or JL can take an active turn while player
-    does this '
---- !u!114 &563660596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2756
-  indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: TrackHopeState
-  delay: 0
---- !u!114 &563660597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2755
-  indentLevel: 0
-  commenterName: SR
-  commentText: Heroes turn below
---- !u!114 &563660598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2754
-  indentLevel: 0
-  commenterName: SR
-  commentText: add stuff for poison bite effect
---- !u!114 &563660599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2753
-  indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 17e0cc4d53eda4c75a8f8654160de821, type: 3}
-  volume: 1
-  waitUntilFinished: 1
---- !u!114 &563660600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 563659104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2752
+  itemId: 3050
   indentLevel: 0
-  storyText: Chimera uses Poison Bite against YOU.
+  storyText: 'Guilt or anger-- you two find yourselves in limbo. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -39710,7 +39717,107 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &563660601
+--- !u!114 &563660595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3049
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 563660767}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &563660596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3048
+  indentLevel: 0
+  storyText: '"...knew we should''ve told you to just fucking go home."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3047
+  indentLevel: 0
+  storyText: 'After a few steps in silence, she turns to look at you, the question
+    obvious on her face: What the fuck are you doing? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3046
+  indentLevel: 0
+  storyText: 'As JL gathers her limp form in her arms, she turns to you. She seems
+    furious. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39721,10 +39828,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2751
+  itemId: 3071
   indentLevel: 0
-  commenterName: SR
-  commentText: Chimera turn first - CHANGE THIS, COPIED FROM PREV TURN
+  commenterName: 
+  commentText: add defense conditional HERE
+--- !u!114 &563660600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3054
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1618712189}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &563660601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3053
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1618712189}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &563660602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39733,14 +39880,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2750
+  itemId: 3070
   indentLevel: 0
-  targetObject: {fileID: 650789537}
-  methodName: HideTutorialPanel
-  delay: 0
+  variable: {fileID: 1618712193}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 563659679}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &563660603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39817,8 +40011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -200.55725
-    y: 811.6934
+    x: -548.63385
+    y: 693.5582
     width: 145.98474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -39829,15 +40023,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 563660603}
-  - {fileID: 563660602}
-  - {fileID: 563660601}
-  - {fileID: 563660600}
-  - {fileID: 563660599}
-  - {fileID: 563660598}
-  - {fileID: 563660597}
-  - {fileID: 563660596}
   - {fileID: 563660595}
-  - {fileID: 563660594}
 --- !u!114 &563660605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41822,18 +42008,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2775
+  itemId: 3069
   indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1618712189}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  text: 'Maybe you should''ve. But you wouldn''t have protected Carmen anyway. '
+  description: 
+  targetBlock: {fileID: 563660763}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &563660709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41842,13 +42032,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 563659104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2774
+  itemId: 3068
   indentLevel: 0
-  commenterName: 
-  commentText: 'Narrative stuff for your team leaving. Then:'
+  text: 'Oh, fuck you!
+
+'
+  description: 
+  targetBlock: {fileID: 563660948}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &563660710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42515,6 +42716,1639 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2945
+  indentLevel: 0
+  storyText: JL must be pissed.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3024
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Melee tutorial cues when they first click melee button, disheartened
+    attack when they go to use its necrotic spell. '
+--- !u!114 &563660743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3023
+  indentLevel: 0
+  commenterName: 
+  commentText: 'They are now Disheartened. Cue tutorial. '
+--- !u!114 &563660744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3022
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Melee tutorial cues when they first click melee button, disheartened
+    attack when they go to use its necrotic spell. '
+--- !u!114 &563660745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3021
+  indentLevel: 0
+  commenterName: 
+  commentText: 'They are now Disheartened. Cue tutorial. '
+--- !u!114 &563660746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3020
+  indentLevel: 0
+  storyText: 'She walks away and leaves you all alone. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3019
+  indentLevel: 0
+  storyText: She walks away and leaves you all alone.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3018
+  indentLevel: 0
+  storyText: '"...Fine. It''s all you then. I can''t fucking handle you anymore, not
+    now."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3017
+  indentLevel: 0
+  storyText: Triumph? Guilt? Somehow you really can't say, and somehow it seems like
+    they can't either.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3016
+  indentLevel: 0
+  storyText: JL freezes and for this moment you just feel... what?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3015
+  indentLevel: 0
+  storyText: 'She turns to go, but... not you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3014
+  indentLevel: 0
+  storyText: 'Triumph? Guilt? Somehow you really can''t say, and somehow it seems
+    like they can''t either. Guilt or anger-- you two find yourselves in limbo. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3013
+  indentLevel: 0
+  storyText: JL freezes and for this moment you just feel... what?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3012
+  indentLevel: 0
+  storyText: 'It''s charging an attack. You grit your teeth and try to get your shakey
+    hands to trace out the right shape. You''ve seen Carmen do this enough times.
+    Please, please let something have stuck... '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3011
+  indentLevel: 0
+  storyText: '"We have to fall back."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3067
+  indentLevel: 0
+  storyText: '"...knew we should''ve told you to just fucking go home."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3066
+  indentLevel: 0
+  storyText: '"We are retreating! You obviously aren''t ready for this anyway, and
+    I told Carmen--"'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3065
+  indentLevel: 0
+  storyText: 'After a few steps in silence, she turns to look at you, the question
+    obvious on her face: What the fuck are you doing? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3064
+  indentLevel: 0
+  storyText: 'She turns to go, but... not you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3006
+  indentLevel: 0
+  storyText: You see Carmen try to raise herself, try to cast, only to slump back
+    down.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3005
+  indentLevel: 0
+  text: 'Maybe you should''ve. But you wouldn''t have protected Carmen anyway. '
+  description: 
+  targetBlock: {fileID: 563660763}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &563660762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3004
+  indentLevel: 0
+  storyText: '...Fine. It''s all you then. I can''t fucking handle you anymore, not
+    now. '
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -820.367
+    y: 977.8302
+    width: 161.8064
+    height: 40
+  tint: {r: 1, g: 0.28225538, b: 0.0990566, a: 1}
+  useCustomTint: 1
+  itemId: 2947
+  blockName: Disheartened Answer
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660753}
+  - {fileID: 563660752}
+  - {fileID: 563660762}
+  - {fileID: 563660747}
+  - {fileID: 563660361}
+  - {fileID: 563660828}
+  - {fileID: 563660827}
+  - {fileID: 563660826}
+  - {fileID: 563660825}
+  - {fileID: 563660824}
+  - {fileID: 563660821}
+  - {fileID: 563660823}
+  - {fileID: 563660600}
+  - {fileID: 563660743}
+  - {fileID: 563660742}
+--- !u!114 &563660764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3001
+  indentLevel: 0
+  text: 'Oh, fuck you!
+
+'
+  description: 
+  targetBlock: {fileID: 563660948}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &563660765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3000
+  indentLevel: 0
+  storyText: '"We are retreating! You obviously aren''t ready for this anyway, and
+    I told Carmen--"'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3063
+  indentLevel: 0
+  storyText: '"We have to fall back."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -668.2082
+    y: 899.0303
+    width: 172.35416
+    height: 40
+  tint: {r: 1, g: 0.28225538, b: 0.0990566, a: 1}
+  useCustomTint: 1
+  itemId: 3025
+  blockName: Disheartened Tutorial1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660760}
+  - {fileID: 563660598}
+  - {fileID: 563660755}
+  - {fileID: 563660751}
+  - {fileID: 563660597}
+  - {fileID: 563660765}
+  - {fileID: 563660596}
+  - {fileID: 563660764}
+  - {fileID: 563660761}
+--- !u!114 &563660768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2995
+  indentLevel: 0
+  commenterName: 
+  commentText: 'This will now happen every so often. We can repeat the choice text
+    below.  '
+--- !u!114 &563660769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2994
+  indentLevel: 0
+  storyText: You close your eyes and begin to wade through your emotions and find
+    yourself again. You were falling too deep...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2993
+  indentLevel: 0
+  storyText: 'Sometimes you have to let yourself go to do what you need to. There''s
+    nothing wrong with that so long as you find your way back again. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2992
+  indentLevel: 0
+  commenterName: 
+  commentText: This happens when you cast defense alone, after some rounds playing
+    with melee
+--- !u!114 &563660772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2991
+  indentLevel: 0
+  text: You try to ground yourself again
+  description: 
+  targetBlock: {fileID: 563660956}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &563660773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2990
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Carmen begins to cast defense after some rounds of the player learning
+    about wrecklessness. The Chimera PREPARES to use either shatter or poison, as
+    they have before. '
+--- !u!114 &563660774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2989
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Cue attack tutorial-- '
+--- !u!114 &563660775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2988
+  indentLevel: 0
+  storyText: 'A strange bright light begins to spill from your finger tips, but you''ve
+    seen this before. You let yourself go, but you''re calm now. You do best when
+    you come back to yourself. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2987
+  indentLevel: 0
+  commenterName: 
+  commentText: 'When the player clicks on their spells again, and then on attack.
+    Before selection menu comes up: '
+--- !u!114 &563660777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2986
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Return to Middle. '
+--- !u!114 &563660778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2985
+  indentLevel: 0
+  storyText: 'You take a deep breath. Yeah. Maybe she''s right. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2984
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2983
+  indentLevel: 0
+  storyText: 'I don''t know... Just try to calm down, if you can. You''re going to
+    do great no matter what, I know you are. But you can''t be great if you''re dead,
+    right? '
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2982
+  indentLevel: 0
+  storyText: I know you're working so hard, but...
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2980
+  indentLevel: 0
+  storyText: 'But... when she looks at you she doesn''t seem at all as enthused. She
+    looks concerned. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1821.942
+    y: 1195.2131
+    width: 192.39493
+    height: 40
+  tint: {r: 0.33490568, g: 0.74410343, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 2962
+  blockName: Wreckless tutorial-- Attack
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660776}
+  - {fileID: 563660775}
+  - {fileID: 563660774}
+--- !u!114 &563660784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2972
+  indentLevel: 0
+  storyText: You turn to Carmen just to confirm that this is all real.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2971
+  indentLevel: 0
+  storyText: 'You feel yourself begin to grin. That was almost a compliment, in a
+    way. As close as you''ll ever be to getting one. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2970
+  indentLevel: 0
+  storyText: '"That''s right! No holding back!"'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2969
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Carmen is getting nervous. JL has been attacking still. '
+--- !u!114 &563660788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1816.7998
+    y: 1153.3627
+    width: 231.42169
+    height: 40
+  tint: {r: 0.33490568, g: 0.74410343, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 3026
+  blockName: Wreckless tutorial-- Carmen worry
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660787}
+  - {fileID: 563660786}
+  - {fileID: 563660785}
+  - {fileID: 563660784}
+  - {fileID: 563660782}
+  - {fileID: 563660781}
+  - {fileID: 563660780}
+  - {fileID: 563660779}
+  - {fileID: 563660778}
+  - {fileID: 563660777}
+--- !u!114 &563660789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2967
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Cue Wreckless Meaning '
+--- !u!114 &563660790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2966
+  indentLevel: 0
+  storyText: 'And now you''re gonna revel in that. Time to have a little fun. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2965
+  indentLevel: 0
+  storyText: You're doing well for once. Fuck, you're doing really, really well!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2964
+  indentLevel: 0
+  storyText: 'You go up for your next attack, and theres this moment where everything
+    just seems so clear. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2963
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Carmen has only been healing you up to this point. '
+--- !u!114 &563660794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1930.6385
+    y: 1103.9376
+    width: 142.8204
+    height: 40
+  tint: {r: 0.33490568, g: 0.74410343, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 3027
+  blockName: Wreckless tutorial
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660793}
+  - {fileID: 563660792}
+  - {fileID: 563660791}
+  - {fileID: 563660790}
+  - {fileID: 563660789}
+--- !u!114 &563660795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2961
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Cue Willpower explanation. If we''re still doing faith charge (we
+    might want to) show that when player goes to take an action again. '
+--- !u!114 &563660796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3062
+  indentLevel: 0
+  storyText: 'As JL gathers her limp form in her arms, she turns to you. She seems
+    furious. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3061
+  indentLevel: 0
+  storyText: 'JL drops her sword in a panic, and you run after her. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3060
+  indentLevel: 0
+  storyText: 'It swipes at her like a broken toy, and she goes tumbling into a building
+    nearby. Even from here her wounds look severe. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3059
+  indentLevel: 0
+  storyText: '...But the Chimera does. And now it takes its attack. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3058
+  indentLevel: 0
+  storyText: 'She''s run out of Willpower and she hadn''t realized til now. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3057
+  indentLevel: 0
+  storyText: 'She gives you a confused look, and then her look turns to a mix of horror
+    and embarrassment. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3056
+  indentLevel: 0
+  storyText: 'Carmen casts DEFENSE but nothing happens. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -489.67065
+    y: 1106.639
+    width: 208.2166
+    height: 40
+  tint: {r: 1, g: 0.28225538, b: 0.0990566, a: 1}
+  useCustomTint: 1
+  itemId: 3075
+  blockName: Disheartened Tutorial1 (Copy)
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660802}
+  - {fileID: 563660801}
+  - {fileID: 563660800}
+  - {fileID: 563660799}
+  - {fileID: 563660798}
+  - {fileID: 563660797}
+  - {fileID: 563660796}
+  - {fileID: 563660766}
+  - {fileID: 563660759}
+  - {fileID: 563660758}
+  - {fileID: 563660757}
+  - {fileID: 563660756}
+  - {fileID: 563660709}
+  - {fileID: 563660708}
+--- !u!114 &563660804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3079
+  indentLevel: 0
+  storyText: '"It makes your powers fluctuate and sometimes that can be useful, but
+    only if you can find some calm."'
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3078
+  indentLevel: 0
+  storyText: '"But you can''t be great if you''re dead, right?"'
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3077
+  indentLevel: 0
+  storyText: '"Well now you''re in. Prove it wasn''t a mistake."'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &563660807 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114179685243884764, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
@@ -42557,6 +44391,827 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1618712174}
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+--- !u!114 &563660814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3086
+  indentLevel: 1
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 563660261}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &563660815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3085
+  indentLevel: 0
+--- !u!114 &563660816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3084
+  indentLevel: 1
+  variable: {fileID: 563659294}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3083
+  indentLevel: 0
+  compareOperator: 4
+  variable: {fileID: 563659294}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3082
+  indentLevel: 0
+  variable: {fileID: 1618712202}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 563659294}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3081
+  indentLevel: 0
+  targetObject: {fileID: 650789537}
+  methodName: UpdateDragonHealthBar
+  delay: 0
+--- !u!114 &563660820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3080
+  indentLevel: 0
+  variable: {fileID: 563659294}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3104
+  indentLevel: 1
+  targetObject: {fileID: 650789537}
+  methodName: UpdatePlayerHealthBar
+  delay: 0
+--- !u!114 &563660822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3103
+  indentLevel: 1
+  targetObject: {fileID: 650789537}
+  methodName: UpdatePlayerHealthBar
+  delay: 0
+--- !u!114 &563660823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3102
+  indentLevel: 0
+--- !u!114 &563660824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3101
+  indentLevel: 1
+  variable: {fileID: 563659679}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 10
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3100
+  indentLevel: 1
+  variable: {fileID: 1618712193}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 563659679}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3099
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: a3cd5998592f7485d87fa5c09fd7ec9f, type: 3}
+  volume: 1
+  waitUntilFinished: 1
+--- !u!114 &563660827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3098
+  indentLevel: 1
+  storyText: You take the moment away from the monster to heal yourself once.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3097
+  indentLevel: 0
+  compareOperator: 4
+  variable: {fileID: 563659679}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 15
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3096
+  indentLevel: 0
+--- !u!114 &563660830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3095
+  indentLevel: 1
+  variable: {fileID: 563659679}
+  setOperator: 2
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 10
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3094
+  indentLevel: 1
+  variable: {fileID: 1618712193}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 563659679}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &563660832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3090
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: a3cd5998592f7485d87fa5c09fd7ec9f, type: 3}
+  volume: 1
+  waitUntilFinished: 1
+--- !u!114 &563660833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3089
+  indentLevel: 1
+  storyText: You take the moment away from the monster to heal yourself once.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3088
+  indentLevel: 0
+  compareOperator: 4
+  variable: {fileID: 563659679}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 15
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &563660836 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114283823813448146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
@@ -42593,6 +45248,412 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1618712174}
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+--- !u!114 &563660940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2944
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Melee tutorial
+
+'
+--- !u!114 &563660941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 376.9465
+    y: 874.0368
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 2943
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660940}
+--- !u!114 &563660943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2941
+  indentLevel: 1
+  storyText: 'Or maybe your brain is just reproducing the sound perfectly like this
+    kind of learned reaction thing. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2951
+  indentLevel: 0
+  storyText: '"Ah, you''re doing so well! But make sure you keep an eye on your WILLPOWER,
+    okay? Fighting like this can be really draining, and I don''t want you to get
+    hurt!"'
+  description: 
+  character: {fileID: 1040184357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -2020.6652
+    y: 1073.8228
+    width: 122.77963
+    height: 40
+  tint: {r: 0.040850822, g: 0.103913635, b: 0.9622642, a: 1}
+  useCustomTint: 1
+  itemId: 2950
+  blockName: Willpower Tut
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660944}
+  - {fileID: 563660795}
+--- !u!114 &563660948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -595.2666
+    y: 975.43866
+    width: 142.8204
+    height: 40
+  tint: {r: 1, g: 0.28225538, b: 0.0990566, a: 1}
+  useCustomTint: 1
+  itemId: 3028
+  blockName: Wreckless Answer
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660750}
+  - {fileID: 563660749}
+  - {fileID: 563660594}
+  - {fileID: 563660748}
+  - {fileID: 563660746}
+  - {fileID: 563660367}
+  - {fileID: 563660834}
+  - {fileID: 563660833}
+  - {fileID: 563660832}
+  - {fileID: 563660831}
+  - {fileID: 563660830}
+  - {fileID: 563660822}
+  - {fileID: 563660829}
+  - {fileID: 563660601}
+  - {fileID: 563660745}
+  - {fileID: 563660744}
+--- !u!114 &563660950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2959
+  indentLevel: 0
+  text: 'You lean into your emotions. '
+  description: 
+  targetBlock: {fileID: 563660955}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &563660952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2957
+  indentLevel: 0
+  storyText: 'Carmen casts DEFENSE, and as the chimera''s attacks pound against it
+    you find yourself with the smallest moment of calm. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563660953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2956
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Tutorial-- It will defend against Chimera''s ability to alter your
+    emotions for several rounds and dispel one attack. '
+--- !u!114 &563660954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2955
+  indentLevel: 0
+  commenterName: 
+  commentText: 'Tutorial-- You spend a turn to either come back to yourself or lean
+    into the emotion. '
+--- !u!114 &563660955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1312.3948
+    y: 1206.8853
+    width: 150.20384
+    height: 40
+  tint: {r: 0.86599743, g: 0.6179246, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 2954
+  blockName: Lean into Emotions
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660770}
+--- !u!114 &563660956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -937.9658
+    y: 1179.9937
+    width: 145.98474
+    height: 40
+  tint: {r: 0.7960785, g: 0.5686275, b: 0.9176471, a: 1}
+  useCustomTint: 1
+  itemId: 2953
+  blockName: Try to Ground Self
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660769}
+--- !u!114 &563660957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -852.63745
+    y: 1336.7018
+    width: 185.01149
+    height: 40
+  tint: {r: 0.76636857, g: 0.54668033, b: 0.990566, a: 1}
+  useCustomTint: 1
+  itemId: 2952
+  blockName: Defense Tutorial -- alone
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660771}
+  - {fileID: 563660754}
+--- !u!114 &563660958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -1145.94
+    y: 1092.0547
+    width: 211.38092
+    height: 40
+  tint: {r: 0.76636857, g: 0.54668033, b: 0.990566, a: 1}
+  useCustomTint: 1
+  itemId: 2960
+  blockName: Defense Tutorial -- w/Carmen
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 563660773}
+  - {fileID: 563660953}
+  - {fileID: 563660954}
+  - {fileID: 563660952}
+  - {fileID: 563660950}
+  - {fileID: 563660772}
+  - {fileID: 563660768}
+--- !u!114 &563661017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3076
+  indentLevel: 0
+  storyText: '"If they don''t know how to check themselves by now they''re a lost
+    cause anyway so-- FUCK!"'
+  description: 
+  character: {fileID: 167821697}
+  portrait: {fileID: 21300000, guid: 0a31e4539b24d4082bb4d7444cb907e7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &563661040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3106
+  indentLevel: 1
+--- !u!114 &563661041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563659104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3105
+  indentLevel: 1
 --- !u!1 &582791036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1190672079712572, guid: 85287d70d2ca444219442629707f117d,
@@ -42784,7 +45845,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 650789537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77, y: -1.62, z: -10}
+  m_LocalPosition: {x: 0.77, y: -0.93, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43015,6 +46076,7 @@ MonoBehaviour:
   playerHealthBar: {fileID: 1518507077}
   willpowerBar: {fileID: 1545035886}
   hopeMeter: {fileID: 1642262794}
+  tbcMessage: {fileID: 0}
 --- !u!114 &650789556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43294,8 +46356,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687332947}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.032493606, y: 1.3123301, z: -0.1196171}
-  m_LocalScale: {x: 0.906204, y: 0.906204, z: 0.906204}
+  m_LocalPosition: {x: 0.3, y: 0.06, z: -0.1196171}
+  m_LocalScale: {x: 1.307743, y: 1.307743, z: 1.307743}
   m_Children: []
   m_Father: {fileID: 21939301}
   m_RootOrder: 1
@@ -43450,7 +46512,7 @@ RectTransform:
   - {fileID: 548050059}
   - {fileID: 375401334}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -43686,10 +46748,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Carmen
-  nameColor: {r: 0.1822268, g: 0.53802377, b: 0.8584906, a: 1}
+  nameColor: {r: 0.1764706, g: 0.27058825, b: 0.18039216, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: b5496e52a5d0c45f7a702273da972bf7, type: 3}
+  - {fileID: 21300000, guid: 966ac24c83ee54b00815f1a2f48b7aba, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -44496,6 +47558,81 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 113893535}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &1444722876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1444722878}
+  - component: {fileID: 1444722877}
+  m_Layer: 0
+  m_Name: background_finalbattle 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1444722877
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444722876}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7fc39f139660c4c46bc4f507f1125bc2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 56.000004, y: 31.500002}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1444722878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444722876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.72, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.39773205, y: 0.39773205, z: 0.39773205}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1495385792
 Prefab:
   m_ObjectHideFlags: 0
@@ -44945,7 +48082,7 @@ Prefab:
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.size
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114021220688570866, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
@@ -45033,7 +48170,7 @@ Prefab:
         type: 2}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 563660337}
+      objectReference: {fileID: 563660261}
     - target: {fileID: 114600843626181492, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[13]
@@ -45063,7 +48200,7 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 563660739}
+      objectReference: {fileID: 563660368}
     - target: {fileID: 114826137008131190, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: targetObject
@@ -45187,12 +48324,12 @@ Prefab:
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: scrollPos.x
-      value: 1538.6361
+      value: 1664.8474
       objectReference: {fileID: 0}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: scrollPos.y
-      value: 159.21614
+      value: -214.65335
       objectReference: {fileID: 0}
     - target: {fileID: 114414428110781826, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
@@ -45990,7 +49127,7 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[1]
       value: 
-      objectReference: {fileID: 563660009}
+      objectReference: {fileID: 563660829}
     - target: {fileID: 114613061284404430, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[5]
@@ -47864,27 +51001,27 @@ Prefab:
         type: 2}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 563659245}
+      objectReference: {fileID: 563659789}
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[2]
       value: 
-      objectReference: {fileID: 563659243}
+      objectReference: {fileID: 563659245}
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 563659242}
+      objectReference: {fileID: 563659244}
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 563659244}
+      objectReference: {fileID: 563659788}
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 563659789}
+      objectReference: {fileID: 563659788}
     - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[7]
@@ -48074,27 +51211,27 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[2]
       value: 
-      objectReference: {fileID: 563660160}
+      objectReference: {fileID: 563660833}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: selectedCommands.Array.data[3]
       value: 
-      objectReference: {fileID: 563660159}
+      objectReference: {fileID: 563660832}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: selectedCommands.Array.data[4]
       value: 
-      objectReference: {fileID: 563659963}
+      objectReference: {fileID: 563660831}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: selectedCommands.Array.data[5]
       value: 
-      objectReference: {fileID: 563659685}
+      objectReference: {fileID: 563660830}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: selectedCommands.Array.data[6]
       value: 
-      objectReference: {fileID: 563660624}
+      objectReference: {fileID: 563660780}
     - target: {fileID: 114787306943793674, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: commandList.Array.data[45]
@@ -48134,7 +51271,7 @@ Prefab:
         type: 2}
       propertyPath: selectedCommands.Array.data[7]
       value: 
-      objectReference: {fileID: 563660623}
+      objectReference: {fileID: 563660779}
     - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
         type: 2}
       propertyPath: selectedCommands.Array.data[8]
@@ -49730,6 +52867,106 @@ Prefab:
       propertyPath: commandList.Array.data[21]
       value: 
       objectReference: {fileID: 563659790}
+    - target: {fileID: 114947211431610146, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: selectedBlocks.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662716864564736, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: -141.95332
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662716864564736, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: -125.14682
+      objectReference: {fileID: 0}
+    - target: {fileID: 114998972344310898, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: -155.52022
+      objectReference: {fileID: 0}
+    - target: {fileID: 114998972344310898, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: -140.64594
+      objectReference: {fileID: 0}
+    - target: {fileID: 114623710336133960, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: useCustomTint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114623710336133960, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: tint.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114623710336133960, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: tint.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114623710336133960, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: tint.b
+      value: 0.025779486
+      objectReference: {fileID: 0}
+    - target: {fileID: 114091616911038076, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: 145.44302
+      objectReference: {fileID: 0}
+    - target: {fileID: 114091616911038076, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: 407.4929
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533855577256300, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.x
+      value: 424.61914
+      objectReference: {fileID: 0}
+    - target: {fileID: 114533855577256300, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: nodeRect.y
+      value: 402.02548
+      objectReference: {fileID: 0}
+    - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 563659243}
+    - target: {fileID: 114684509414453092, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 563659242}
+    - target: {fileID: 114661006587647200, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1618712203}
+    - target: {fileID: 114796468995761288, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1618712203}
+    - target: {fileID: 114560815811214696, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1618712203}
+    - target: {fileID: 114264610657232066, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1618712203}
+    - target: {fileID: 114674286466398906, guid: 38af0c7a94c9d4d12aa23fe36f0513a1,
+        type: 2}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1618712203}
     m_RemovedComponents:
     - {fileID: 114060040211030858, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
     - {fileID: 114077468895420190, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
@@ -49909,6 +53146,8 @@ Prefab:
     - {fileID: 114909577821690306, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
     - {fileID: 114152136335271920, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
     - {fileID: 114565770586498278, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
+    - {fileID: 114806440292816530, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
+    - {fileID: 114415541095390884, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 38af0c7a94c9d4d12aa23fe36f0513a1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!114 &1618712175 stripped
@@ -50244,81 +53483,6 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 82712478685053688, guid: 6353128feb7a4452db3865d641ac19ae,
     type: 2}
   m_PrefabInternal: {fileID: 791067054}
---- !u!1 &1628381676
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1628381678}
-  - component: {fileID: 1628381677}
-  m_Layer: 0
-  m_Name: background_finalbattle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1628381677
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1628381676}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1524874911
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ec58fd5ca24284608a63d262165a1ad6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 56.000004, y: 49.000004}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1628381678
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1628381676}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76, y: -0.64, z: 0}
-  m_LocalScale: {x: 0.27450547, y: 0.27450547, z: 0.27450547}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1642262794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1548906169613616, guid: 24be16cf90cfd4a61b1220eed58cfef3,
